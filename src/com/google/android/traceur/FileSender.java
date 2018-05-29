@@ -37,20 +37,6 @@ public class FileSender {
 
     private static final String AUTHORITY = "com.android.traceur.files";
 
-    public static void postCaptureNotification(Context context, File file) {
-        final Notification.Builder builder = new Notification.Builder(context)
-                .setSmallIcon(R.drawable.stat_sys_adb)
-                .setContentTitle(context.getString(R.string.saving_trace))
-                .setTicker(context.getString(R.string.saving_trace))
-                .setLocalOnly(true)
-                .setDefaults(Notification.DEFAULT_VIBRATE)
-                .setProgress(1, 0, true)
-                .setColor(context.getColor(
-                        com.android.internal.R.color.system_notification_accent_color));
-
-        NotificationManager.from(context).notify(file.getName(), 0, builder.build());
-    }
-
     public static void postNotification(Context context, File file) {
         // Files are kept on private storage, so turn into Uris that we can
         // grant temporary permissions for.
@@ -59,7 +45,8 @@ public class FileSender {
         Intent sendIntent = buildSendIntent(context, traceUri);
         sendIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
-        final Notification.Builder builder = new Notification.Builder(context)
+        final Notification.Builder builder =
+            new Notification.Builder(context, Receiver.NOTIFICATION_CHANNEL)
                 .setSmallIcon(R.drawable.stat_sys_adb)
                 .setContentTitle(context.getString(R.string.trace_saved))
                 .setTicker(context.getString(R.string.trace_saved))
@@ -69,7 +56,6 @@ public class FileSender {
                                 | PendingIntent.FLAG_CANCEL_CURRENT))
                 .setAutoCancel(true)
                 .setLocalOnly(true)
-                .setDefaults(Notification.DEFAULT_VIBRATE)
                 .setColor(context.getColor(
                         com.android.internal.R.color.system_notification_accent_color));
 
