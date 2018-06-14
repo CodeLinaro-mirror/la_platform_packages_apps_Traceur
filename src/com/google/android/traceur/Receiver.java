@@ -19,6 +19,7 @@ package com.android.traceur;
 import com.google.android.collect.Sets;
 
 import android.app.Notification;
+import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
@@ -48,6 +49,8 @@ public class Receiver extends BroadcastReceiver {
     public static final String STOP_ACTION = "com.android.traceur.STOP";
     public static final String OPEN_ACTION = "com.android.traceur.OPEN";
 
+    public static final String NOTIFICATION_CHANNEL = "system-tracing";
+
     private static final Set<String> ATRACE_TAGS = Sets.newArraySet(
             "am", "binder_driver", "camera", "dalvik", "freq", "gfx", "hal",
             "idle", "input", "irq", "res", "sched", "sync", "view", "wm",
@@ -61,12 +64,16 @@ public class Receiver extends BroadcastReceiver {
 
     private static final String TAG = "Traceur";
 
+    private static ContentObserver mDeveloperOptionsObserver;
+
     @Override
     public void onReceive(Context context, Intent intent) {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
 
         if (Intent.ACTION_BOOT_COMPLETED.equals(intent.getAction())) {
-            setupDeveloperOptionsWatcher(context);
+            createNotificationChannel(context);
+            updateDeveloperOptionsWatcher(context,
+                prefs.getBoolean(context.getString(R.string.pref_key_quick_setting), false));
             updateTracing(context);
         } else if (STOP_ACTION.equals(intent.getAction())) {
             prefs.edit().putBoolean(context.getString(R.string.pref_key_tracing_on), false).apply();
@@ -115,20 +122,11 @@ public class Receiver extends BroadcastReceiver {
     /*
      * Updates the current Quick Settings tile state based on the current state
      * of preferences.
-     * Note that the Quick Settings tile should also be unavailable if
-     * DEVELOPMENT_SETTINGS_ENABLED is false, since System Tracing is only
-     * available inside Developer Options.
      */
     public static void updateQuickSettings(Context context) {
-        boolean quickSettingsPreferenceEnabled =
+        boolean quickSettingsEnabled =
             PreferenceManager.getDefaultSharedPreferences(context)
               .getBoolean(context.getString(R.string.pref_key_quick_setting), false);
-
-        boolean quickSettingsAllowed = (1 ==
-            Settings.Global.getInt(context.getContentResolver(),
-                Settings.Global.DEVELOPMENT_SETTINGS_ENABLED , 0));
-
-        boolean quickSettingsEnabled = quickSettingsPreferenceEnabled && quickSettingsAllowed;
 
         ComponentName name = new ComponentName(context, QsService.class);
         context.getPackageManager().setComponentEnabledSetting(name,
@@ -153,25 +151,51 @@ public class Receiver extends BroadcastReceiver {
         }
 
         QsService.updateTile();
+
+        updateDeveloperOptionsWatcher(context, quickSettingsEnabled);
     }
 
-    private static void setupDeveloperOptionsWatcher(Context context) {
+    /*
+     * When Developer Options are turned off, reset the Show Quick Settings Tile
+     * preference to false to hide the tile. The user will need to re-enable the
+     * preference if they decide to turn Developer Options back on again.
+     */
+    private static void updateDeveloperOptionsWatcher(Context context,
+            boolean quickSettingsEnabled) {
+
         Uri settingUri = Settings.Global.getUriFor(
             Settings.Global.DEVELOPMENT_SETTINGS_ENABLED);
 
-        context.getContentResolver().registerContentObserver(settingUri, false,
-            new ContentObserver(new Handler()) {
-                @Override
-                public void onChange(boolean selfChange) {
-                    super.onChange(selfChange);
-                    updateQuickSettings(context);
-                }
+        if (quickSettingsEnabled) {
+            mDeveloperOptionsObserver =
+                new ContentObserver(new Handler()) {
+                    @Override
+                    public void onChange(boolean selfChange) {
+                        super.onChange(selfChange);
 
-                @Override
-                public boolean deliverSelfNotifications() {
-                    return true;
-                }
-            });
+                        boolean developerOptionsEnabled = (1 ==
+                            Settings.Global.getInt(context.getContentResolver(),
+                                Settings.Global.DEVELOPMENT_SETTINGS_ENABLED , 0));
+
+                        if (!developerOptionsEnabled) {
+                            SharedPreferences prefs =
+                                PreferenceManager.getDefaultSharedPreferences(context);
+                            prefs.edit().putBoolean(
+                                context.getString(R.string.pref_key_quick_setting), false)
+                                .apply();
+                            updateQuickSettings(context);
+                        }
+                    }
+                };
+
+            context.getContentResolver().registerContentObserver(settingUri,
+                false, mDeveloperOptionsObserver);
+
+        } else if (mDeveloperOptionsObserver != null) {
+            context.getContentResolver().unregisterContentObserver(
+                mDeveloperOptionsObserver);
+            mDeveloperOptionsObserver = null;
+        }
     }
 
     private static void postCategoryNotification(Context context, SharedPreferences prefs) {
@@ -179,7 +203,8 @@ public class Receiver extends BroadcastReceiver {
 
         String title = context.getString(R.string.tracing_categories_unavailable);
         String msg = getActiveUnavailableTags(context, prefs);
-        final Notification.Builder builder = new Notification.Builder(context)
+        final Notification.Builder builder =
+            new Notification.Builder(context, NOTIFICATION_CHANNEL)
                 .setSmallIcon(R.drawable.stat_sys_adb)
                 .setContentTitle(title)
                 .setTicker(title)
@@ -189,12 +214,24 @@ public class Receiver extends BroadcastReceiver {
                                 | PendingIntent.FLAG_CANCEL_CURRENT))
                 .setAutoCancel(true)
                 .setLocalOnly(true)
-                .setDefaults(Notification.DEFAULT_VIBRATE)
                 .setColor(context.getColor(
                         com.android.internal.R.color.system_notification_accent_color));
 
         context.getSystemService(NotificationManager.class)
             .notify(Receiver.class.getName(), 0, builder.build());
+    }
+
+    private static void createNotificationChannel(Context context) {
+        NotificationChannel channel = new NotificationChannel(
+            NOTIFICATION_CHANNEL, context.getString(R.string.system_tracing),
+            NotificationManager.IMPORTANCE_HIGH);
+        channel.setBypassDnd(true);
+        channel.enableVibration(true);
+        channel.setSound(null, null);
+
+        NotificationManager notificationManager =
+            context.getSystemService(NotificationManager.class);
+        notificationManager.createNotificationChannel(channel);
     }
 
     public static String getActiveTags(Context context, SharedPreferences prefs, boolean onlyAvailable) {
