@@ -70,6 +70,12 @@
             </intent-filter>
 	</activity>
 
+        <activity android:name=".UserConsentActivityDialog"
+                  android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.Alert"
+                  android:finishOnCloseSystemDialogs="true"
+                  android:excludeFromRecents="true"
+                  android:exported="false"/>
+
         <receiver android:name=".Receiver" android:permission="android.permission.DUMP">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -97,6 +103,18 @@
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
+        </provider>
+
+        <provider
+            android:name=".StorageProvider"
+            android:enabled="false"
+            android:authorities="com.android.traceur.documents"
+            android:grantUriPermissions="true"
+            android:exported="true"
+            android:permission="android.permission.MANAGE_DOCUMENTS">
+            <intent-filter>
+              <action android:name="android.content.action.DOCUMENTS_PROVIDER" />
+            </intent-filter>
         </provider>
 
         <provider
