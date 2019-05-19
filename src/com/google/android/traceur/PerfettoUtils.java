@@ -16,6 +16,7 @@
 
 package com.android.traceur;
 
+import android.sysprop.TraceProperties;
 import android.system.Os;
 import android.util.Log;
 
@@ -41,9 +42,10 @@ public class PerfettoUtils implements TraceUtils.TraceEngine {
 
     private static final String PERFETTO_TAG = "traceur";
     private static final String MARKER = "PERFETTO_ARGUMENTS";
-    private static final int STARTUP_TIMEOUT_MS = 300;
+    private static final int STARTUP_TIMEOUT_MS = 600;
     private static final long MEGABYTES_TO_BYTES = 1024L * 1024L;
     private static final long MINUTES_TO_MILLISECONDS = 60L * 1000L;
+    private static final String POWER_TAG = "power";
 
     public String getName() {
         return NAME;
@@ -55,6 +57,16 @@ public class PerfettoUtils implements TraceUtils.TraceEngine {
 
     public boolean traceStart(Collection<String> tags, int bufferSizeKb, boolean apps,
             boolean longTrace, int maxLongTraceSizeMb, int maxLongTraceDurationMinutes) {
+        // If setprop persist.traced.enable isn't set, the perfetto traced service
+        // is not enabled on this device. If the user wants to trace, we should enable
+        // this service. Since it's such a low-overhead service, we will leave it enabled
+        // subsequently.
+        boolean perfettoEnabled = TraceProperties.enable().orElse(false);
+        if (!perfettoEnabled) {
+            Log.e(TAG, "Starting the traced service to allow Perfetto to trace.");
+            TraceProperties.enable(true);
+        }
+
         if (isTracingOn()) {
             Log.e(TAG, "Attempting to start perfetto trace but trace is already in progress");
             return false;
@@ -137,6 +149,21 @@ public class PerfettoUtils implements TraceUtils.TraceEngine {
             .append("  }\n")
             .append("} \n");
 
+        if (tags.contains(POWER_TAG)) {
+            config.append("data_sources: {\n")
+                    .append("  config { \n")
+                    .append("    name: \"android.power\"\n")
+                    .append("    android_power_config {\n")
+                    .append("      battery_poll_ms: 1000\n")
+                    .append("      collect_power_rails: true\n")
+                    .append("      battery_counters: BATTERY_COUNTER_CAPACITY_PERCENT\n")
+                    .append("      battery_counters: BATTERY_COUNTER_CHARGE\n")
+                    .append("      battery_counters: BATTERY_COUNTER_CURRENT\n")
+                    .append("    }\n")
+                    .append("  }\n")
+                    .append("}\n");
+        }
+
         String configString = config.toString();
 
         // If the here-doc ends early, within the config string, exit immediately.
@@ -215,6 +242,15 @@ public class PerfettoUtils implements TraceUtils.TraceEngine {
     }
 
     public boolean isTracingOn() {
+        // If setprop persist.traced.enable isn't set, the perfetto traced service
+        // is not enabled on this device. When we start a trace for the first time,
+        // we'll enable it; if it's not enabled we know tracing is not on.
+        // Without this property set we can't query perfetto for an existing trace.
+        boolean perfettoEnabled = TraceProperties.enable().orElse(false);
+        if (!perfettoEnabled) {
+            return false;
+        }
+
         String cmd = "perfetto --is_detached=" + PERFETTO_TAG;
 
         try {
