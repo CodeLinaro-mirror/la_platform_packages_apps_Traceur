@@ -60,13 +60,13 @@ public class TraceService extends IntentService {
         intent.putExtra(INTENT_EXTRA_LONG_TRACE, longTrace);
         intent.putExtra(INTENT_EXTRA_LONG_TRACE_SIZE, maxLongTraceSizeMb);
         intent.putExtra(INTENT_EXTRA_LONG_TRACE_DURATION, maxLongTraceDurationMinutes);
-        context.startService(intent);
+        context.startForegroundService(intent);
     }
 
     public static void stopTracing(final Context context) {
         Intent intent = new Intent(context, TraceService.class);
         intent.setAction(INTENT_ACTION_STOP_TRACING);
-        context.startService(intent);
+        context.startForegroundService(intent);
     }
 
     public TraceService() {
@@ -111,7 +111,7 @@ public class TraceService extends IntentService {
         String msg = context.getString(R.string.tap_to_stop_tracing);
 
         Notification.Builder notification =
-            new Notification.Builder(context, Receiver.NOTIFICATION_CHANNEL)
+            new Notification.Builder(context, Receiver.NOTIFICATION_CHANNEL_TRACING)
                 .setSmallIcon(R.drawable.stat_sys_adb)
                 .setContentTitle(title)
                 .setTicker(title)
@@ -138,7 +138,7 @@ public class TraceService extends IntentService {
             TraceUtils.traceStop();
             PreferenceManager.getDefaultSharedPreferences(context)
                 .edit().putBoolean(context.getString(R.string.pref_key_tracing_on),
-                        false).apply();
+                        false).commit();
             QsService.updateTile();
             stopForeground(Service.STOP_FOREGROUND_REMOVE);
         }
@@ -150,7 +150,7 @@ public class TraceService extends IntentService {
             getSystemService(NotificationManager.class);
 
         Notification.Builder notification =
-            new Notification.Builder(this, Receiver.NOTIFICATION_CHANNEL)
+            new Notification.Builder(this, Receiver.NOTIFICATION_CHANNEL_OTHER)
                 .setSmallIcon(R.drawable.stat_sys_adb)
                 .setContentTitle(getString(R.string.saving_trace))
                 .setTicker(getString(R.string.saving_trace))
