@@ -42,7 +42,7 @@ public class PerfettoUtils implements TraceUtils.TraceEngine {
 
     private static final String PERFETTO_TAG = "traceur";
     private static final String MARKER = "PERFETTO_ARGUMENTS";
-    private static final int STARTUP_TIMEOUT_MS = 600;
+    private static final int STARTUP_TIMEOUT_MS = 10000;
     private static final long MEGABYTES_TO_BYTES = 1024L * 1024L;
     private static final long MINUTES_TO_MILLISECONDS = 60L * 1000L;
     private static final String POWER_TAG = "power";
@@ -120,8 +120,8 @@ public class PerfettoUtils implements TraceUtils.TraceEngine {
             .append("    ftrace_config {\n");
 
         for (String tag : tags) {
-            // Tags are expected to be all lowercase letters and underscores.
-            String cleanTag = tag.replaceAll("[^a-z_]", "");
+            // Tags are expected to be only letters, numbers, and underscores.
+            String cleanTag = tag.replaceAll("[^a-zA-Z0-9_]", "");
             if (!cleanTag.equals(tag)) {
                 Log.w(TAG, "Attempting to use an invalid tag: " + tag);
             }
