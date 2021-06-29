@@ -131,8 +131,7 @@ public class PerfettoUtils implements TraceUtils.TraceEngine {
             .append("  config {\n")
             .append("    name: \"linux.ftrace\"\n")
             .append("    target_buffer: 0\n")
-            .append("    ftrace_config {\n")
-            .append("      symbolize_ksyms: true\n");
+            .append("    ftrace_config {\n");
 
         for (String tag : tags) {
             // Tags are expected to be only letters, numbers, and underscores.

@@ -53,13 +53,12 @@
          android:required="false"/>
 
     <application android:label="@string/system_tracing"
-         android:banner="@drawable/banner"
-         android:icon="@drawable/ic_launcher_settings">
+         android:banner="@drawable/banner">
 
         <activity android:name=".MainActivity"
              android:description="@string/record_system_activity"
              android:label="@string/system_tracing"
-             android:theme="@style/Theme.SubSettingsBase"
+             android:theme="@style/Theme.Settings"
              android:launchMode="singleTask"
              android:exported="true">
             <intent-filter>
