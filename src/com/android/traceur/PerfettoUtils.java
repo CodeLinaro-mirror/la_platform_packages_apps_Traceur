@@ -66,6 +66,7 @@ public class PerfettoUtils implements TraceUtils.TraceEngine {
 
     // Custom trace categories.
     private static final String SYS_STATS_TAG = "sys_stats";
+    private static final String LOG_TAG = "logs";
 
     public String getName() {
         return NAME;
@@ -82,11 +83,11 @@ public class PerfettoUtils implements TraceUtils.TraceEngine {
             Log.e(TAG, "Attempting to start perfetto trace but trace is already in progress");
             return false;
         } else {
-            // Ensure the temporary trace file is cleared.
-            try {
-                Files.deleteIfExists(Paths.get(TEMP_TRACE_LOCATION));
-            } catch (Exception e) {
-                throw new RuntimeException(e);
+            // If a temporary trace file already exists, save it before beginning a new trace.
+            File recoveredFile = TraceUtils.getOutputFile(
+                    TraceUtils.getRecoveredFilename());
+            if (!traceDump(recoveredFile)) {
+                Log.w(TAG, "Failed to recover in-progress trace.");
             }
         }
 
@@ -238,6 +239,14 @@ public class PerfettoUtils implements TraceUtils.TraceEngine {
                 .append("      meminfo_period_ms: 1000\n")
                 .append("      vmstat_period_ms: 1000\n")
                 .append("    }\n")
+                .append("  }\n")
+                .append("}\n");
+        }
+
+        if (tags.contains(LOG_TAG)) {
+            config.append("data_sources: {\n")
+                .append("  config {\n")
+                .append("    name: \"android.log\"\n")
                 .append("  }\n")
                 .append("}\n");
         }
