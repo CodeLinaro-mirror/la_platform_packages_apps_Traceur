@@ -4,7 +4,7 @@
     <string name="system_tracing" msgid="4719188511746319848">"System Tracing"</string>
     <string name="record_system_activity" msgid="4339462312915377825">"सिस्टीम अ‍ॅक्टिव्हिटी रेकॉर्ड करा आणि परफॉर्मन्स सुधारण्यासाठी तिचे नंतर विश्लेषण करा"</string>
     <string name="record_trace" msgid="6416875085186661845">"रेकॉर्डचा माग"</string>
-    <string name="record_trace_summary" msgid="6705357754827849292">"\"माग ठेवण्यासंबंधित सेटिंग्ज\" मधील कॉंफिगरेशन सेट वापरून सिस्टीमचा माग कॅप्चर करते"</string>
+    <string name="record_trace_summary" msgid="6705357754827849292">"\"माग ठेवण्यासंबंधित सेटिंग्ज\" मधील कॉन्फिगरेशन सेट वापरून सिस्टीमचा माग कॅप्चर करते"</string>
     <string name="record_stack_samples" msgid="3498368637185702335">"सीपीयू प्रोफाइल रेकॉर्ड करा"</string>
     <string name="record_stack_samples_summary" msgid="7827953921526410478">"\"सीपीयू\" ची वर्गवारी तपासून माग ठेवतानादेखील कॉलस्टॅकचा नमुना घेणे सुरू केले जाऊ शकते"</string>
     <string name="record_heap_dump" msgid="1688550222066812696">"हीप डंप रेकॉर्ड करा"</string>
@@ -33,7 +33,8 @@
     <string name="applications" msgid="521776761270770549">"ॲप्लिकेशन"</string>
     <string name="no_debuggable_apps" msgid="4386209254520471208">"डीबग करण्यायोग्य ॲप्लिकेशन उपलब्ध नाहीत"</string>
     <string name="buffer_size" msgid="3944311026715111454">"प्रति सीपीयू बफर आकार"</string>
-    <string name="show_quick_settings_tile" msgid="4971147332635291585">"झटपट सेटिंग्ज टाइल दाखवा"</string>
+    <string name="show_quick_settings_tile" msgid="3827556161191376500">"माग ठेवण्यासाठीची क्विक सेटिंग्ज टाइल दाखवा"</string>
+    <string name="show_stack_sampling_quick_settings_tile" msgid="2142507886797788822">"CPU प्रोफायलिंगसाठीची क्विक सेटिंग्ज टाइल दाखवा"</string>
     <string name="saving_trace" msgid="1468692734770800541">"माग सेव्ह करत आहे"</string>
     <string name="trace_saved" msgid="5869970594780992309">"माग सेव्ह केला"</string>
     <string name="saving_stack_samples" msgid="8174915522390525221">"स्टॅक नमुने सेव्ह करत आहे"</string>
@@ -45,6 +46,7 @@
     <string name="attached_to_report" msgid="5806905349184608870">"बग रिपोर्टला ट्रेस अटॅच करा"</string>
     <string name="attached_to_report_summary" msgid="7665675771190391355">"BetterBug उघडण्यासाठी टॅप करा"</string>
     <string name="stop_tracing" msgid="8916938308534164152">"माग काढणे थांबवा"</string>
+    <string name="stop_stack_sampling" msgid="848558393878357485">"CPU प्रोफायलिंग थांबवा"</string>
     <string name="tracing_categories_unavailable" msgid="5609076391417077752">"माग काढण्याच्या काही वर्गवार्‍या अनुपलब्ध आहेत:"</string>
     <string name="trace_is_being_recorded" msgid="5947378146009337469">"माग रेकॉर्ड केला जात आहे"</string>
     <string name="tap_to_stop_tracing" msgid="6533282719573871806">"माग काढणे थांबवण्यासाठी टॅप करा"</string>
