@@ -55,10 +55,10 @@
     <string name="clear_saved_files_question" msgid="8586686617760838834">"सेव्ह केलेल्या फाइल साफ करायच्या का?"</string>
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"/data/local/traces मधून सर्व रेकॉर्डिंग हटवली जातील"</string>
     <string name="clear" msgid="5484761795406948056">"साफ करा"</string>
-    <string name="system_traces_storage_title" msgid="8294090839883366871">"सिस्टम माग"</string>
+    <string name="system_traces_storage_title" msgid="8294090839883366871">"सिस्टीम ट्रेस"</string>
     <string name="keywords" msgid="736547007949049535">"systrace, माग काढणे, कामगिरी"</string>
     <string name="share_file" msgid="1982029143280382271">"फाइल शेअर करायची का?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"सिस्टमचा माग काढणे फायलींमध्ये संवेदनशील सिस्टम आणि अ‍ॅप डेटा (जसे की अ‍ॅप वापर) यांचा समावेश असू शकतो. ज्या लोकांवर आणि अ‍ॅपवर तुमचा विश्वास आहे केवळ त्यांच्यासह हा सिस्टमचा माग शेअर करा."</string>
+    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"सिस्टीम ट्रेसिंग फाइलमध्ये संवेदनशील सिस्टीम आणि अ‍ॅप डेटा (जसे की अ‍ॅप वापर) यांचा समावेश असू शकतो. ज्या लोकांवर आणि अ‍ॅपवर तुमचा विश्वास आहे केवळ त्यांच्यासह हा सिस्टीमचे ट्रेस शेअर करा."</string>
     <string name="share" msgid="8443979083706282338">"शेअर करा"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"पुन्हा दाखवू नका"</string>
     <string name="long_traces" msgid="5110949471775966329">"मोठे ट्रेस"</string>
