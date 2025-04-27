@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="system_tracing" msgid="4719188511746319848">"系统跟踪"</string>
+    <string name="system_tracing" msgid="4719188511746319848">"System Tracing"</string>
     <string name="record_system_activity" msgid="4339462312915377825">"记录系统活动并在稍后分析以提升性能"</string>
     <string name="record_trace" msgid="6416875085186661845">"录制轨迹"</string>
     <string name="record_trace_summary" msgid="6705357754827849292">"使用“跟踪设置”中的配置可捕捉系统轨迹"</string>
