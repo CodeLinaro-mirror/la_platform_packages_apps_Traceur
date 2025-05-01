@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="system_tracing" msgid="4719188511746319848">"Registro del sistema"</string>
-    <string name="record_system_activity" msgid="4339462312915377825">"Registra y analiza la actividad del sistema para mejorar el rendimiento"</string>
+    <string name="record_system_activity" msgid="4339462312915377825">"Registra la actividad del sistema para que puedas analizarla más tarde y mejorar el rendimiento"</string>
     <string name="record_trace" msgid="6416875085186661845">"Registrar seguimiento"</string>
     <string name="record_trace_summary" msgid="6705357754827849292">"Captura un registro del sistema con la configuración establecida en \"Configuración de registro\""</string>
     <string name="record_stack_samples" msgid="3498368637185702335">"Grabar el Generador de perfiles de CPU"</string>
