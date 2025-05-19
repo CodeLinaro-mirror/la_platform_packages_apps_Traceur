@@ -16,18 +16,31 @@
   -->
 
 <androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.preference.SwitchPreference
-        android:key="@string/pref_key_tracing_on"
-        android:title="@string/record_trace"
-        android:summary="@string/record_trace_summary" />
-    <androidx.preference.SwitchPreference
-        android:key="@string/pref_key_stack_sampling_on"
-        android:title="@string/record_stack_samples"
-        android:summary="@string/record_stack_samples_summary" />
-    <androidx.preference.SwitchPreference
-        android:key="@string/pref_key_heap_dump_on"
-        android:title="@string/record_heap_dump"
-        android:summary="@string/record_heap_dump_summary_disabled" />
+    <androidx.preference.PreferenceCategory
+        android:title="@string/pref_category_perfetto_title"
+        android:summary="@string/pref_category_perfetto_summary" >
+        <androidx.preference.SwitchPreference
+            android:key="@string/pref_key_tracing_on"
+            android:title="@string/record_trace"
+            android:summary="@string/record_trace_summary" />
+        <androidx.preference.SwitchPreference
+            android:key="@string/pref_key_stack_sampling_on"
+            android:title="@string/record_stack_samples"
+            android:summary="@string/record_stack_samples_summary" />
+        <androidx.preference.SwitchPreference
+            android:key="@string/pref_key_heap_dump_on"
+            android:title="@string/record_heap_dump"
+            android:summary="@string/record_heap_dump_summary_disabled" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory
+        android:key="@string/pref_category_other_tools"
+        android:title="@string/pref_category_other_tools_title"
+        android:summary="@string/pref_category_other_tools_summary" >
+        <androidx.preference.Preference
+            android:key="@string/pref_key_am_heap_dump_on"
+            android:title="@string/record_am_heap_dump"
+            android:summary="@string/record_am_heap_dump_summary_disabled_no_procs_selected" />
+    </androidx.preference.PreferenceCategory>
     <androidx.preference.PreferenceCategory
         android:title="@string/pref_category_trace_settings" >
         <androidx.preference.SwitchPreference

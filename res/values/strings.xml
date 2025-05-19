@@ -24,6 +24,15 @@
     <!-- This is the subtitle for the "Record heap dump" button if heap dumps are disabled. -->
     <string name="record_heap_dump_summary_disabled">Select at least one process in \"Heap dump processes\" to collect heap dumps</string>
 
+    <!-- This is the label for a button. When the button is pressed, we will record one "heap dump" through AM ("ActivityManager") on the user's device. "AM" is an app name and should not be translated. -->
+    <string name="record_am_heap_dump">Record AM heap dump with bitmaps</string>
+    <!-- This is the subtitle for the "Record AM heap dump" button if it is enabled. -->
+    <string name="record_am_heap_dump_summary_enabled">Collects a heap dump of the process selected in \"Heap dump processes\" and extracts bitmap images </string>
+    <!-- This is the subtitle for the "Record AM heap dump" button if it is disabled due to multiple processes being selected. -->
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected">Select only one process in \"Heap dump processes\"</string>
+    <!-- This is the subtitle for the "Record AM heap dump" button if it is disabled due to no processes being selected. -->
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected">Select a process in \"Heap dump processes\"</string>
+
     <!-- This is the text for a toggle that will let the user choose whether to include Winscope traces in the trace they are collecting. -->
     <string name="winscope_tracing">Collect Winscope traces</string>
     <string name="winscope_tracing_summary">Includes detailed UI telemetry data (can cause jank)</string>
@@ -47,16 +56,16 @@
 
     <!-- This is the label for a button. When this button is pressed, a checklist is opened that allows the user to select process names. -->
     <string name="heap_dump_processes">Heap dump processes</string>
-    <!-- This is the subtitle for the "Heap dump processes" button. -->
-    <string name="heap_dump_processes_summary">At least one process must be selected</string>
+    <!-- This is the subtitle for the "Heap dump processes" button. "Perfetto" and "ActivityManager" are app names and should not be translated. -->
+    <string name="heap_dump_processes_summary">These selections apply to both Perfetto and ActivityManager</string>
     <!-- This is the label for a button that will clear the processes that were previously selected by the user in "Heap dump processes". -->
     <string name="clear_heap_dump_processes">Clear heap dump processes</string>
     <!-- This is the text for a pop-up notification when user-input processes are cleared with "Clear heap dump processes". -->
     <string name="clear_heap_dump_processes_toast">Process list cleared</string>
     <!-- This is the label for a toggle that will cause heap dumps to be taken continuously. -->
     <string name="continuous_heap_dump">Continuous heap profile</string>
-    <!-- This is the summary for the "Continuous heap profile" toggle that explains that a heap dump will be taken every specified interval. .-->
-    <string name="continuous_heap_dump_summary">Capture a heap dump once per specified interval</string>
+    <!-- This is the summary for the "Continuous heap profile" toggle that explains that a heap dump will be taken every specified interval. "Perfetto" is an app name and should not be translated. -->
+    <string name="continuous_heap_dump_summary">Capture a heap dump once per specified interval. Only applies to Perfetto heap dumps.</string>
     <!-- This is the label for a picker that will let the user specify the interval at which to continuously record heap dumps. -->
     <string name="continuous_heap_dump_interval">Heap dump interval</string>
 
@@ -120,6 +129,9 @@
     <!-- This is the subtitle for a notification that appears while a heap dump is being recorded. Tapping the notification will stop the recording. -->
     <string name="tap_to_stop_heap_dump">Tap to stop heap dump</string>
 
+    <!-- This is the title for a notification that briefly appears while a heap dump is being recorded. "AM" is an app name and should not be translated. -->
+    <string name="am_heap_dump_is_being_recorded">AM heap dump is being recorded</string>
+
     <!-- This is the label for a button that will clear all of the saved recordings, removing them all from the directory they are saved to. There will be a confirmation dialog after this button is tapped, but clearing the traces after confirming is not reversible. -->
     <string name="clear_saved_files">Clear saved files</string>
     <string name="clear_saved_files_summary">Recordings are cleared after one month</string>
@@ -141,7 +153,7 @@
     <string name="share_file">Share file?</string>
 
     <!-- Text informing user about contents of a trace file. This string appears when users share a trace file or reveal the System Traces directory in a directory browsing app like Files. -->
-    <string name="system_trace_sensitive_data">System Tracing files may include sensitive system and app data (such as app usage). Only share system traces with people and apps you trust.</string>
+    <string name="system_trace_sensitive_data">System Tracing files may include sensitive system and app data (such as app usage or images in an app\'s memory). Only share system traces or heap dumps with people and apps you trust.</string>
 
     <!-- Button on a dialog asking the user to confirm whether they want to share the trace. Clicking this button confirms that the user does want to share the trace. -->
     <string name="share">Share</string>
@@ -198,6 +210,13 @@
 
     <!-- On click, takes the user to the directory containing on-device Traceur files. -->
     <string name="link_to_traces">View saved files</string>
+
+    <!-- This is the title for the list of recordings handled by Perfetto. "Perfetto" is an app name and should not be translated. -->
+    <string name="pref_category_perfetto_title">Perfetto</string>
+    <string name="pref_category_perfetto_summary">Traces can be uploaded to ui.perfetto.dev for analysis</string>
+    <!-- This is the title for the list of recordings handled by ActivityManager. "ActivityManager" is an app name and should not be translated. -->
+    <string name="pref_category_other_tools_title">ActivityManager</string>
+    <string name="pref_category_other_tools_summary">Heap dumps can be inspected with AHAT</string>
 
     <!-- This is the title for the list of settings related to tracing. -->
     <string name="pref_category_trace_settings">Trace settings</string>
