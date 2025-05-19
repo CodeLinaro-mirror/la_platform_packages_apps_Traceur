@@ -56,7 +56,8 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"Всички записи ще бъдат изтрити от /data/local/traces"</string>
     <string name="clear" msgid="5484761795406948056">"Изчистване"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Системни трасирания"</string>
-    <string name="keywords" msgid="736547007949049535">"системно трасиране, трасиране, ефективност"</string>
+    <!-- no translation found for keywords (255681926397897100) -->
+    <skip />
     <string name="share_file" msgid="1982029143280382271">"Да се сподели ли файлът?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Файловете за системно трасиране може да включват поверителни данни за системата и приложенията (като например за използването на приложенията). Споделяйте системните трасирания само с хора и приложения, на които имате доверие."</string>
     <string name="share" msgid="8443979083706282338">"Споделяне"</string>

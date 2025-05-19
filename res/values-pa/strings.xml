@@ -56,7 +56,8 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"ਸਾਰੀਆਂ ਰਿਕਾਰਡਿੰਗਾਂ ਨੂੰ /ਡਾਟਾ/ਸਥਾਨਕ/ਟ੍ਰੇਸਾਂ ਵਿੱਚੋਂ ਮਿਟਾਇਆ ਜਾਵੇਗਾ"</string>
     <string name="clear" msgid="5484761795406948056">"ਕਲੀਅਰ ਕਰੋ"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"ਸਿਸਟਮ ਟ੍ਰੇਸਾਂ"</string>
-    <string name="keywords" msgid="736547007949049535">"ਸਿਸਟ੍ਰੇਸ, ਟ੍ਰੇਸ, ਪ੍ਰਦਰਸ਼ਨ"</string>
+    <!-- no translation found for keywords (255681926397897100) -->
+    <skip />
     <string name="share_file" msgid="1982029143280382271">"ਕੀ ਫ਼ਾਈਲ ਸਾਂਝੀ ਕਰਨੀ ਹੈ?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"ਸਿਸਟਮ ਟ੍ਰੇਸਿੰਗ ਫ਼ਾਈਲਾਂ ਵਿੱਚ ਸੰਵੇਦਨਸ਼ੀਲ ਸਿਸਟਮ ਅਤੇ ਐਪ ਡਾਟਾ (ਜਿਵੇਂ ਕਿ ਐਪ ਵਰਤੋਂ) ਸ਼ਾਮਲ ਹੋ ਸਕਦਾ ਹੈ। ਸਿਸਟਮ ਟ੍ਰੇਸਾਂ ਨੂੰ ਸਿਰਫ਼ ਆਪਣੇ ਭਰੋਸੇਯੋਗ ਲੋਕਾਂ ਅਤੇ ਐਪਾਂ ਨਾਲ ਸਾਂਝਾ ਕਰੋ।"</string>
     <string name="share" msgid="8443979083706282338">"ਸਾਂਝਾ ਕਰੋ"</string>

@@ -56,7 +56,8 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"/ଡାଟା/ସ୍ଥାନୀୟ/ଟ୍ରେସଗୁଡ଼ିକରୁ ସମସ୍ତ ରେକର୍ଡିଂ ଡିଲିଟ ହୋଇଯିବ"</string>
     <string name="clear" msgid="5484761795406948056">"ଖାଲି କରନ୍ତୁ"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"ସିଷ୍ଟମ୍‍ ଟ୍ରେସ୍‍‍‍‍‍‍‍‍‍ଗୁଡିକ"</string>
-    <string name="keywords" msgid="736547007949049535">"ସିଷ୍ଟ୍ରେସ୍, ଏସ୍, ପରଫର୍ମାନ୍ସ"</string>
+    <!-- no translation found for keywords (255681926397897100) -->
+    <skip />
     <string name="share_file" msgid="1982029143280382271">"ଫାଇଲ ସେୟାର କରିବେ?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"ସିଷ୍ଟମ୍‍ ଟ୍ରେସିଂ ଫାଇଲ୍‍ଗୁଡିକ ହୁଏତ ସମ୍ବେଦନଶୀଳ ସିଷ୍ଟମ୍‍ ଏବଂ ଆପ୍‍ ଡାଟା (ଯେପରି କି ଆପ୍‍ ବ୍ୟବହାର) ଅନ୍ତର୍ଭୁକ୍ତ କରିପାରେ। ସିଷ୍ଟମ୍‍ ଟ୍ରେସ୍‍ କେବଳ ଆପଣ ବିଶ୍ବାସ କରୁଥିବା ଲୋକ ଏବଂ ଆପ୍ସ ସହ ସେୟାର୍‍ କରନ୍ତୁ।"</string>
     <string name="share" msgid="8443979083706282338">"ସେୟାର୍‍ କରନ୍ତୁ"</string>
