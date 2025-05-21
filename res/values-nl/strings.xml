@@ -56,7 +56,8 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"Alle opnamen worden verwijderd uit /data/local/traces"</string>
     <string name="clear" msgid="5484761795406948056">"Wissen"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Systeemsporen"</string>
-    <string name="keywords" msgid="736547007949049535">"systrace, trace, prestaties"</string>
+    <!-- no translation found for keywords (255681926397897100) -->
+    <skip />
     <string name="share_file" msgid="1982029143280382271">"Bestand delen?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Bestanden voor systeemtracering kunnen gevoelige systeem- en app-gegevens bevatten (bijvoorbeeld over app-gebruik). Deel alleen systeemtraceringen met mensen en apps die je vertrouwt."</string>
     <string name="share" msgid="8443979083706282338">"Delen"</string>

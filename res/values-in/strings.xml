@@ -56,7 +56,8 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"Semua rekaman akan dihapus dari /data/local/traces"</string>
     <string name="clear" msgid="5484761795406948056">"Hapus"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Rekaman aktivitas sistem"</string>
-    <string name="keywords" msgid="736547007949049535">"systrace, jejak, performa"</string>
+    <!-- no translation found for keywords (255681926397897100) -->
+    <skip />
     <string name="share_file" msgid="1982029143280382271">"Bagikan file?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"File System Tracing dapat mencakup data sistem dan aplikasi yang sensitif (seperti penggunaan aplikasi). Bagikan rekaman aktivitas sistem hanya kepada orang dan aplikasi yang Anda percayai."</string>
     <string name="share" msgid="8443979083706282338">"Bagikan"</string>

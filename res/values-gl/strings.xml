@@ -56,7 +56,8 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"Eliminaranse todas as gravacións de /data/local/traces"</string>
     <string name="clear" msgid="5484761795406948056">"Borrar"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Rastros do sistema"</string>
-    <string name="keywords" msgid="736547007949049535">"systrace, rastro, rendemento"</string>
+    <!-- no translation found for keywords (255681926397897100) -->
+    <skip />
     <string name="share_file" msgid="1982029143280382271">"Queres compartir o ficheiro?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Os ficheiros de rastro do sistema poden incluír datos sensibles sobre o sistema e as aplicacións (como o uso das aplicacións). Comparte os rastros do sistema con persoas e aplicacións de confianza."</string>
     <string name="share" msgid="8443979083706282338">"Compartir"</string>
