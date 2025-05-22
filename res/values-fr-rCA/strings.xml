@@ -56,8 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"Tous les enregistrements seront supprimés de /data/local/traces"</string>
     <string name="clear" msgid="5484761795406948056">"Effacer"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Traces du système"</string>
-    <!-- no translation found for keywords (255681926397897100) -->
-    <skip />
+    <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, trace, traçage, performance, profil, profilage, processeur, pile d\'appels, pile, tas"</string>
     <string name="share_file" msgid="1982029143280382271">"Partager le fichier?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Les fichiers de suivi système peuvent comprendre des données sensibles concernant le système et les applis (par exemple, l\'utilisation des applis). Prenez soin de les partager uniquement avec les gens et les appli en qui vous avez confiance."</string>
     <string name="share" msgid="8443979083706282338">"Partager"</string>

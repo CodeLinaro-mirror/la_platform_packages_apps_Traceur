@@ -56,8 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"Mọi bản ghi sẽ bị xoá khỏi đường dẫn /data/local/traces"</string>
     <string name="clear" msgid="5484761795406948056">"Xóa"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Dấu vết hệ thống"</string>
-    <!-- no translation found for keywords (255681926397897100) -->
-    <skip />
+    <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, dấu vết, theo dõi, hiệu suất, hồ sơ, lập hồ sơ, cpu, ngăn xếp lệnh gọi, ngăn xếp, vùng nhớ khối xếp"</string>
     <string name="share_file" msgid="1982029143280382271">"Chia sẻ tệp?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Các tệp Theo dõi hệ thống có thể bao gồm dữ liệu ứng dụng và dữ liệu hệ thống nhạy cảm (chẳng hạn như mức sử dụng ứng dụng). Chỉ chia sẻ dấu vết hệ thống với những người và ứng dụng mà bạn tin tưởng."</string>
     <string name="share" msgid="8443979083706282338">"Chia sẻ"</string>

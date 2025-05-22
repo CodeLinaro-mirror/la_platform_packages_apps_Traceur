@@ -56,8 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"Izbrisat će se svi tragovi iz /data/local/traces"</string>
     <string name="clear" msgid="5484761795406948056">"Ukloni"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Praćenja sustava"</string>
-    <!-- no translation found for keywords (255681926397897100) -->
-    <skip />
+    <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, prati, praćenje, izvedba, profil, profiliranje, procesor, stog poziva, fiksna memorija, dinamička memorija"</string>
     <string name="share_file" msgid="1982029143280382271">"Želite li podijeliti datoteku?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Datoteke praćenja sustava mogu sadržavati osjetljive podatke o sustavu i aplikacijama (na primjer o upotrebi aplikacija). Praćenja sustava dijelite samo s osobama i aplikacijama koje smatrate pouzdanima."</string>
     <string name="share" msgid="8443979083706282338">"Dijeli"</string>

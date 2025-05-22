@@ -56,8 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"Made-delete ang lahat ng recording sa /data/local/traces"</string>
     <string name="clear" msgid="5484761795406948056">"I-clear"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Mga trace ng system"</string>
-    <!-- no translation found for keywords (255681926397897100) -->
-    <skip />
+    <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, trace, pag-trace, performance, profile, pag-profile, cpu, callstack, stack, heap"</string>
     <string name="share_file" msgid="1982029143280382271">"Ibahagi ang file?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Ang mga file ng Pag-trace ng System ay maaaring may sensitibong data ng system at app (gaya ng paggamit ng app). Ibahagi lang ang mga trace ng system sa mga tao at app na pinakakatiwalaan mo."</string>
     <string name="share" msgid="8443979083706282338">"Ibahagi"</string>

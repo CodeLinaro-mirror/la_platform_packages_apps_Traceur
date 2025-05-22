@@ -56,8 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"ระบบจะลบการบันทึกทั้งหมดออกจาก /data/local/traces"</string>
     <string name="clear" msgid="5484761795406948056">"ล้าง"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"การติดตามระบบ"</string>
-    <!-- no translation found for keywords (255681926397897100) -->
-    <skip />
+    <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, ร่องรอย, การติดตาม, ประสิทธิภาพ, โปรไฟล์, การกำหนดโปรไฟล์, cpu, callstack, สแต็ก, heap"</string>
     <string name="share_file" msgid="1982029143280382271">"แชร์ไฟล์ใช่ไหม"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"ไฟล์การติดตามระบบอาจมีข้อมูลระบบและแอปที่ละเอียดอ่อน (เช่น การใช้งานแอป) โปรดแชร์ไฟล์การติดตามระบบกับแอปและบุคคลที่คุณเชื่อถือเท่านั้น"</string>
     <string name="share" msgid="8443979083706282338">"แชร์"</string>

@@ -56,8 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"আটাইবোৰ ৰেকৰ্ডিং /ডেটা/স্থানীয়/ট্ৰে’চৰ পৰা মচা হ’ব"</string>
     <string name="clear" msgid="5484761795406948056">"মচক"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"ছিষ্টেম ট্ৰেচ"</string>
-    <!-- no translation found for keywords (255681926397897100) -->
-    <skip />
+    <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, ট্ৰে’চ, ট্ৰেকিং, পাৰদৰ্শিতা, প্ৰ’ফাইল, ডেটাৰ প্ৰদৰ্শন মূল্যায়ন কৰা কাৰ্য, cpu, কলষ্টেক, ষ্টেক, হীপ"</string>
     <string name="share_file" msgid="1982029143280382271">"ফাইল শ্বেয়াৰ কৰিবনে?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"ছিষ্টেমে ট্রে\'চ কৰা ফাইলত ছিষ্টেম আৰু এপৰ সংবেদনশীল ডেটা (যেনে- এপে ব্যৱহাৰ কৰা ডেটা) থাকিব পাৰে। আপুনি বিশ্বাস কৰা ব্যক্তি আৰু এপৰ সৈতেহে ছিষ্টেম ট্রে\'চ শ্বেয়াৰ কৰক।"</string>
     <string name="share" msgid="8443979083706282338">"শ্বেয়াৰ কৰক"</string>
