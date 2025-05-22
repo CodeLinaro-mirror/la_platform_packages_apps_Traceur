@@ -56,7 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"សំឡេងថត​ទាំងអស់​នឹងត្រូវបាន​លុបចេញពី /data/local/traces"</string>
     <string name="clear" msgid="5484761795406948056">"សម្អាត"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"ដាន​ប្រព័ន្ធ"</string>
-    <string name="keywords" msgid="736547007949049535">"systrace, ដាន, ប្រតិបត្តិការ"</string>
+    <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, ដាន, ការតាមដាន, ប្រតិបត្តិការ, កម្រងព័ត៌មាន, ការពិនិត្យកម្រងព័ត៌មាន, cpu, callstack, គំនរ, ពំនូក"</string>
     <string name="share_file" msgid="1982029143280382271">"ចែករំលែក​ឯកសារឬ?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"ឯកសារ​តាមដាន​ប្រព័ន្ធ​អាច​រួមមាន ទិន្នន័យ​កម្មវិធី និង​ប្រព័ន្ធ​រសើប (ដូចជា​ការប្រើប្រាស់​កម្មវិធី)។ ចែករំលែក​ដាន​ប្រព័ន្ធ​ជាមួយ​មនុស្ស ​និង​កម្មវិធី​ដែលអ្នកជឿ​ទុកចិត្ត​តែ​ប៉ុណ្ណោះ។"</string>
     <string name="share" msgid="8443979083706282338">"ចែករំលែក"</string>

@@ -56,7 +56,8 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"မှတ်တမ်းအာလုံးကို /data/local/traces မှ ဖျက်လိုက်ပါမည်"</string>
     <string name="clear" msgid="5484761795406948056">"ရှင်းလင်းရန်"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"စနစ် လုပ်ဆောင်ချက်မှတ်တမ်းများ"</string>
-    <string name="keywords" msgid="736547007949049535">"systrace၊ လုပ်ဆောင်ချက်မှတ်တမ်း၊ စွမ်းဆောင်ရည်"</string>
+    <!-- no translation found for keywords (255681926397897100) -->
+    <skip />
     <string name="share_file" msgid="1982029143280382271">"ဖိုင်မျှဝေမလား။"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"စနစ် \'လုပ်ဆောင်ချက်မှတ်တမ်း\' ဖိုင်များတွင် အရေးကြီးသောစနစ်နှင့် အက်ပ်ဒေတာများ (အက်ပ်အသုံးပြုမှုကဲ့သို့) ပါဝင်နိုင်သည်။ စနစ်လုပ်ဆောင်ချက်မှတ်တမ်းများကို သင်ယုံကြည့်သည့် လူများ၊ အက်ပ်များနှင့်သာ မျှဝေပါ။"</string>
     <string name="share" msgid="8443979083706282338">"မျှဝေရန်"</string>
