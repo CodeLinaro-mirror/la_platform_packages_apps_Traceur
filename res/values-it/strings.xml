@@ -56,7 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"Tutte le registrazioni verranno eliminate da /data/local/traces"</string>
     <string name="clear" msgid="5484761795406948056">"Cancella"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Tracce di sistema"</string>
-    <string name="keywords" msgid="736547007949049535">"systrace, traccia, prestazioni"</string>
+    <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, traccia, tracciamento, prestazioni, profilo, profilazione, cpu, stack di chiamate, stack, heap"</string>
     <string name="share_file" msgid="1982029143280382271">"Condividere il file?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"I file di Tracciamento del sistema potrebbero includere dati sensibili sul sistema e sulle app (ad esempio sull\'utilizzo delle app). Condividi le tracce di sistema soltanto con persone e app attendibili."</string>
     <string name="share" msgid="8443979083706282338">"Condividi"</string>

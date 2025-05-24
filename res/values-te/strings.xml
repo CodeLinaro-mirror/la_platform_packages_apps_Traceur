@@ -56,7 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"/data/local/traces నుండి రికార్డింగ్‌లన్నీ తొలగించబడతాయి"</string>
     <string name="clear" msgid="5484761795406948056">"క్లియర్ చేయండి"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"సిస్టమ్ స్థితిగతులు"</string>
-    <string name="keywords" msgid="736547007949049535">"systrace, trace, performance"</string>
+    <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, ట్రేస్, ట్రేసింగ్, పనితీరు, ప్రొఫైల్, ప్రొఫైలింగ్, cpu, కాల్‌స్ట్యాక్, స్ట్యాక్, హీప్"</string>
     <string name="share_file" msgid="1982029143280382271">"ఫైల్‌ను షేర్ చేయాలనుకుంటున్నారా?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"సిస్టమ్ స్థితిగతిని కనుగొనే ఫైళ్లు- గోప్యమైన సిస్టమ్, యాప్ డేటాను (యాప్ వినియోగం వంటివి) కలిగి ఉండవచ్చు. కేవలం మీకు నమ్మకం ఉన్న వ్యక్తుల‌కు, యాప్‌లకు మాత్రమే సిస్టమ్ స్థితిగతులను షేర్ చేయండి."</string>
     <string name="share" msgid="8443979083706282338">"షేర్ చేయండి"</string>

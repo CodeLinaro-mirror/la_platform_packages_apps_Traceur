@@ -56,7 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"سبھی ریکارڈنگز کو /ڈیٹا/لوکل/ٹریسز/ سے ہٹا دیا جائے گا"</string>
     <string name="clear" msgid="5484761795406948056">"صاف کریں"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"سسٹم ٹریسز"</string>
-    <string name="keywords" msgid="736547007949049535">"‏systrace، ٹریس، کارکردگی"</string>
+    <string name="keywords" msgid="255681926397897100">"‏‫systrace, traceur, perfetto, winscope، ٹریس، ٹریسنگ، کارکردگی، پروفائل، پروفائلنگ، CPU، کال اسٹیک، اسٹیک، ہیپ"</string>
     <string name="share_file" msgid="1982029143280382271">"فائل کا اشتراک کریں؟"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"سسٹم ٹریسنگ کی فائلز حساس سسٹم وار ایپ ڈیٹا (جیسے کہ ایپ کا استعمال) شامل ہو سکتی ہیں۔ صرف سسٹم ٹریسز بھروسے مند ایپس کا لوگوں کے ساتھ اشتراک کریں۔"</string>
     <string name="share" msgid="8443979083706282338">"اشتراک کریں"</string>

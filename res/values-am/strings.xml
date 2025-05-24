@@ -56,7 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"ሁሉም ቀረጻዎች ከ/data/local/traces ይሰረዛሉ"</string>
     <string name="clear" msgid="5484761795406948056">"አጽዳ"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"የስርዓት ዱካዎች"</string>
-    <string name="keywords" msgid="736547007949049535">"የሥርዓት ክትትል፣ ክትትል፣ አፈጻጸም"</string>
+    <string name="keywords" msgid="255681926397897100">"systrace፣ traceur፣ perfetto፣ winscope፣ መከታተያ፣ በመከታተል ላይ፣ አፈጻጸም፣ መገለጫ፣ መገለጫ መስጠት፣ ሲፒዩ፣ የጥሪ ቁልል፣ ቁልል፣ ክምር"</string>
     <string name="share_file" msgid="1982029143280382271">"ፋይል ይጋራ?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"የሥርዓት ዱካ መከታተያ ፋይሎች አደጋን ሊያስከትሉ የሚችሉ የሥርዓት እና የመተግበሪያ ውሂብ (እንደ የመተግበሪያ አጠቃቀም) ያለ ሊያካትት ይችላል። ከሚያምኗቸው ሰዎች ጋር ብቻ የሥርዓት ዱካ መከታተያዎችን ያጋሩ።"</string>
     <string name="share" msgid="8443979083706282338">"አጋራ"</string>

@@ -56,7 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"সব রেকর্ডিং /data/local/traces থেকে মুছে ফেলা হবে"</string>
     <string name="clear" msgid="5484761795406948056">"মুছুন"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"সিস্টেম ট্রেস"</string>
-    <string name="keywords" msgid="736547007949049535">"সিস্ট্রেস, ট্রেস, পারফরম্যান্স"</string>
+    <string name="keywords" msgid="255681926397897100">"Systrace, Traceur, Perfetto, Winscope, ট্রেস, ট্রেসিং, পারফর্ম্যান্স, প্রোফাইল, প্রোফাইলিং, সিপিইউ, কলস্ট্যাক, স্ট্যাক, হিপ"</string>
     <string name="share_file" msgid="1982029143280382271">"ফাইল শেয়ার করবেন?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"সিস্টেম ট্রেসিং ফাইলে অতি গোপনীয় সিস্টেম এবং অ্যাপ ডেটা থাকতে পারে (যেমন অ্যাপের জন্য ডেটার ব্যবহার)। কেবলমাত্র আপনার বিশ্বস্ত লোকজন এবং অ্যাপের সঙ্গে সিস্টেম ট্রেস শেয়ার করুন।"</string>
     <string name="share" msgid="8443979083706282338">"শেয়ার করুন"</string>

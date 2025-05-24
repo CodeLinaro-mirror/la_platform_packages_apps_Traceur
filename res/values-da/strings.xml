@@ -56,7 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"Alle registreringer slettes fra /data/local/traces"</string>
     <string name="clear" msgid="5484761795406948056">"Ryd"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Systemregistreringer"</string>
-    <string name="keywords" msgid="736547007949049535">"systrace, trace, ydeevne"</string>
+    <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, spor, sporing, ydeevne, profil, profilering, cpu, kaldstak, stak, heap"</string>
     <string name="share_file" msgid="1982029143280382271">"Vil du dele filen?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Systemregistreringsfiler kan indeholde følsomme system- og appdata (f.eks. appforbrug). Del kun systemregistreringer med personer og apps, du har tillid til."</string>
     <string name="share" msgid="8443979083706282338">"Del"</string>
