@@ -56,8 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"Усі записи буде видалено з папки /data/local/traces"</string>
     <string name="clear" msgid="5484761795406948056">"Очистити"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Трасування системи"</string>
-    <!-- no translation found for keywords (255681926397897100) -->
-    <skip />
+    <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, трасувати, трасування, продуктивність, профіль, профілювання, ЦП, стек викликів, стек, динамічна пам’ять"</string>
     <string name="share_file" msgid="1982029143280382271">"Поділитися файлом?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Файли трасування можуть містити конфіденційні дані про систему й додатки (як-от використання додатка). Діліться ними лише з людьми та в додатках, яким довіряєте."</string>
     <string name="share" msgid="8443979083706282338">"Поділитися"</string>

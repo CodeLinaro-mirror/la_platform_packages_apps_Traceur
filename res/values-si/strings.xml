@@ -56,8 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"/data/local/traces වෙතින් සියලුම පටිගත කිරීම් මකනු ලැබේ"</string>
     <string name="clear" msgid="5484761795406948056">"හිස් කරන්න"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"පද්ධති ලුහුබැඳීම්"</string>
-    <!-- no translation found for keywords (255681926397897100) -->
-    <skip />
+    <string name="keywords" msgid="255681926397897100">"සිස්ට්‍රේස්, ට්‍රේසර්, පර්ෆෙටෝ, වින්ස්කෝප්, ලුහුබැඳීම, හඹා යාම, කාර්ය සාධනය, පැතිකඩ, පැතිකඩ ගැන්වීම, cpu, ඇමතුම් ගොඩ, ගොඩ, රාශිය"</string>
     <string name="share_file" msgid="1982029143280382271">"ගොනුව බෙදා ගන්න ද?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"පද්ධති හඹා යාම් ගොනුවලට සංවේදී පද්ධති සහ යෙදුම් දත්ත ඇතුළත් විය හැකිය (යෙදුම් භාවිතය වැනි). ඔබ විශ්වාස කරන පුද්ගලයන් සහ යෙදුම් සමඟ පමණක් පද්ධති හඹා යාම් බෙදා ගන්න."</string>
     <string name="share" msgid="8443979083706282338">"බෙදා ගන්න"</string>

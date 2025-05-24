@@ -56,8 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"Konke ukurekhoda kuzosuswa ku-/data/local/traces"</string>
     <string name="clear" msgid="5484761795406948056">"Sula"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Ukulandela kwesistimu"</string>
-    <!-- no translation found for keywords (255681926397897100) -->
-    <skip />
+    <string name="keywords" msgid="255681926397897100">"i-systrace, i-traceur, i-perfetto, i-winscope, landelela, ukulandelela, ukusebenza, iphrofayela, ukwenza iphrofayela, i-cpu, i-callstack, izitaki, i-heap"</string>
     <string name="share_file" msgid="1982029143280382271">"Yabelana ngefayela?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Amafayela okulandelela isistimu angafaka idatha ezwelayo yesistimu neyohlelo lokusebenza (efana nokusetshenziswa kohlelo lokusebenza). Yabelana kuphela ngokulandelela kwesistimu nabantu nezinhlelo zokusebenza ozithembayo."</string>
     <string name="share" msgid="8443979083706282338">"Yabelana"</string>
