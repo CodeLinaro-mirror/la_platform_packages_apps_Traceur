@@ -1,0 +1,9 @@
+package: "com.android.traceur.flags"
+container: "system"
+
+flag {
+    name: "bitmaps_in_traceur"
+    namespace: "system_performance"
+    description: "Enables heap dump collection and bitmap extraction"
+    bug: "412425223"
+}

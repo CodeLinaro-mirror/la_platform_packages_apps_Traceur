@@ -30,6 +30,7 @@ android_library {
         "androidx.appcompat_appcompat",
         "androidx.legacy_legacy-support-v4",
         "perfetto_config_java_protos",
+        "traceur-flags-aconfig-java-lib",
     ],
     manifest: "AndroidManifest-common.xml",
     resource_dirs: [],
@@ -48,4 +49,18 @@ android_library {
     manifest: "AndroidManifest-res.xml",
     resource_dirs: ["res"],
     srcs: [],
+}
+
+aconfig_declarations {
+    name: "traceur-flags-aconfig",
+    package: "com.android.traceur.flags",
+    container: "system",
+    srcs: [
+        "flags.aconfig",
+    ],
+}
+
+java_aconfig_library {
+    name: "traceur-flags-aconfig-java-lib",
+    aconfig_declarations: "traceur-flags-aconfig",
 }
