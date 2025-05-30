@@ -56,7 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"ಎಲ್ಲಾ ರೆಕಾರ್ಡಿಂಗ್‌ಗಳನ್ನು /data/local/traces ನಿಂದ ಅಳಿಸಲಾಗುತ್ತದೆ"</string>
     <string name="clear" msgid="5484761795406948056">"ತೆರವು ಮಾಡಿ"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"ಸಿಸ್ಟಂ ಜಾಡುಗಳು"</string>
-    <string name="keywords" msgid="736547007949049535">"ಸಿಸ್ಟ್ರೇಸ್, ಟ್ರೇಸ್, ಕಾರ್ಯಕ್ಷಮತೆ"</string>
+    <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, ಟ್ರೇಸ್, ಟ್ರೇಸಿಂಗ್, ಪರ್ಫಾರ್ಮೆನ್ಸ್, ಪ್ರೊಫೈಲ್, ಪ್ರೊಫೈಲಿಂಗ್, CPU, ಕಾಲ್‌ಸ್ಟ್ಯಾಕ್, ಸ್ಟ್ಯಾಕ್, ಹೀಪ್"</string>
     <string name="share_file" msgid="1982029143280382271">"ಫೈಲ್ ಅನ್ನು ಹಂಚಬೇಕೆ?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"ಸಿಸ್ಟಂ ಟ್ರೇಸಿಂಗ್ ಫೈಲ್‌ಗಳು (ಆ್ಯಪ್ ಬಳಕೆಯಂತಹ) ಸೂಕ್ಷ್ಮವಾದ ಸಿಸ್ಟಂ ಅನ್ನು ಮತ್ತು ಆ್ಯಪ್ ಡೇಟಾವನ್ನು ಒಳಗೊಂಡಿರಬಹುದು. ನೀವು ನಂಬುವ ಜನರು ಮತ್ತು ಆ್ಯಪ್‌ಗಳೊಂದಿಗೆ ಮಾತ್ರ ಸಿಸ್ಟಂ ಟ್ರೇಸ್‌ಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಿ."</string>
     <string name="share" msgid="8443979083706282338">"ಹಂಚಿಕೊಳ್ಳಿ"</string>
