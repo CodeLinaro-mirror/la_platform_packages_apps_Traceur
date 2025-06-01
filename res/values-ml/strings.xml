@@ -56,7 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"/data/local/traces എന്നതിൽ നിന്ന് എല്ലാ റെക്കോർഡിംഗുകളും ഇല്ലാതാക്കും"</string>
     <string name="clear" msgid="5484761795406948056">"മായ്ക്കുക"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"സിസ്‌റ്റം അടയാളങ്ങൾ"</string>
-    <string name="keywords" msgid="736547007949049535">"സിസ്ട്രേസ്, ട്രേസ്, പ്രകടനം"</string>
+    <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, തിരയുക, തിരയുന്നു, പ്രകടനം, പ്രൊഫൈൽ, പ്രൊഫൈലിംഗ്, cpu, കോൾസ്‌റ്റാക്ക്, സ്‌റ്റാക്ക്, ഹീപ്പ്"</string>
     <string name="share_file" msgid="1982029143280382271">"ഫയൽ പങ്കിടണോ?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"സിസ്‌റ്റം ട്രെയ്‌സിംഗ് ഫയലുകളിൽ സൂക്ഷ്‌മമായി കൈകാര്യം ചെയ്യേണ്ട സിസ്‌റ്റം, ആപ്പ് ഡാറ്റ (ആപ്പ് ഉപയോഗം പോലുള്ളവ) എന്നിവ ഉൾപ്പെട്ടേക്കാം. നിങ്ങൾ വിശ്വസിക്കുന്ന ആളുകൾ, ആപ്പുകൾ എന്നിവയുമായി മാത്രം സിസ്‌റ്റം ട്രെയ്‌സുകൾ പങ്കിടുക."</string>
     <string name="share" msgid="8443979083706282338">"പങ്കിടുക"</string>

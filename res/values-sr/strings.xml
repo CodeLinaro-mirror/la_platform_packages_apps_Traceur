@@ -56,7 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"Сви снимци ће бити избрисани са /data/local/traces"</string>
     <string name="clear" msgid="5484761795406948056">"Обриши"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Праћења система"</string>
-    <string name="keywords" msgid="736547007949049535">"systrace, праћење, учинак"</string>
+    <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, траг, праћење, перформансе, профил, профилисање, процесор, група позива, група, динамички део меморије"</string>
     <string name="share_file" msgid="1982029143280382271">"Желите да делите фајл?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Датотеке праћења система могу да садрже осетљиве податке о систему и апликацијама (на пример, о коришћењу апликације). Делите праћења система само са поузданим људима и апликацијама."</string>
     <string name="share" msgid="8443979083706282338">"Дели"</string>

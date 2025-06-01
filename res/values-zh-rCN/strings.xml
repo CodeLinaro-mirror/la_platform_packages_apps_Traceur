@@ -56,7 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"系统将删除 /data/local/traces 中的所有录制内容"</string>
     <string name="clear" msgid="5484761795406948056">"清除"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"系统跟踪记录"</string>
-    <string name="keywords" msgid="736547007949049535">"systrace, 跟踪, 性能"</string>
+    <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, 轨迹, 跟踪, 性能, 个人资料, 分析, cpu, 调用堆栈, 堆栈, 堆, trace, tracing, performance, profile, profiling, cpu, callstack, stack, heap"</string>
     <string name="share_file" msgid="1982029143280382271">"要分享文件吗？"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"系统跟踪文件可能包含敏感的系统数据和应用数据（例如应用使用情况信息）。请务必只与您信任的人和应用分享系统跟踪文件。"</string>
     <string name="share" msgid="8443979083706282338">"分享"</string>

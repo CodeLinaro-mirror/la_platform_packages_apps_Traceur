@@ -56,7 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"Бүх бичлэгийг /өгөгдөл/дотоод/ул мөрөөс устгана"</string>
     <string name="clear" msgid="5484761795406948056">"Устгах"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Системийн ул мөр"</string>
-    <string name="keywords" msgid="736547007949049535">"systrace, ул мөр, гүйцэтгэл"</string>
+    <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, ул мөр, ул мөр мөшгөх, гүйцэтгэл, профайл, үнэлгээ, төв процессорын нэгж, callstack, өрөлт, heap"</string>
     <string name="share_file" msgid="1982029143280382271">"Файл хуваалцах уу?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Системийн мөрдлөгийн файлд систем болон аппын мэдрэг өгөгдлийг (апп ашиглалт зэрэг) агуулж болзошгүй. Та системийн ул мөрийг зөвхөн итгэдэг хүмүүс болон аппуудтайгаа хуваалцана уу."</string>
     <string name="share" msgid="8443979083706282338">"Хуваалцах"</string>

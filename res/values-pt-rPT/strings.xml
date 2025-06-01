@@ -56,7 +56,7 @@
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"Todas as gravações vão ser apagadas de /data/local/traces"</string>
     <string name="clear" msgid="5484761795406948056">"Limpar"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Rastreios do sistema"</string>
-    <string name="keywords" msgid="736547007949049535">"systrace, rastreio, desempenho"</string>
+    <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, rastrear, rastreio, desempenho, perfil, criação de perfis, cpu, pilha de chamadas, pilha, memória"</string>
     <string name="share_file" msgid="1982029143280382271">"Partilhar ficheiro?"</string>
     <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Os ficheiros de rastreio do sistema podem incluir dados confidenciais do sistema e de aplicações (por exemplo, a utilização de aplicações). Partilhe os rastreios do sistema apenas com pessoas e aplicações de confiança."</string>
     <string name="share" msgid="8443979083706282338">"Partilhar"</string>
