@@ -193,6 +193,10 @@ public class Receiver extends BroadcastReceiver {
         TraceService.updateAllQuickSettingsTiles();
     }
 
+    public static void captureAmHeapDump(Context context) {
+        TraceService.startAmHeapDump(context);
+    }
+
     /*
      * Updates the input Quick Settings tile state based on the current state of preferences.
      */
