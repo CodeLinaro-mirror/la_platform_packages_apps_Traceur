@@ -44,6 +44,7 @@ import androidx.preference.PreferenceManager;
 import androidx.preference.SwitchPreference;
 
 import com.android.settingslib.HelpUtils;
+import com.android.traceur.flags.Flags;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -71,6 +72,7 @@ public class MainFragment extends PreferenceFragment {
     private SwitchPreference mTracingOn;
     private SwitchPreference mStackSamplingOn;
     private SwitchPreference mHeapDumpOn;
+    private Preference mAmHeapDumpOn;
 
     private AlertDialog mAlertDialog;
     private SharedPreferences mPrefs;
@@ -106,6 +108,16 @@ public class MainFragment extends PreferenceFragment {
         mHeapDumpOn = (SwitchPreference) findPreference(
                 getActivity().getString(R.string.pref_key_heap_dump_on));
 
+        Preference mAmHeapDumpCategory = findPreference(
+                getActivity().getString(R.string.pref_category_other_tools));
+        if (Flags.bitmapsInTraceur()) {
+            mAmHeapDumpCategory.setVisible(true);
+            mAmHeapDumpOn = findPreference(
+                getActivity().getString(R.string.pref_key_am_heap_dump_on));
+        } else {
+            mAmHeapDumpCategory.setVisible(false);
+        }
+
         mTracingOn.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             @Override
             public boolean onPreferenceClick(Preference preference) {
@@ -138,6 +150,20 @@ public class MainFragment extends PreferenceFragment {
                 return true;
             }
         });
+
+        if (Flags.bitmapsInTraceur()) {
+            mAmHeapDumpOn.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+                @Override
+                public boolean onPreferenceClick(Preference preference) {
+                    // We don't have a way of calling back from AM heap dump completion to
+                    // enable/disable other trace collection toggles while a heap dump is in
+                    // progress. However, this might be okay because Perfetto technically can be run
+                    // while an AM heap dump is ongoing.
+                    Receiver.captureAmHeapDump(getContext());
+                    return true;
+                }
+            });
+        }
 
         mHeapDumpProcesses = (MultiSelectListPreference) findPreference(
                 getContext().getString(R.string.pref_key_heap_dump_processes));
@@ -394,12 +420,25 @@ public class MainFragment extends PreferenceFragment {
         mStackSamplingOn.setEnabled(!(mTracingOn.isChecked() || mHeapDumpOn.isChecked()));
 
         // Disallow heap dumps if no process is selected, or if tracing/stack sampling is active.
-        boolean heapDumpProcessSelected = mHeapDumpProcesses.getValues().size() > 0;
+        int heapDumpProcessCount = mHeapDumpProcesses.getValues().size();
+        boolean heapDumpProcessSelected = heapDumpProcessCount > 0;
         mHeapDumpOn.setEnabled(heapDumpProcessSelected &&
                 !(mTracingOn.isChecked() || mStackSamplingOn.isChecked()));
         mHeapDumpOn.setSummary(heapDumpProcessSelected
                 ? context.getString(R.string.record_heap_dump_summary_enabled)
                 : context.getString(R.string.record_heap_dump_summary_disabled));
+
+        if (Flags.bitmapsInTraceur()) {
+            boolean amHeapDumpProcessAvailable = heapDumpProcessCount == 1;
+            mAmHeapDumpOn.setEnabled(amHeapDumpProcessAvailable);
+            mAmHeapDumpOn.setSummary(amHeapDumpProcessAvailable
+                ? context.getString(R.string.record_am_heap_dump_summary_enabled)
+                : (heapDumpProcessCount > 1)
+                    ? context.getString(
+                        R.string.record_am_heap_dump_summary_disabled_multiple_procs_selected)
+                    : context.getString(
+                        R.string.record_am_heap_dump_summary_disabled_no_procs_selected));
+        }
 
         // Update subtitles on this screen.
         Set<String> categories = mTags.getValues();

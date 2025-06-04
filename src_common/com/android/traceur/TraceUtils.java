@@ -137,10 +137,11 @@ public class TraceUtils {
     }
 
     public static void clearSavedTraces() {
-        String cmd = "rm -f " + TRACE_DIRECTORY + "trace-*.*trace " +
+        String cmd = "rm -rf " + TRACE_DIRECTORY + "trace-*.*trace " +
                 TRACE_DIRECTORY + "recovered-trace*.*trace " +
                 TRACE_DIRECTORY + "stack-samples*.*trace " +
-                TRACE_DIRECTORY + "heap-dump*.*trace";
+                TRACE_DIRECTORY + "heap-dump*.*trace " +
+                TRACE_DIRECTORY + "am-heap-dump-*";
 
         Log.v(TAG, "Clearing trace directory: " + cmd);
         try {
