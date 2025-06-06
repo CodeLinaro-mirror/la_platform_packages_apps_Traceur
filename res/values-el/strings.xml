@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Καταγραφή στιγμιότυπου μνήμης"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Καταγράφει ένα στιγμιότυπο μνήμης των διεργασιών που έχουν επιλεχθεί στη λίστα Διεργασίες στιγμιότυπου μνήμης"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Επιλέξτε τουλάχιστον μία διεργασία από τη λίστα Διεργασίες στιγμιότυπου μνήμης για να συλλέξετε στιγμιότυπα μνήμης"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"Καταγραφή στιγμιότυπου μνήμης από την εφαρμογή AM με χάρτη bit"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Συλλέγει ένα στιγμιότυπο μνήμης από τη διεργασία που έχει επιλεχθεί από τη λίστα Διεργασίες στιγμιότυπου μνήμης και εξαγάγει εικόνες χάρτη bit"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Επιλέξτε μόνο μία διεργασία από τη λίστα Διεργασίες στιγμιότυπου μνήμης"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Επιλέξτε μια διεργασία από τη λίστα Διεργασίες στιγμιότυπου μνήμης"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Συγκέντρωση ιχνών Winscope"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Συμπεριλαμβάνει λεπτομερή δεδομένα τηλεμετρίας διεπαφής χρήστη (μπορεί να προκαλέσει παύση)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Ανίχνευση εφαρμογών με δυνατότητα εντοπισμού σφαλμάτων"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"Προεπιλογή"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{Επιλέχθηκε #}other{Επιλέχθηκαν #}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Διεργασίες στιγμιότυπου μνήμης"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"Πρέπει να επιλεχθεί τουλάχιστον μία διεργασία"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"Αυτές οι επιλογές ισχύουν τόσο για την εφαρμογή Perfetto όσο και για την εφαρμογή ActivityManager"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Εκκαθάριση διεργασιών στιγμιότυπου μνήμης"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Η εκκαθάριση της λίστα διεργασιών ολοκληρώθηκε"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Συνεχές προφίλ σωρού"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"Καταγραφή στιγμιότυπου μνήμης μία φορά ανά καθορισμένο διάστημα"</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"Καταγραφή στιγμιότυπου μνήμης μία φορά ανά καθορισμένο διάστημα. Ισχύει μόνο για τα στιγμιότυπα μνήμης από την εφαρμογή Perfetto."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Διάστημα για το στιγμιότυπο μνήμης"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 δευτερόλεπτα"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 δευτερόλεπτα"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Πατήστε για διακοπή της δειγματοληψίας"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"Γίνεται καταγραφή του στιγμιότυπου μνήμης"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Πατήστε για να διακόψετε το στιγμιότυπο μνήμης"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"Πραγματοποιείται καταγραφή του στιγμιότυπου μνήμης από την εφαρμογή AM"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"Διαγραφή αποθηκευμένων αρχείων"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"Οι εγγραφές διαγράφονται μετά από έναν μήνα"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Διαγραφή αποθηκευμένων αρχείων;"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Ίχνη συστήματος"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, ιχνηλάτηση, ανίχνευση, απόδοση, προφίλ, δημιουργία προφίλ, cpu, στοίβα κλήσης, στοίβα, μνήμη"</string>
     <string name="share_file" msgid="1982029143280382271">"Κοινοποίηση του αρχείου;"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Τα αρχεία ιχνηλάτησης συστήματος μπορεί να περιλαμβάνουν ευαίσθητα δεδομένα συστήματος και εφαρμογών (όπως χρήση εφαρμογών). Κοινοποιείτε τα ίχνη συστήματος μόνο σε άτομα και εφαρμογές που εμπιστεύεστε."</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"Τα αρχεία ανίχνευσης συστήματος ενδέχεται να περιλαμβάνουν ευαίσθητα δεδομένα συστήματος και εφαρμογών (όπως χρήση εφαρμογών ή εικόνες στη μνήμη μιας εφαρμογής). Να μοιράζεστε ίχνη συστήματος ή στιγμιότυπα μνήμης μόνο με άτομα και εφαρμογές που εμπιστεύεστε."</string>
     <string name="share" msgid="8443979083706282338">"Κοινοποίηση"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Να μην εμφανιστεί ξανά"</string>
     <string name="long_traces" msgid="5110949471775966329">"Μεγάλα ίχνη"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Επισύναψη εγγραφών σε αναφορές σφαλμάτων"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Αυτόματη αποστολή εγγραφών που βρίσκονται σε εξέλιξη στο BetterBug κατά τη συλλογή μιας αναφοράς σφάλματος. Οι εγγραφές θα συνεχίσουν αμέσως μετά."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Προβολή αποθηκευμένων αρχείων"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"Τα ίχνη μπορούν να μεταφορτωθούν στο ui.perfetto.dev για ανάλυση"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"Η επιθεώρηση των στιγμιότυπων μνήμης μπορούν να γίνουν με το AHAT"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Ρυθμίσεις ίχνους"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Αποθηκευμένα αρχεία"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Διάφορα"</string>

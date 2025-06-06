@@ -10,6 +10,14 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"ਹੀਪ ਡੰਪ ਨੂੰ ਰਿਕਾਰਡ ਕਰੋ"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\"ਹੀਪ ਡੰਪ ਪ੍ਰਕਿਰਿਆਵਾਂ\" ਵਿੱਚ ਚੁਣੀਆਂ ਗਈਆਂ ਪ੍ਰਕਿਰਿਆਵਾਂ ਦੇ ਹੀਪ ਡੰਪ ਨੂੰ ਕੈਪਚਰ ਕਰਦਾ ਹੈ"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"ਹੀਪ ਡੰਪ ਇਕੱਤਰ ਕਰਨ ਲਈ \"ਹੀਪ ਡੰਪ ਪ੍ਰਕਿਰਿਆਵਾਂ\" ਵਿੱਚ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਪ੍ਰਕਿਰਿਆ ਚੁਣੋ"</string>
+    <!-- no translation found for record_am_heap_dump (5012983869757648802) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_enabled (5198382489516464944) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_disabled_multiple_procs_selected (2977555944190489590) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_disabled_no_procs_selected (805044012304241085) -->
+    <skip />
     <string name="winscope_tracing" msgid="5818984791154837458">"Winscope ਟ੍ਰੇਸਾਂ ਨੂੰ ਇਕੱਤਰ ਕਰੋ"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"ਇਸ ਵਿੱਚ ਵੇਰਵੇ ਸਹਿਤ UI ਟੈਲੀਮੈਟਰੀ ਡਾਟਾ ਸ਼ਾਮਲ ਹੈ (ਇਹ ਜੈਂਕ ਦਾ ਕਾਰਨ ਬਣ ਸਕਦਾ ਹੈ)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"ਡੀਬੱਗਯੋਗ ਐਪਲੀਕੇਸ਼ਨਾਂ ਟ੍ਰੇਸ ਕਰੋ"</string>
@@ -19,11 +27,13 @@
     <string name="default_categories" msgid="2117679794687799407">"ਪੂਰਵ-ਨਿਰਧਾਰਿਤ"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# ਚੁਣੀ ਗਈ}one{# ਚੁਣੀ ਗਈ}other{# ਚੁਣੀਆਂ ਗਈਆਂ}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"ਹੀਪ ਡੰਪ ਪ੍ਰਕਿਰਿਆਵਾਂ"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"ਘੱਟੋ-ਘੱਟ ਇੱਕ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਚੁਣਨਾ ਲਾਜ਼ਮੀ ਹੈ"</string>
+    <!-- no translation found for heap_dump_processes_summary (496329155430447095) -->
+    <skip />
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"ਹੀਪ ਡੰਪ ਪ੍ਰਕਿਰਿਆਵਾਂ ਨੂੰ ਕਲੀਅਰ ਕਰੋ"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"ਪ੍ਰਕਿਰਿਆ ਦੀ ਸੂਚੀ ਨੂੰ ਕਲੀਅਰ ਕੀਤਾ ਗਿਆ"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"ਲਗਾਤਾਰ ਜਾਰੀ ਹੀਪ ਪ੍ਰੋਫਾਈਲ"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"ਪ੍ਰਤੀ ਨਿਰਧਾਰਿਤ ਕੀਤੇ ਅੰਤਰਾਲ ਵਿੱਚ ਇੱਕ ਵਾਰ ਹੀਪ ਡੰਪ ਨੂੰ ਕੈਪਚਰ ਕਰੋ"</string>
+    <!-- no translation found for continuous_heap_dump_summary (4324725780071430593) -->
+    <skip />
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"ਹੀਪ ਡੰਪ ਅੰਤਰਾਲ"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 ਸਕਿੰਟ"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 ਸਕਿੰਟ"</string>
@@ -50,6 +60,8 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"ਸਟੈਕ ਸੈਂਪਲਿੰਗ ਨੂੰ ਰੋਕਣ ਲਈ ਟੈਪ ਕਰੋ"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"ਹੀਪ ਡੰਪ ਨੂੰ ਰਿਕਾਰਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"ਹੀਪ ਡੰਪ ਨੂੰ ਬੰਦ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ"</string>
+    <!-- no translation found for am_heap_dump_is_being_recorded (7679311408393495981) -->
+    <skip />
     <string name="clear_saved_files" msgid="9156079311231446825">"ਰੱਖਿਅਤ ਕੀਤੀਆਂ ਫ਼ਾਈਲਾਂ ਨੂੰ ਕਲੀਅਰ ਕਰੋ"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"ਇੱਕ ਮਹੀਨੇ ਬਾਅਦ ਰਿਕਾਰਡਿੰਗਾਂ ਕਲੀਅਰ ਹੋ ਜਾਂਦੀਆਂ ਹਨ"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"ਕੀ ਰੱਖਿਅਤ ਕੀਤੀਆਂ ਫ਼ਾਈਲਾਂ ਨੂੰ ਕਲੀਅਰ ਕਰਨਾ ਹੈ?"</string>
@@ -58,7 +70,8 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"ਸਿਸਟਮ ਟ੍ਰੇਸਾਂ"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, ਟ੍ਰੇਸ, ਟ੍ਰੇਸਿੰਗ, ਕਾਰਗੁਜ਼ਾਰੀ, ਪ੍ਰੋਫਾਈਲ, ਪ੍ਰੋਫਾਈਲਿੰਗ, cpu, ਕਾਲਸਟੈਕ, ਸਟੈਕ, ਹੀਪ"</string>
     <string name="share_file" msgid="1982029143280382271">"ਕੀ ਫ਼ਾਈਲ ਸਾਂਝੀ ਕਰਨੀ ਹੈ?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"ਸਿਸਟਮ ਟ੍ਰੇਸਿੰਗ ਫ਼ਾਈਲਾਂ ਵਿੱਚ ਸੰਵੇਦਨਸ਼ੀਲ ਸਿਸਟਮ ਅਤੇ ਐਪ ਡਾਟਾ (ਜਿਵੇਂ ਕਿ ਐਪ ਵਰਤੋਂ) ਸ਼ਾਮਲ ਹੋ ਸਕਦਾ ਹੈ। ਸਿਸਟਮ ਟ੍ਰੇਸਾਂ ਨੂੰ ਸਿਰਫ਼ ਆਪਣੇ ਭਰੋਸੇਯੋਗ ਲੋਕਾਂ ਅਤੇ ਐਪਾਂ ਨਾਲ ਸਾਂਝਾ ਕਰੋ।"</string>
+    <!-- no translation found for system_trace_sensitive_data (1479213054797221656) -->
+    <skip />
     <string name="share" msgid="8443979083706282338">"ਸਾਂਝਾ ਕਰੋ"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"ਦੁਬਾਰਾ ਨਾ ਦਿਖਾਓ"</string>
     <string name="long_traces" msgid="5110949471775966329">"ਲੰਮੀਆਂ ਟ੍ਰੇਸਾਂ"</string>
@@ -87,6 +100,14 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"ਬੱਗ ਰਿਪੋਰਟਾਂ ਨਾਲ ਰਿਕਾਰਡਿੰਗਾਂ ਨੱਥੀ ਕਰੋ"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"ਬੱਗ ਰਿਪੋਰਟ ਇਕੱਤਰ ਹੋ ਜਾਣ \'ਤੇ ਪ੍ਰਕਿਰਿਆ-ਅਧੀਨ ਰਿਕਾਰਡਿੰਗਾਂ ਨੂੰ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ BetterBug ਨੂੰ ਭੇਜੋ। ਰਿਕਾਰਡਿੰਗਾਂ ਇਸ ਤੋਂ ਬਾਅਦ ਵੀ ਜਾਰੀ ਰਹਿਣਗੀਆਂ।"</string>
     <string name="link_to_traces" msgid="1404687523304348490">"ਰੱਖਿਅਤ ਕੀਤੀਆਂ ਫ਼ਾਈਲਾਂ ਦੇਖੋ"</string>
+    <!-- no translation found for pref_category_perfetto_title (6666944431707303646) -->
+    <skip />
+    <!-- no translation found for pref_category_perfetto_summary (3553304890055871620) -->
+    <skip />
+    <!-- no translation found for pref_category_other_tools_title (4005958504576983766) -->
+    <skip />
+    <!-- no translation found for pref_category_other_tools_summary (8548744690364563186) -->
+    <skip />
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"ਟ੍ਰੇਸ ਸੈਟਿੰਗਾਂ"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"ਰੱਖਿਅਤ ਕੀਤੀਆਂ ਗਈਆਂ ਫ਼ਾਈਲਾਂ"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"ਫੁਟਕਲ"</string>

@@ -10,6 +10,14 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"ହିପ ଡମ୍ପ ରେକର୍ଡ କରନ୍ତୁ"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\"ହିପ ଡମ୍ପ ପ୍ରକ୍ରିୟା\"ରେ ଚୟନିତ ପ୍ରକ୍ରିୟାଗୁଡ଼ିକର ଏକ ହିପ ଡମ୍ପକୁ କେପଚର କରେ"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"ହିପ ଡମ୍ପ ସଂଗ୍ରହ କରିବାକୁ \"ହିପ ଡମ୍ପ ପ୍ରକ୍ରିୟାଗୁଡ଼ିକ\"ରୁ ଅତି କମରେ ଗୋଟିଏ ପ୍ରକ୍ରିୟା ଚୟନ କରନ୍ତୁ"</string>
+    <!-- no translation found for record_am_heap_dump (5012983869757648802) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_enabled (5198382489516464944) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_disabled_multiple_procs_selected (2977555944190489590) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_disabled_no_procs_selected (805044012304241085) -->
+    <skip />
     <string name="winscope_tracing" msgid="5818984791154837458">"Winscope ଟ୍ରେସ ସଂଗ୍ରହ କରନ୍ତୁ"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"ସବିଶେଷ UI ଟେଲିମେଟ୍ରି ଡାଟା ଅନ୍ତର୍ଭୁକ୍ତ କରେ (ଜଙ୍କ ସୃଷ୍ଟି କରିପାରେ)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"ଡିବଗଯୋଗ୍ୟ ଆପ୍ଲିକେସନକୁ ଟ୍ରେସ କରନ୍ତୁ"</string>
@@ -19,11 +27,13 @@
     <string name="default_categories" msgid="2117679794687799407">"ଡିଫଲ୍ଟ"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{#ଟି ବର୍ଗ ଚୟନ କରାଯାଇଛି}other{#ଟି ବର୍ଗ ଚୟନ କରାଯାଇଛି}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"ହିପ ଡମ୍ପ ପ୍ରକ୍ରିୟାଗୁଡ଼ିକ"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"ଅତି କମରେ ଗୋଟିଏ ପ୍ରକ୍ରିୟା ଚୟନ କରାଯିବା ଆବଶ୍ୟକ"</string>
+    <!-- no translation found for heap_dump_processes_summary (496329155430447095) -->
+    <skip />
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"ହିପ ଡମ୍ପ ପ୍ରକ୍ରିୟାଗୁଡ଼ିକ ଖାଲି କରନ୍ତୁ"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"ପ୍ରକ୍ରିୟା ତାଲିକା ଖାଲି କରାଯାଇଛି"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"ଅବିରତ ହିପ ପ୍ରୋଫାଇଲ"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"ପ୍ରତି ନିର୍ଦ୍ଦିଷ୍ଟ ଅବଧି ପାଇଁ ଏକ ହିପ ଡମ୍ପ କେପଚର କରନ୍ତୁ"</string>
+    <!-- no translation found for continuous_heap_dump_summary (4324725780071430593) -->
+    <skip />
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"ହିପ ଡମ୍ପର ଅବଧି"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 ସେକେଣ୍ଡ"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 ସେକେଣ୍ଡ"</string>
@@ -50,6 +60,8 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"ଷ୍ଟାକ ସାମ୍ପଲିଂ ବନ୍ଦ କରିବାକୁ ଟାପ କରନ୍ତୁ"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"ହିପ ଡମ୍ପ ରେକର୍ଡ କରାଯାଉଛି"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"ହିପ ଡମ୍ପ ବନ୍ଦ କରିବା ପାଇଁ ଟାପ କରନ୍ତୁ"</string>
+    <!-- no translation found for am_heap_dump_is_being_recorded (7679311408393495981) -->
+    <skip />
     <string name="clear_saved_files" msgid="9156079311231446825">"ସେଭ କରାଯାଇଥିବା ଫାଇଲଗୁଡ଼ିକୁ ଖାଲି କରନ୍ତୁ"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"ଗୋଟିଏ ମାସ ପରେ ରେକର୍ଡିଂଗୁଡ଼ିକୁ ଖାଲି କରାଯାଏ"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"ସେଭ କରାଯାଇଥିବା ଫାଇଲଗୁଡ଼ିକୁ ଖାଲି କରିବେ?"</string>
@@ -58,7 +70,8 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"ସିଷ୍ଟମ୍‍ ଟ୍ରେସ୍‍‍‍‍‍‍‍‍‍ଗୁଡିକ"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, ଟ୍ରେସ, ଟ୍ରେସିଂ, ପରଫରମାନ୍ସ, ପ୍ରୋଫାଇଲ, ପ୍ରୋଫାଇଲିଂ, CPU, କଲଷ୍ଟାକ, ଷ୍ଟାକ, ହିପ"</string>
     <string name="share_file" msgid="1982029143280382271">"ଫାଇଲ ସେୟାର କରିବେ?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"ସିଷ୍ଟମ୍‍ ଟ୍ରେସିଂ ଫାଇଲ୍‍ଗୁଡିକ ହୁଏତ ସମ୍ବେଦନଶୀଳ ସିଷ୍ଟମ୍‍ ଏବଂ ଆପ୍‍ ଡାଟା (ଯେପରି କି ଆପ୍‍ ବ୍ୟବହାର) ଅନ୍ତର୍ଭୁକ୍ତ କରିପାରେ। ସିଷ୍ଟମ୍‍ ଟ୍ରେସ୍‍ କେବଳ ଆପଣ ବିଶ୍ବାସ କରୁଥିବା ଲୋକ ଏବଂ ଆପ୍ସ ସହ ସେୟାର୍‍ କରନ୍ତୁ।"</string>
+    <!-- no translation found for system_trace_sensitive_data (1479213054797221656) -->
+    <skip />
     <string name="share" msgid="8443979083706282338">"ସେୟାର୍‍ କରନ୍ତୁ"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"ପୁଣି ଦେଖାନ୍ତୁ ନାହିଁ"</string>
     <string name="long_traces" msgid="5110949471775966329">"ଲମ୍ବା ଟ୍ରେସ"</string>
@@ -87,6 +100,14 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"ବଗ ରିପୋର୍ଟଗୁଡ଼ିକରେ ରେକର୍ଡିଂ ଆଟାଚ କରନ୍ତୁ"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"ଏକ ବଗ ରିପୋର୍ଟ ସଂଗ୍ରହ ହେଲେ BetterBugକୁ ରେକର୍ଡିଂ ସ୍ୱତଃ ପଠାଯାଏ। ଏହାପରେ ରେକର୍ଡିଂ ଜାରି ରହିବ।"</string>
     <string name="link_to_traces" msgid="1404687523304348490">"ସେଭ କରାଯାଇଥିବା ଫାଇଲଗୁଡ଼ିକୁ ଦେଖନ୍ତୁ"</string>
+    <!-- no translation found for pref_category_perfetto_title (6666944431707303646) -->
+    <skip />
+    <!-- no translation found for pref_category_perfetto_summary (3553304890055871620) -->
+    <skip />
+    <!-- no translation found for pref_category_other_tools_title (4005958504576983766) -->
+    <skip />
+    <!-- no translation found for pref_category_other_tools_summary (8548744690364563186) -->
+    <skip />
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"ଟ୍ରେସ ସେଟିଂସ"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"ସେଭ କରାଯାଇଥିବା ଫାଇଲଗୁଡ଼ିକ"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"ବିବିଧ"</string>

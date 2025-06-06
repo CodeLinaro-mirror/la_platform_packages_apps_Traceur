@@ -10,6 +10,14 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"ບັນທຶກ heap dump"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"ຖ່າຍ heap dump ຂອງຂະບວນການທີ່ເລືອກໃນ \"ຂະບວນການ heap dump\""</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"ເລືອກຢ່າງໜ້ອຍ 1 ຂະບວນການໃນ \"ຂະບວນການ heap dump\" ເພື່ອຮວບຮວມ heap dump"</string>
+    <!-- no translation found for record_am_heap_dump (5012983869757648802) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_enabled (5198382489516464944) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_disabled_multiple_procs_selected (2977555944190489590) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_disabled_no_procs_selected (805044012304241085) -->
+    <skip />
     <string name="winscope_tracing" msgid="5818984791154837458">"ຮວບຮວມການຕິດຕາມ Winscope"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"ມີຂໍ້ມູນຈາກທາງໄກຂອງສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ແບບລະອຽດ (ສາມາດເຮັດໃຫ້ເກີດການຂັດຂ້ອງໄດ້)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"ຕິດຕາມແອັບພລິເຄຊັນທີ່ດີບັກໄດ້."</string>
@@ -19,11 +27,13 @@
     <string name="default_categories" msgid="2117679794687799407">"ຄ່າເລີ່ມຕົ້ນ"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{ເລືອກ # ລາຍການແລ້ວ}other{ເລືອກ # ລາຍການແລ້ວ}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"ຂະບວນການ heap dump"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"ຕ້ອງເລືອກຢ່າງໜ້ອຍ 1 ຂະບວນການ"</string>
+    <!-- no translation found for heap_dump_processes_summary (496329155430447095) -->
+    <skip />
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"ລຶບລ້າງຂະບວນການ heap dump"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"ລຶບລ້າງລາຍຊື່ຂອງຂະບວນການແລ້ວ"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"ໂປຣໄຟລ໌ heap ແບບຕໍ່ເນື່ອງ"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"ຖ່າຍ heap dump 1 ຄັ້ງຕໍ່ຊ່ວງເວລາທີ່ລະບຸ"</string>
+    <!-- no translation found for continuous_heap_dump_summary (4324725780071430593) -->
+    <skip />
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"ຊ່ວງເວລາຂອງ heap dump"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 ວິນາທີ"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 ວິນາທີ"</string>
@@ -50,6 +60,8 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"ແຕະເພື່ອຢຸດການສຸ່ມຕົວຢ່າງສະແຕັກ"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"ກຳລັງບັນທຶກ heap dump"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"ແຕະເພື່ອຢຸດ heap dump"</string>
+    <!-- no translation found for am_heap_dump_is_being_recorded (7679311408393495981) -->
+    <skip />
     <string name="clear_saved_files" msgid="9156079311231446825">"ລຶບລ້າງໄຟລ໌ທີ່ບັນທຶກໄວ້"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"ລະບົບຈະລຶບລ້າງການບັນທຶກຫຼັງຈາກຜ່ານໄປ 1 ເດືອນ"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"ລຶບລ້າງໄຟລ໌ທີ່ບັນທຶກໄວ້ບໍ?"</string>
@@ -58,7 +70,8 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"ການຕິດຕາມລະບົບ"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, ຕິດຕາມ, ການຕິດຕາມ, ປະສິດທິພາບ, ໂປຣໄຟລ໌, ການສ້າງໂປຣໄຟລ໌, CPU, callstack, ວາງຊ້ອນກັນ, ກອງ"</string>
     <string name="share_file" msgid="1982029143280382271">"ແບ່ງປັນໄຟລ໌ບໍ?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"ໄຟລ໌ການຕິດຕາມລະບົບອາດມີຂໍ້ມູນແອັບ ແລະ ຂໍ້ມູນລະບົບທີ່ອ່ອນໄຫວ (ເຊັ່ນ: ການນຳໃຊ້ແອັບ). ທ່ານຄວນແບ່ງປັນການຕິດຕາມລະບົບໃຫ້ກັບຄົນ ແລະ ແອັບທີ່ທ່ານເຊື່ອຖືເທົ່ານັ້ນ."</string>
+    <!-- no translation found for system_trace_sensitive_data (1479213054797221656) -->
+    <skip />
     <string name="share" msgid="8443979083706282338">"ແບ່ງປັນ"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"ບໍ່ຕ້ອງສະແດງອີກ"</string>
     <string name="long_traces" msgid="5110949471775966329">"ການຕິດຕາມຍາວ"</string>
@@ -87,6 +100,14 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"ແນບການບັນທຶກໃນລາຍງານຂໍ້ຜິດພາດ"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"ສົ່ງການບັນທຶກທີ່ກຳລັງດຳເນີນຢູ່ໄປໃຫ້ BetterBug ໂດຍອັດຕະໂນມັດເມື່ອຮວບຮວມລາຍງານຂໍ້ຜິດພາດ. ການບັນທຶກຈະສືບຕໍ່ຫຼັງຈາກນັ້ນ."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"ເບິ່ງໄຟລ໌ທີ່ບັນທຶກໄວ້"</string>
+    <!-- no translation found for pref_category_perfetto_title (6666944431707303646) -->
+    <skip />
+    <!-- no translation found for pref_category_perfetto_summary (3553304890055871620) -->
+    <skip />
+    <!-- no translation found for pref_category_other_tools_title (4005958504576983766) -->
+    <skip />
+    <!-- no translation found for pref_category_other_tools_summary (8548744690364563186) -->
+    <skip />
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"ຕິດຕາມການຕັ້ງຄ່າ"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"ໄຟລ໌ທີ່ບັນທຶກໄວ້"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"ອື່ນໆ"</string>
