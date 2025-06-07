@@ -10,6 +10,14 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Izrada snimke memorije procesa"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Izrađuje snimku memorije procesa za procese koji su odabrani u procesima snimke memorije procesa"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Odaberite barem jedan proces u procesima snimke memorije procesa da biste prikupili snimke memorije procesa"</string>
+    <!-- no translation found for record_am_heap_dump (5012983869757648802) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_enabled (5198382489516464944) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_disabled_multiple_procs_selected (2977555944190489590) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_disabled_no_procs_selected (805044012304241085) -->
+    <skip />
     <string name="winscope_tracing" msgid="5818984791154837458">"Prikupljanje Winscope tragova"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Uključuje detaljne telemetrijske podatke korisničkog sučelja (može uzrokovati zastoj)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Prati aplikacije iz kojih se mogu uklanjati pogreške"</string>
@@ -19,11 +27,13 @@
     <string name="default_categories" msgid="2117679794687799407">"Zadano"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# odabrana}one{# odabrana}few{# odabrane}other{# odabrano}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Procesi snimke memorije procesa"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"Mora biti odabran najmanje jedan proces"</string>
+    <!-- no translation found for heap_dump_processes_summary (496329155430447095) -->
+    <skip />
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Izbriši procese snimke memorije procesa"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Popis procesa je izbrisan"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Profil gomile podataka – trajni"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"Napravite snimku memorije procesa jednom u određenom intervalu"</string>
+    <!-- no translation found for continuous_heap_dump_summary (4324725780071430593) -->
+    <skip />
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Profil gomile podataka – interval"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 sekundi"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 sekundi"</string>
@@ -50,6 +60,8 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Dodirnite da biste zaustavili uzorkovanje snopa"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"U tijeku je izrada snimke memorije procesa"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Dodirnite da biste zaustavili snimku memorije procesa"</string>
+    <!-- no translation found for am_heap_dump_is_being_recorded (7679311408393495981) -->
+    <skip />
     <string name="clear_saved_files" msgid="9156079311231446825">"Izbriši spremljene datoteke"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"Snimke se brišu nakon mjesec dana"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Želite li izbrisati spremljene datoteke?"</string>
@@ -58,7 +70,8 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Praćenja sustava"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, prati, praćenje, izvedba, profil, profiliranje, procesor, stog poziva, fiksna memorija, dinamička memorija"</string>
     <string name="share_file" msgid="1982029143280382271">"Želite li podijeliti datoteku?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Datoteke praćenja sustava mogu sadržavati osjetljive podatke o sustavu i aplikacijama (na primjer o upotrebi aplikacija). Praćenja sustava dijelite samo s osobama i aplikacijama koje smatrate pouzdanima."</string>
+    <!-- no translation found for system_trace_sensitive_data (1479213054797221656) -->
+    <skip />
     <string name="share" msgid="8443979083706282338">"Dijeli"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Ne prikazuj ponovo"</string>
     <string name="long_traces" msgid="5110949471775966329">"Duga praćenja"</string>
@@ -87,6 +100,14 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Priloži snimke izvješćima o programskim pogreškama"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Automatski pošaljite BetterBugu snimke u tijeku kad se prikupi izvješće o programskoj pogrešci. Snimanje će se nastaviti kasnije."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Prikaz spremljenih datoteka"</string>
+    <!-- no translation found for pref_category_perfetto_title (6666944431707303646) -->
+    <skip />
+    <!-- no translation found for pref_category_perfetto_summary (3553304890055871620) -->
+    <skip />
+    <!-- no translation found for pref_category_other_tools_title (4005958504576983766) -->
+    <skip />
+    <!-- no translation found for pref_category_other_tools_summary (8548744690364563186) -->
+    <skip />
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Postavke praćenja"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Spremljene datoteke"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Razno"</string>

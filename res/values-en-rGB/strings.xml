@@ -10,6 +10,14 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Record heap dump"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Captures a heap dump of the processes selected in \'Heap dump processes\'"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Select at least one process in \'Heap dump processes\' to collect heap dumps"</string>
+    <!-- no translation found for record_am_heap_dump (5012983869757648802) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_enabled (5198382489516464944) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_disabled_multiple_procs_selected (2977555944190489590) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_disabled_no_procs_selected (805044012304241085) -->
+    <skip />
     <string name="winscope_tracing" msgid="5818984791154837458">"Collect winscope traces"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Includes detailed UI telemetry data (can cause jank)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Trace debuggable applications"</string>
@@ -19,11 +27,13 @@
     <string name="default_categories" msgid="2117679794687799407">"Default"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# selected}other{# selected}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Heap dump processes"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"At least one process must be selected"</string>
+    <!-- no translation found for heap_dump_processes_summary (496329155430447095) -->
+    <skip />
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Clear heap dump processes"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Process list cleared"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Continuous heap profile"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"Capture a heap dump once per specified interval"</string>
+    <!-- no translation found for continuous_heap_dump_summary (4324725780071430593) -->
+    <skip />
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Heap dump interval"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 seconds"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 seconds"</string>
@@ -50,6 +60,8 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Tap to stop stack sampling"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"Heap dump is being recorded"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Tap to stop heap dump"</string>
+    <!-- no translation found for am_heap_dump_is_being_recorded (7679311408393495981) -->
+    <skip />
     <string name="clear_saved_files" msgid="9156079311231446825">"Clear saved files"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"Recordings are cleared after one month"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Clear saved files?"</string>
@@ -58,7 +70,8 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"System traces"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, trace, tracing, performance, profile, profiling, cpu, callstack, stack, heap"</string>
     <string name="share_file" msgid="1982029143280382271">"Share file?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"System tracing files may include sensitive system and app data (such as app usage). Only share system traces with people and apps that you trust."</string>
+    <!-- no translation found for system_trace_sensitive_data (1479213054797221656) -->
+    <skip />
     <string name="share" msgid="8443979083706282338">"Share"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Don\'t show again"</string>
     <string name="long_traces" msgid="5110949471775966329">"Long traces"</string>
@@ -87,6 +100,14 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Attach recordings to bug reports"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Automatically send in-progress recordings to BetterBug when a bug report is collected. Recordings will continue afterwards."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"View saved files"</string>
+    <!-- no translation found for pref_category_perfetto_title (6666944431707303646) -->
+    <skip />
+    <!-- no translation found for pref_category_perfetto_summary (3553304890055871620) -->
+    <skip />
+    <!-- no translation found for pref_category_other_tools_title (4005958504576983766) -->
+    <skip />
+    <!-- no translation found for pref_category_other_tools_summary (8548744690364563186) -->
+    <skip />
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Trace settings"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Saved files"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Miscellaneous"</string>

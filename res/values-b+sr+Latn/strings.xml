@@ -10,6 +10,14 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Snimaj dinamički deo memorije za proces"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Snima dinamički deo memorije za procese izabrane u delu Procesi za snimanje dinamičkog dela memorije"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Da biste prikupljali snimke dinamičkog dela memorije za procese, izaberite bar jedan proces u delu Procesi za snimanje dinamičkog dela memorije"</string>
+    <!-- no translation found for record_am_heap_dump (5012983869757648802) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_enabled (5198382489516464944) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_disabled_multiple_procs_selected (2977555944190489590) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_disabled_no_procs_selected (805044012304241085) -->
+    <skip />
     <string name="winscope_tracing" msgid="5818984791154837458">"Prikupljaj Winscope tragove"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Obuhvata detaljne telemetrijske podatke o korisničkom interfejsu (može da izazove seckanje)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Prati aplikacije sa funkcijom za otklanjanje grešaka"</string>
@@ -19,11 +27,13 @@
     <string name="default_categories" msgid="2117679794687799407">"Podrazumevano"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{Izabrana je #}one{Izabrana je #}few{Izabrane su #}other{Izabrano je #}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Procesi za snimanje dinamičkog dela memorije"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"Morate da izaberete bar jedan proces"</string>
+    <!-- no translation found for heap_dump_processes_summary (496329155430447095) -->
+    <skip />
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Obriši procese izabrane za snimanje dinamičkog dela memorije"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Lista procesa je obrisana"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Neprekidno profilisanje dinamičkog dela memorije"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"Snima dinamički deo memorije za proces jednom po navedenom intervalu"</string>
+    <!-- no translation found for continuous_heap_dump_summary (4324725780071430593) -->
+    <skip />
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Interval snimanja dinamičkog dela memorije za proces"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 sekundi"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 sekundi"</string>
@@ -50,6 +60,8 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Dodirnite da biste zaustavili grupno uzorkovanje"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"Pravi se snimak dinamičkog dela memorije za proces"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Dodirnite da biste zaustavili snimanje dinamičkog dela memorije za proces"</string>
+    <!-- no translation found for am_heap_dump_is_being_recorded (7679311408393495981) -->
+    <skip />
     <string name="clear_saved_files" msgid="9156079311231446825">"Obriši sačuvane fajlove"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"Snimci se brišu posle mesec dana"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Želite da obrišete sačuvane fajlove?"</string>
@@ -58,7 +70,8 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Praćenja sistema"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, trag, praćenje, performanse, profil, profilisanje, procesor, grupa poziva, grupa, dinamički deo memorije"</string>
     <string name="share_file" msgid="1982029143280382271">"Želite da delite fajl?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Datoteke praćenja sistema mogu da sadrže osetljive podatke o sistemu i aplikacijama (na primer, o korišćenju aplikacije). Delite praćenja sistema samo sa pouzdanim ljudima i aplikacijama."</string>
+    <!-- no translation found for system_trace_sensitive_data (1479213054797221656) -->
+    <skip />
     <string name="share" msgid="8443979083706282338">"Deli"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Ne prikazuj ponovo"</string>
     <string name="long_traces" msgid="5110949471775966329">"Dugi tragovi"</string>
@@ -87,6 +100,14 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Priložite snimke u izveštaje o grešci"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Automatski šaljite BetterBug-u snimke dok je snimanje u toku kada se prikupi izveštaj o grešci. Snimanje će se zatim nastaviti."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Prikaži sačuvane fajlove"</string>
+    <!-- no translation found for pref_category_perfetto_title (6666944431707303646) -->
+    <skip />
+    <!-- no translation found for pref_category_perfetto_summary (3553304890055871620) -->
+    <skip />
+    <!-- no translation found for pref_category_other_tools_title (4005958504576983766) -->
+    <skip />
+    <!-- no translation found for pref_category_other_tools_summary (8548744690364563186) -->
+    <skip />
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Podešavanja praćenja"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Sačuvani fajlovi"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Razno"</string>
