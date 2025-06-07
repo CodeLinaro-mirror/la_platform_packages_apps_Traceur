@@ -10,6 +10,14 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Enregistrer l\'empreinte de mémoire"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Capture une empreinte de mémoire des processus sélectionnés dans « Processus d\'empreinte de mémoire »"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Sélectionnez au moins un processus dans « Processus d\'empreinte de mémoire » pour collecter des empreintes de mémoire."</string>
+    <!-- no translation found for record_am_heap_dump (5012983869757648802) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_enabled (5198382489516464944) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_disabled_multiple_procs_selected (2977555944190489590) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_disabled_no_procs_selected (805044012304241085) -->
+    <skip />
     <string name="winscope_tracing" msgid="5818984791154837458">"Collecter les traces Winscope"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Comprend les données télémétriques détaillées de l\'IU (pouvant provoquer une IU lente)."</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Enregistrer les traces d\'applis débogables"</string>
@@ -19,11 +27,13 @@
     <string name="default_categories" msgid="2117679794687799407">"Par défaut"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# sélectionnée}one{# sélectionnée}other{# sélectionnées}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Processus d\'empreinte de mémoire"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"Vous devez sélectionner au moins un processus"</string>
+    <!-- no translation found for heap_dump_processes_summary (496329155430447095) -->
+    <skip />
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Effacer les processus d\'empreinte de mémoire"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Liste des processus effacée"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Profil de tas continu"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"Capturer une empreinte de mémoire une fois par intervalle précisé"</string>
+    <!-- no translation found for continuous_heap_dump_summary (4324725780071430593) -->
+    <skip />
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Intervalle d\'empreinte de mémoire"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 secondes"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 secondes"</string>
@@ -50,6 +60,8 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Touchez pour interrompre l\'échantillonnage de la pile"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"L\'empreinte de mémoire est en cours d\'enregistrement"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Touchez ici pour arrêter l\'enregistrement de l\'empreinte de mémoire"</string>
+    <!-- no translation found for am_heap_dump_is_being_recorded (7679311408393495981) -->
+    <skip />
     <string name="clear_saved_files" msgid="9156079311231446825">"Effacer les fichiers enregistrés"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"Les enregistrements sont effacés après un mois"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Effacer les fichiers enregistrés?"</string>
@@ -58,7 +70,8 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Traces du système"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, trace, traçage, performance, profil, profilage, processeur, pile d\'appels, pile, tas"</string>
     <string name="share_file" msgid="1982029143280382271">"Partager le fichier?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Les fichiers de suivi système peuvent comprendre des données sensibles concernant le système et les applis (par exemple, l\'utilisation des applis). Prenez soin de les partager uniquement avec les gens et les appli en qui vous avez confiance."</string>
+    <!-- no translation found for system_trace_sensitive_data (1479213054797221656) -->
+    <skip />
     <string name="share" msgid="8443979083706282338">"Partager"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Ne plus afficher"</string>
     <string name="long_traces" msgid="5110949471775966329">"Traces longues"</string>
@@ -87,6 +100,14 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Joindre les enregistrements aux rapports de bogue"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Envoyer automatiquement les enregistrements en cours à BetterBug lorsqu\'un rapport de bogue est recueilli. Les enregistrements se poursuivront par la suite."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Afficher les fichiers enregistrés"</string>
+    <!-- no translation found for pref_category_perfetto_title (6666944431707303646) -->
+    <skip />
+    <!-- no translation found for pref_category_perfetto_summary (3553304890055871620) -->
+    <skip />
+    <!-- no translation found for pref_category_other_tools_title (4005958504576983766) -->
+    <skip />
+    <!-- no translation found for pref_category_other_tools_summary (8548744690364563186) -->
+    <skip />
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Paramètres de traçage"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Fichiers enregistrés"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Divers"</string>

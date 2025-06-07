@@ -10,6 +10,14 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Zapisuj izvoz kopice"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Zajame izvoz kopice za procese, izbrane v razdelku »Procesi za izvoz kopice«"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Če želite zbirati izvoze kopice, izberite vsaj en proces v razdelku »Procesi za izvoz kopice«"</string>
+    <!-- no translation found for record_am_heap_dump (5012983869757648802) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_enabled (5198382489516464944) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_disabled_multiple_procs_selected (2977555944190489590) -->
+    <skip />
+    <!-- no translation found for record_am_heap_dump_summary_disabled_no_procs_selected (805044012304241085) -->
+    <skip />
     <string name="winscope_tracing" msgid="5818984791154837458">"Zbiranje sledi Winscope"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Vključuje podrobne telemetrične podatke o uporabniškem vmesniku (lahko povzroči zatikanje)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Sledenje aplikacijam, v katerih je mogoče odpravljati napake"</string>
@@ -19,11 +27,13 @@
     <string name="default_categories" msgid="2117679794687799407">"Privzeto"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# izbrana}one{# izbrana}two{# izbrani}few{# izbrane}other{# izbranih}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Procesi za izvoz kopice"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"Izbran mora biti vsaj en proces"</string>
+    <!-- no translation found for heap_dump_processes_summary (496329155430447095) -->
+    <skip />
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Počisti procese izvoza kopice"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Seznam procesov je počiščen"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Profil neprekinjene kopice"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"Zajem izvoza kopice enkrat na določeni interval"</string>
+    <!-- no translation found for continuous_heap_dump_summary (4324725780071430593) -->
+    <skip />
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Interval izvoza kopice"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 sekund"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 sekund"</string>
@@ -50,6 +60,8 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Dotaknite se, da ustavite vzorčenje sklada."</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"Poteka zapisovanje izvoza kopice"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Dotaknite se, da ustavite izvoz kopice"</string>
+    <!-- no translation found for am_heap_dump_is_being_recorded (7679311408393495981) -->
+    <skip />
     <string name="clear_saved_files" msgid="9156079311231446825">"Izbriši shranjene datoteke"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"Zapisi so izbrisani po enem mesecu."</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Želite izbrisati shranjene datoteke?"</string>
@@ -58,7 +70,8 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Sledi sistema"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, sled, sledenje, učinkovitost delovanja, profil, profiliranje, cpe, procesor, sklad priklicev, sklad, kopica"</string>
     <string name="share_file" msgid="1982029143280382271">"Želite deliti datoteko?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Datoteke za sledenje sistema morda vključujejo občutljive podatke o sistemu in aplikacijah (na primer o uporabi aplikacij). Sistemske sledi delite samo z ljudmi in aplikacijami, ki jim zaupate."</string>
+    <!-- no translation found for system_trace_sensitive_data (1479213054797221656) -->
+    <skip />
     <string name="share" msgid="8443979083706282338">"Deli"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Tega ne prikaži več"</string>
     <string name="long_traces" msgid="5110949471775966329">"Dolge sledi"</string>
@@ -87,6 +100,14 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Prilaganje posnetkov poročilom o napakah"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Samodejno pošiljanje posnetkov v teku v orodje BetterBug pri zbiranju poročila o napakah. Snemanje se bo nato nadaljevalo."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Prikaži shranjene datoteke"</string>
+    <!-- no translation found for pref_category_perfetto_title (6666944431707303646) -->
+    <skip />
+    <!-- no translation found for pref_category_perfetto_summary (3553304890055871620) -->
+    <skip />
+    <!-- no translation found for pref_category_other_tools_title (4005958504576983766) -->
+    <skip />
+    <!-- no translation found for pref_category_other_tools_summary (8548744690364563186) -->
+    <skip />
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Nastavitve sledenja"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Shranjene datoteke"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Razno"</string>
