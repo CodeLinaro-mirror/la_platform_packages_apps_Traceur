@@ -10,14 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Heap dump opnemen"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Legt een heap dump vast van de processen die zijn geselecteerd in Heap dumprocessen"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Selecteer ten minste één proces in Heap dump-processen om heap dumps te verzamelen"</string>
-    <!-- no translation found for record_am_heap_dump (5012983869757648802) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_enabled (5198382489516464944) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_disabled_multiple_procs_selected (2977555944190489590) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_disabled_no_procs_selected (805044012304241085) -->
-    <skip />
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"Heap dump van AM met bitmaps opnemen"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Verzamelt een heap dump van het proces dat is geselecteerd in Heap dump-processen en haalt bitmapafbeeldingen op"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Selecteer maar één proces in Heap dump-processen"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Selecteer een proces in Heap dump-processen"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Winscope-sporen verzamelen"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Omvat gedetailleerde UI-telemetriegegevens (kan een onderbreking in de weergave veroorzaken)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Beschikbare apps voor foutopsporing traceren"</string>
@@ -27,13 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"Standaard"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# geselecteerd}other{# geselecteerd}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Heap dump-processen"</string>
-    <!-- no translation found for heap_dump_processes_summary (496329155430447095) -->
-    <skip />
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"Deze selecties zijn van toepassing op zowel Perfetto als ActivityManager"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Heap dump-processen wissen"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Proceslijst gewist"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Continu heapprofiel"</string>
-    <!-- no translation found for continuous_heap_dump_summary (4324725780071430593) -->
-    <skip />
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"Leg eenmaal per aangegeven interval een heap dump vast. Geldt alleen voor heap dumps van Perfetto."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Interval voor heap dump"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 seconden"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 seconden"</string>
@@ -60,8 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Tik om stack-sampling te stoppen"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"Heap dump wordt opgenomen"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Tikken om heap dump te stoppen"</string>
-    <!-- no translation found for am_heap_dump_is_being_recorded (7679311408393495981) -->
-    <skip />
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"Heap dump van AM wordt opgenomen"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"Opgeslagen bestanden wissen"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"Opnamen worden na één maand gewist"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Opgeslagen bestanden wissen?"</string>
@@ -70,8 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Systeemsporen"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, trace, tracering, prestaties, profiel, profilering, cpu, callstack, stack, heap"</string>
     <string name="share_file" msgid="1982029143280382271">"Bestand delen?"</string>
-    <!-- no translation found for system_trace_sensitive_data (1479213054797221656) -->
-    <skip />
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"System Tracing-bestanden kunnen gevoelige systeem- en app-gegevens bevatten (bijvoorbeeld app-gebruik of afbeeldingen in het geheugen van een app). Deel systeemtraceringen of heap dumps alleen met mensen en apps die je vertrouwt."</string>
     <string name="share" msgid="8443979083706282338">"Delen"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Niet meer tonen"</string>
     <string name="long_traces" msgid="5110949471775966329">"Lange traces"</string>
@@ -100,14 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Opnamen toevoegen aan bugrapporten"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Stuur lopende opnamen automatisch naar BetterBug als een bugrapport wordt verzameld. De opnamen gaan gewoon verder."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Opgeslagen bestanden bekijken"</string>
-    <!-- no translation found for pref_category_perfetto_title (6666944431707303646) -->
-    <skip />
-    <!-- no translation found for pref_category_perfetto_summary (3553304890055871620) -->
-    <skip />
-    <!-- no translation found for pref_category_other_tools_title (4005958504576983766) -->
-    <skip />
-    <!-- no translation found for pref_category_other_tools_summary (8548744690364563186) -->
-    <skip />
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"Traceringen kunnen worden geüpload naar ui.perfetto.dev voor analyse"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"Heap dumps kunnen worden geïnspecteerd met AHAT"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Traceringsinstellingen"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Opgeslagen bestanden"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Overig"</string>

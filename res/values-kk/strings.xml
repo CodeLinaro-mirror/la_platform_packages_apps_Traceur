@@ -10,14 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Дамп файлын жазу"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\"Дамп файлы процестері\" бөлімінде таңдалған процестердің дамп файлын суретке түсіреді."</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Дамп файлдарын жинау үшін \"Дамп файлы процестері\" бөлімінде кемінде бір процесті таңдаңыз."</string>
-    <!-- no translation found for record_am_heap_dump (5012983869757648802) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_enabled (5198382489516464944) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_disabled_multiple_procs_selected (2977555944190489590) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_disabled_no_procs_selected (805044012304241085) -->
-    <skip />
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"AM дамп файлын биттер карталарымен жазу"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"\"Дамп файлы процестерінен\" таңдалған процестің дамп файлын жинап, биттер картасының суреттерін шығарып алады."</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"\"Дамп файлы процестерінен\" тек бір процесс таңдаңыз."</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"\"Дамп файлы процестерінен\" процесс таңдаңыз."</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Winscope трассаларын жинау"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Пайдаланушы интерфейсінің толық телеметрия деректері бар (интерфейс жұмысының нашарлауына әкелуі мүмкін)."</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Трассасын түзетуге болатын қолданбалар"</string>
@@ -27,13 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"Әдепкі"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# таңдалды}other{# таңдалды}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Дамп файлы процестері"</string>
-    <!-- no translation found for heap_dump_processes_summary (496329155430447095) -->
-    <skip />
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"Бұл таңдаулар Perfetto және ActivityManager екеуіне де қолданылады."</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Дамп файлы процестерін өшіру"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Процестер тізімі өшірілді."</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Үздіксіз жинақ профилі"</string>
-    <!-- no translation found for continuous_heap_dump_summary (4324725780071430593) -->
-    <skip />
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"Белгіленген аралықта дамп файлы бір рет алынады. Perfetto дамп файлдарына ғана қолданылады."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Дамп файлы аралығы"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 секунд"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 секунд"</string>
@@ -60,8 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Стэк үлгісін жасауды тоқтату үшін түртіңіз."</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"Дамп файлы жазылып жатыр"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Дамп файлын тоқтату үшін түртіңіз."</string>
-    <!-- no translation found for am_heap_dump_is_being_recorded (7679311408393495981) -->
-    <skip />
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"AM дамп файлы жазылып жатыр"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"Сақталған файлдарды өшіру"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"Жазбалар бір айдан кейін өшіріледі."</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Сақталған файлдарды өшіру керек пе?"</string>
@@ -70,8 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Жүйе трассалары"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, трасса, трассалау, өнімділік, профиль, профильдеу, орталық процессор, шақыру стэгі, стэк, дамп файлы"</string>
     <string name="share_file" msgid="1982029143280382271">"Файлды бөлісу керек пе?"</string>
-    <!-- no translation found for system_trace_sensitive_data (1479213054797221656) -->
-    <skip />
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"Жүйе трассасы файлдарына құпия жүйе және қолданба деректері (қолданбаның пайдаланылуы немесе қолданба жадындағы суреттер сияқты) жатуы мүмкін. Жүйе трассаларын немесе дамп файлдарын тек сенімді адамдармен және қолданбалармен бөлісіңіз."</string>
     <string name="share" msgid="8443979083706282338">"Бөлісу"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Қайта көрсетпеу"</string>
     <string name="long_traces" msgid="5110949471775966329">"Ұзын трассалар"</string>
@@ -100,14 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Қате туралы есептерге жазбаларды тіркеу"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Қате туралы есеп жиналған кезде, ағымдағы жазбаларды BetterBug қызметіне автоматты түрде жіберіңіз. Содан кейін жазба жалғасады."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Сақталған файлдарды көру"</string>
-    <!-- no translation found for pref_category_perfetto_title (6666944431707303646) -->
-    <skip />
-    <!-- no translation found for pref_category_perfetto_summary (3553304890055871620) -->
-    <skip />
-    <!-- no translation found for pref_category_other_tools_title (4005958504576983766) -->
-    <skip />
-    <!-- no translation found for pref_category_other_tools_summary (8548744690364563186) -->
-    <skip />
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"Трассаларды талдау үшін ui.perfetto.dev құралына жүктеп салуға болады"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"Дамп файлдарын AHAT арқылы тексеруге болады"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Трассалау параметрлері"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Сақталған файлдар"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Әртүрлі"</string>
