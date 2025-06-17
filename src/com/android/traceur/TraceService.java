@@ -29,6 +29,7 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.preference.PreferenceManager;
+import android.util.Log;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -39,6 +40,7 @@ import java.util.Set;
 import java.util.Optional;
 
 public class TraceService extends IntentService {
+    static final String TAG = "Traceur";
     // Authority used to share trace files from Traceur to other apps
     static final String AUTHORITY = "com.android.traceur.files";
     /* Indicates Perfetto has stopped tracing due to either the supplied long trace limitations
@@ -51,6 +53,8 @@ public class TraceService extends IntentService {
             "com.android.traceur.START_STACK_SAMPLING";
     private static String INTENT_ACTION_START_HEAP_DUMP =
             "com.android.traceur.START_HEAP_DUMP";
+    private static String INTENT_ACTION_START_AM_HEAP_DUMP =
+            "com.android.traceur.START_AM_HEAP_DUMP";
 
     private static String INTENT_EXTRA_TAGS= "tags";
     private static String INTENT_EXTRA_BUFFER = "buffer";
@@ -89,6 +93,12 @@ public class TraceService extends IntentService {
     public static void startHeapDump(final Context context) {
         Intent intent = new Intent(context, TraceService.class);
         intent.setAction(INTENT_ACTION_START_HEAP_DUMP);
+        context.startForegroundService(intent);
+    }
+
+    public static void startAmHeapDump(final Context context) {
+        Intent intent = new Intent(context, TraceService.class);
+        intent.setAction(INTENT_ACTION_START_AM_HEAP_DUMP);
         context.startForegroundService(intent);
     }
 
@@ -146,6 +156,8 @@ public class TraceService extends IntentService {
             startStackSamplingInternal();
         } else if (intent.getAction().equals(INTENT_ACTION_START_HEAP_DUMP)) {
             startHeapDumpInternal();
+        } else if (intent.getAction().equals(INTENT_ACTION_START_AM_HEAP_DUMP)) {
+            startAmHeapDumpInternal();
         } else if (intent.getAction().equals(INTENT_ACTION_STOP_TRACING) ||
                 intent.getAction().equals(INTENT_ACTION_NOTIFY_SESSION_STOPPED)) {
             stopTracingInternal(TraceUtils.getOutputFilename(type));
@@ -305,6 +317,32 @@ public class TraceService extends IntentService {
                 context.getString(R.string.pref_key_recording_was_trace), false).commit();
         prefs.edit().putBoolean(
                 context.getString(R.string.pref_key_recording_was_stack_samples), false).commit();
+    }
+
+    private void startAmHeapDumpInternal() {
+        Context context = getApplicationContext();
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
+
+        Set<String> processes = prefs.getStringSet(
+                context.getString(R.string.pref_key_heap_dump_processes), Collections.emptySet());
+        if (processes.size() != 1) {
+            // This shouldn't happen because the heap dump button is disabled if the number of
+            // processes selected isn't 1, but we exit here just in case.
+            Log.e(TAG, "The number of processes is not 1. No heap dump will be collected.");
+            return;
+        }
+        String process = processes.iterator().next();
+
+        Notification.Builder notification = getTraceurNotification(
+                context.getString(R.string.am_heap_dump_is_being_recorded),
+                null, Receiver.NOTIFICATION_CHANNEL_TRACING);
+
+        startForeground(TRACE_NOTIFICATION, notification.build(),
+                FOREGROUND_SERVICE_TYPE_SPECIAL_USE);
+
+        DumpHeapUtils.dumpHeapWithAM(context, process);
+
+        stopForeground(Service.STOP_FOREGROUND_REMOVE);
     }
 
     private void stopTracingInternal(String outputFilename) {

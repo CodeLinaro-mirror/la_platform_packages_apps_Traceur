@@ -44,7 +44,8 @@ public class StorageProvider extends FileSystemProvider{
 
     private static final String DOC_ID_ROOT = "traces";
     private static final String ROOT_DIR = "/data/local/traces";
-    private static final String MIME_TYPE = "application/vnd.android.systrace";
+    private static final String MIME_TYPE_TRACE = "application/vnd.android.systrace";
+    private static final String MIME_TYPE_IMAGE_PNG = "image/png";
 
     private static final String[] DEFAULT_ROOT_PROJECTION = new String[] {
             Root.COLUMN_ROOT_ID,
@@ -76,16 +77,20 @@ public class StorageProvider extends FileSystemProvider{
         if (!Receiver.isTraceurAllowed(getContext())) {
             return null;
         }
+        includeRootWithMimeType(result, MIME_TYPE_TRACE);
+        includeRootWithMimeType(result, MIME_TYPE_IMAGE_PNG);
+        return result;
+    }
 
+    private void includeRootWithMimeType(MatrixCursor result, String mimeType) {
         final MatrixCursor.RowBuilder row = result.newRow();
         row.add(Root.COLUMN_ROOT_ID, DOC_ID_ROOT);
         row.add(Root.COLUMN_FLAGS, Root.FLAG_LOCAL_ONLY);
-        row.add(Root.COLUMN_MIME_TYPES, MIME_TYPE);
+        row.add(Root.COLUMN_MIME_TYPES, mimeType);
         row.add(Root.COLUMN_ICON, R.drawable.bugfood_icon_green);
         row.add(Root.COLUMN_TITLE,
             getContext().getString(R.string.system_traces_storage_title));
         row.add(Root.COLUMN_DOCUMENT_ID, DOC_ID_ROOT);
-        return result;
     }
 
     @Override
@@ -101,7 +106,9 @@ public class StorageProvider extends FileSystemProvider{
             mimeType = Document.MIME_TYPE_DIR;
         } else {
             file = getFileForDocId(documentId);
-            mimeType = MIME_TYPE;
+            mimeType = documentId.endsWith(".png")
+                    ? MIME_TYPE_IMAGE_PNG
+                    : MIME_TYPE_TRACE;
         }
 
         row.add(Document.COLUMN_DOCUMENT_ID, documentId);
@@ -156,7 +163,7 @@ public class StorageProvider extends FileSystemProvider{
 
     @Override
     protected String getDocIdForFile(File file) {
-        return DOC_ID_ROOT + ":" + file.getName();
+        return DOC_ID_ROOT + ":" + file.toString();
     }
 
     @Override
@@ -167,11 +174,10 @@ public class StorageProvider extends FileSystemProvider{
         } else {
             final int splitIndex = documentId.indexOf(':', 1);
             final String name = documentId.substring(splitIndex + 1);
-            if (splitIndex == -1 || !DOC_ID_ROOT.equals(documentId.substring(0, splitIndex)) ||
-                    !FileUtils.isValidExtFilename(name)) {
+            if (splitIndex == -1 || !DOC_ID_ROOT.equals(documentId.substring(0, splitIndex))) {
                 throw new FileNotFoundException("Invalid document ID: " + documentId);
             }
-            final File file = new File(ROOT_DIR, name);
+            final File file = new File(name);
             if (!file.exists()) {
                 throw new FileNotFoundException("File not found: " + documentId);
             }
