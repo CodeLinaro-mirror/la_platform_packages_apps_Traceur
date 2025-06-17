@@ -10,14 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Санах ойн агшин зургийг бүртгэх"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\"Санах ойн агшин зургийн явцууд\" хэсэгт сонгосон явцуудын санах ойн агшин зургийг авна"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Санах ойн агшин зургуудыг цуглуулахын тулд \"Санах ойн агшин зургийн явцууд\"-аас дор хаяж нэг явц сонгоно уу"</string>
-    <!-- no translation found for record_am_heap_dump (5012983869757648802) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_enabled (5198382489516464944) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_disabled_multiple_procs_selected (2977555944190489590) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_disabled_no_procs_selected (805044012304241085) -->
-    <skip />
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"Бит газрын зургаар AM-н санах ойн агшин зургийг бүртгэх"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"\"Санах ойн агшин зургийн процессууд\"-аас сонгосон процессын санах ойн агшин зургийг цуглуулж, бит газрын зургийн зургийг задална"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"\"Санах ойн агшин зургийн процессууд\"-аас нэг л процесс сонгоно"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"\"Санах ойн агшин зургийн процессууд\"-аас нэг процесс сонгоно"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Winscope-н ул мөрүүдийг цуглуулах"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"UI-н телеметрийн нарийвчилсан өгөгдөл багтана (чанар муудахад хүргэх боломжтой)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Дебаг хийх боломжтой аппуудын ул мөрийг дагах"</string>
@@ -27,13 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"Өгөгдмөл"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{#-г сонгосон}other{#-г сонгосон}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Санах ойн агшин зургийн явцууд"</string>
-    <!-- no translation found for heap_dump_processes_summary (496329155430447095) -->
-    <skip />
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"Эдгээр сонголт Perfetto, ActivityManager-н аль алинд хэрэгждэг"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Санах ойн агшин зургийн явцуудыг арилгах"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Явцын жагсаалтыг арилгасан"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Тасралтгүй heap профайл"</string>
-    <!-- no translation found for continuous_heap_dump_summary (4324725780071430593) -->
-    <skip />
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"Заасан интервал бүрд нэг удаа санах ойн агшин зураг авна. Зөвхөн Perfetto-н санах ойн агшин зурагт хэрэгжинэ."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Санах ойн агшин зургийн интервал"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 секунд"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 секунд"</string>
@@ -60,8 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Стекийн түүвэрлэлтийг зогсоохын тулд товшино уу"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"Санах ойн агшин зургийг бүртгэж байна"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Санах ойн агшин зургийг зогсоохын тулд товшино уу"</string>
-    <!-- no translation found for am_heap_dump_is_being_recorded (7679311408393495981) -->
-    <skip />
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"AM-н санах ойн агшин зургийг бичиж байна"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"Хадгалсан файлуудыг арилгах"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"Бичлэгүүдийг нэг сарын дараа арилгадаг"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Хадгалсан файлуудыг арилгах уу?"</string>
@@ -70,8 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Системийн ул мөр"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, ул мөр, ул мөр мөшгөх, гүйцэтгэл, профайл, үнэлгээ, төв процессорын нэгж, callstack, өрөлт, heap"</string>
     <string name="share_file" msgid="1982029143280382271">"Файл хуваалцах уу?"</string>
-    <!-- no translation found for system_trace_sensitive_data (1479213054797221656) -->
-    <skip />
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"Системийн ул мөрийн файлд систем, аппын эмзэг өгөгдөл (аппын ашиглалт, аппын санах ой дахь зураг зэрэг) багтаж болно. Системийн ул мөр, санах ойн агшин зургийг зөвхөн итгэдэг хүн, апптайгаа хуваалцаарай."</string>
     <string name="share" msgid="8443979083706282338">"Хуваалцах"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Дахиж бүү харуул"</string>
     <string name="long_traces" msgid="5110949471775966329">"Урт ул мөр"</string>
@@ -100,14 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Алдааны мэдээнд бичлэгүүд хавсаргах"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Алдааны мэдээг цуглуулсан үед хийгдэж буй бичлэгийг BetterBug-д автоматаар илгээнэ үү. Бичлэгийг дараа нь үргэлжлүүлнэ."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Хадгалсан файлуудыг харах"</string>
-    <!-- no translation found for pref_category_perfetto_title (6666944431707303646) -->
-    <skip />
-    <!-- no translation found for pref_category_perfetto_summary (3553304890055871620) -->
-    <skip />
-    <!-- no translation found for pref_category_other_tools_title (4005958504576983766) -->
-    <skip />
-    <!-- no translation found for pref_category_other_tools_summary (8548744690364563186) -->
-    <skip />
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"Задлан шинжлэх зорилгоор ул мөрийг ui.perfetto.dev-д байршуулж болно"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"Санах ойн агшин зургийг AHAT-р шалгах боломжтой"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Ул мөрийн тохиргоо"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Хадгалсан файлууд"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Бусад"</string>

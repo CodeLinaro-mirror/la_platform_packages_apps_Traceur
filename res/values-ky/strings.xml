@@ -10,14 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Үймө дампын жаздыруу"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\"Үймө дампы процесстеринен\" тандалган процесстердин үймө дампын тартат"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Үймө дампыларды топтоо үчүн \"Үймө дампы процесстеринен\" кеминде бир процессти тандаңыз"</string>
-    <!-- no translation found for record_am_heap_dump (5012983869757648802) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_enabled (5198382489516464944) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_disabled_multiple_procs_selected (2977555944190489590) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_disabled_no_procs_selected (805044012304241085) -->
-    <skip />
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"Бит картасы менен AM үймө дампын жаздырыңыз"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"\"Үймө дампы процесстеринен\" процесстин үймө дампын тандап, бит карта сүрөтүн чыгарат"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"\"Үймө дампы процесстеринен\" бир гана процессти тандаңыз."</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"\"Үймө дампы процесстеринен\" процессти тандаңыз."</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Winscope аракеттерин жыйноо"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Колдонуучу интерфейси толук телеметрия маалыматын камтыйт (бул интерфейстин начарлашына алып келиши мүмкүн)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Мүчүлүштүктөрү оңдоло турган колдонмолордун аракеттерин жаздыруу"</string>
@@ -27,13 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"Демейки"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# тандалды}other{# тандалды}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Үймө дампы процесстери"</string>
-    <!-- no translation found for heap_dump_processes_summary (496329155430447095) -->
-    <skip />
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"Бул тандоолор Perfetto жана ActivityManager үчүн колдонулат"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Үймө дампы процесстерин тазалоо"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Процесс тизмеси тазаланды"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Үзгүлтүксүз үймөк профили"</string>
-    <!-- no translation found for continuous_heap_dump_summary (4324725780071430593) -->
-    <skip />
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"Үймө дампын ар бир белгиленген интервалда тартуу. Perfetto үймө дампына карата гана колдонулат."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Үймө дампынын итервалы"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 секунд"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 секунд"</string>
@@ -60,8 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Топтомдун үлгүсүн түзүүнү токтотуу үчүн таптап коюңуз"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"Үймө дампы жаздырылууда"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Үймө дампын токтоуу үчүн таптап коюңуз"</string>
-    <!-- no translation found for am_heap_dump_is_being_recorded (7679311408393495981) -->
-    <skip />
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"AM үймө дампы жаздырылууда"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"Сакталган файлдарды өчүрүү"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"Жаздырылган нерселер бир айдан кийин тазаланат"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Сакталган файлдар өчүрүлсүнбү?"</string>
@@ -70,8 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Системанын аракеттерин жаздыруу"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, көз салуу, көз салынууда, майнаптуулук, профиль, профиль түзүү, процессор, чалуу чыпкасы, чыпка, үймөк"</string>
     <string name="share_file" msgid="1982029143280382271">"Файлды бөлүшөсүзбү?"</string>
-    <!-- no translation found for system_trace_sensitive_data (1479213054797221656) -->
-    <skip />
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"Системага көз салуу файлдары тутумдагы жана колдонмодогу купуя маалыматтарды (мисалы, колдонмонун же сүрөттөрдүн пайдаланылышын камтышы мүмкүн. Системага көз салууну же үймө дамптарын сиз шенген адамдар жана колдонмолор менен бөлүңүз"</string>
     <string name="share" msgid="8443979083706282338">"Бөлүшүү"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Экинчи көрүнбөсүн"</string>
     <string name="long_traces" msgid="5110949471775966329">"Узун аракеттер"</string>
@@ -100,14 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Мүчүлүштүк тууралуу кабарларга жаздырууларды тиркөө"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Мүчүлүштүк тууралуу кабар чогултулганда, жаздырылган аракеттерди BetterBug кызматына автоматтык түрдө жөнөтүңүз. Андан кийин жаздыруу улантылат."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Сакталган файлдарды көрүү"</string>
-    <!-- no translation found for pref_category_perfetto_title (6666944431707303646) -->
-    <skip />
-    <!-- no translation found for pref_category_perfetto_summary (3553304890055871620) -->
-    <skip />
-    <!-- no translation found for pref_category_other_tools_title (4005958504576983766) -->
-    <skip />
-    <!-- no translation found for pref_category_other_tools_summary (8548744690364563186) -->
-    <skip />
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"Издерди талдоо үчүн ui.perfetto.dev сайтына жүктөөгө болот"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"Үймө дамптарын AHAT менен текшерүүгө болот"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Аракеттерди жаздыруу параметрлери"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Сакталган файлдар"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Аралаш"</string>
