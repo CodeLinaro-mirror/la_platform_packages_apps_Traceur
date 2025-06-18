@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"힙 덤프 기록"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\'힙 덤프 프로세스\'에서 선택한 프로세스의 힙 덤프를 캡처합니다"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"힙 덤프를 수집하려면 \'힙 덤프 프로세스\'에서 프로세스를 하나 이상 선택하세요"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"비트맵으로 AM 힙 덤프 기록"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"\'힙 덤프 프로세스\'에서 선택한 프로세스의 힙 덤프를 수집하고, 비트맵 이미지를 추출합니다"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"\'힙 덤프 프로세스\'에서 하나의 프로세스만 선택하세요"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"\'힙 덤프 프로세스\'에서 프로세스를 선택하세요"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Winscope 트레이스 수집"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"상세한 UI 원격 분석 데이터 포함(버벅거림이 발생할 수 있음)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"디버그 가능한 애플리케이션 추적"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"기본"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{#개 선택됨}other{#개 선택됨}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"힙 덤프 프로세스"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"프로세스를 하나 이상 선택해야 합니다"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"이 선택 사항은 Perfetto와 ActivityManager 모두에 적용됩니다"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"힙 덤프 프로세스 삭제"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"프로세스 목록 삭제됨"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"연속 힙 프로필"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"지정된 간격마다 한 번씩 힙 덤프를 캡처합니다."</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"지정된 간격마다 한 번씩 힙 덤프를 캡처합니다. Perfetto 힙 덤프에만 적용됩니다."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"힙 덤프 간격"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5초"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10초"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"탭하여 스택 샘플링 중단"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"힙 덤프를 기록하는 중"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"힙 덤프를 중지하려면 탭하세요"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"AM 힙 덤프를 기록하는 중"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"저장된 파일 삭제"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"녹화 파일은 1개월 후에 삭제됩니다."</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"저장된 파일을 삭제할까요?"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"시스템 트레이스"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, 트레이스, 트레이싱, 성능, 프로필, 프로파일링, cpu, 호출 스택, 스택, 힙"</string>
     <string name="share_file" msgid="1982029143280382271">"파일을 공유할까요?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"시스템 추적 파일에는 민감한 시스템 및 앱 데이터(예: 앱 사용)가 포함되어 있을 수 있습니다. 신뢰할 수 있는 앱 및 사용자에게만 공유하세요."</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"시스템 추적 파일에는 민감한 시스템 및 앱 데이터(예: 앱 사용량 또는 앱 메모리의 이미지)가 포함될 수 있습니다. 신뢰할 수 있는 사용자 및 앱에만 시스템 트레이스 또는 힙 덤프를 공유하세요."</string>
     <string name="share" msgid="8443979083706282338">"공유"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"다시 표시 안함"</string>
     <string name="long_traces" msgid="5110949471775966329">"장기 트레이스"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"버그 신고에 녹화 파일 첨부"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"버그 신고 수집 시 진행 중인 녹화 파일을 자동으로 BetterBug에 전송합니다. 이후 녹화는 계속됩니다."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"저장된 파일 보기"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"분석을 위해 ui.perfetto.dev에 트레이스를 업로드할 수 있습니다."</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"AHAT를 사용하여 힙 덤프를 검사할 수 있습니다."</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"트레이스 설정"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"저장된 파일"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"기타"</string>

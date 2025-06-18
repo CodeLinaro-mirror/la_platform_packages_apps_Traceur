@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Ierakstīt grēdas izrakstu"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Ieraksta sadaļā “Grēdas izrakstu procesi” atlasīto procesu grēdas izrakstu"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Lai vāktu grēdas izrakstus, sadaļā “Grēdas izrakstu procesi” atlasiet vismaz vienu procesu"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"Izveidot AM grēdas izrakstu ar bitkartēm"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Vāc sadaļā “Grēdas izrakstu procesi” atlasītā procesa grēdas izrakstu un iegūst bitkartes attēlus"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Sadaļā “Grēdas izrakstu procesi” atlasiet tikai vienu procesu"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Sadaļā “Grēdas izrakstu procesi” atlasiet procesu"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Vākt Winscope izsekošanas datus"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Ietver detalizētus lietotāja saskarnes telemetrijas datus (var izraisīt reaģēšanas pauzi)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Izsekot atkļūdošanas lietojumprogrammas"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"Noklusējums"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# atlasīta}zero{# atlasītu}one{# atlasīta}other{# atlasītas}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Grēdas izrakstu procesi"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"Ir jāatlasa vismaz viens process"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"Šī atlases attiecas gan uz Perfetto, gan uz ActivityManager"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Notīrīt grēdas izrakstu procesus"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Procesu saraksts notīrīts"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Pastāvīgs grēdas profils"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"Ierakstīt grēdas izrakstu vienu reizi norādītajā intervālā"</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"Veikt grēdas izrakstu vienu reizi norādītajā intervālā. Attiecas tikai uz Perfetto grēdas izrakstiem."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Grēdas izrakstu intervāls"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 sekundes"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 sekundes"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Pieskarieties, lai apturētu steka paraugu reģistrēšanu"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"Notiek grēdas izraksta ierakstīšana"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Pieskarieties, lai pārtrauktu grēdas izraksta ierakstīšanu"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"Tiek veidots AM grēdas izraksts"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"Notīrīt saglabātos failus"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"Reģistrētie dati tiek dzēsti pēc viena mēneša."</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Vai notīrīt saglabātos failus?"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Sistēmas izsekošanas dati"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, izsekot, izsekošana, veiktspēja, profils, profilēšana, centrālais procesors, izsaukuma steks, kopa, grēda"</string>
     <string name="share_file" msgid="1982029143280382271">"Vai kopīgot failu?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Sistēmas trasējuma failos var būt iekļauti sensitīvi sistēmas un lietotņu dati (piemēram, par lietotņu izmantošanu). Kopīgojiet sistēmas trasējumus tikai ar uzticamām personām un lietotnēm."</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"Sistēmas izsekošanas failos var būt ietverti sensitīvi sistēmas un lietotnes dati (piemēram, lietotņu izmantošanas vai attēlu dati lietotnes atmiņā). Kopīgojiet sistēmas izsekošanas datus vai grēdas izrakstus tikai ar lietotājiem un lietotnēm, kam uzticaties."</string>
     <string name="share" msgid="8443979083706282338">"Kopīgot"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Vairs nerādīt"</string>
     <string name="long_traces" msgid="5110949471775966329">"Ilgtermiņa izsekošanas dati"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Kļūdu pārskatiem pievienot reģistrētos datus"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Varat automātiski sūtīt pašreizējos reģistrētos datus uz rīku BetterBug kopā ar kļūdas pārskatu. Reģistrēšana pēc tam tiks turpināta."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Skatīt saglabātos failus"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"Izsekošanas datus var augšupielādēt analīzei vietnē ui.perfetto.dev"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"Grēdas izrakstus var pārbaudīt, izmantojot AHAT"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Izsekošanas iestatījumi"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Saglabātie faili"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Dažādi"</string>

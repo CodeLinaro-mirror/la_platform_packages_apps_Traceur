@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"ஹீப் டம்ப்பை ரெக்கார்டு செய்தல்"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\'ஹீப் டம்ப் செயல்முறைகளில்\' தேர்ந்தெடுக்கப்பட்ட செயல்முறைகளின் ஹீப் டம்ப்பைப் பதிவுசெய்கிறது"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"ஹீப் டம்ப்களைச் சேகரிக்க \'ஹீப் டம்ப் செயல்முறைகளில்\' குறைந்தது ஒரு செயல்முறையாவது தேர்ந்தெடுங்கள்"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"பிட்மேப்ஸ் மூலம் AM ஹீப் டம்ப்பைப் பதிவுசெய்க"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"\"ஹீப் டம்ப் செயல்முறைகளில்\" தேர்ந்தெடுக்கப்பட்ட செயல்முறையின் ஹீப் டம்ப்பைச் சேகரித்து, பிட்மேப் படங்களைப் பிரித்தெடுக்கிறது"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"\"ஹீப் டம்ப் செயல்முறைகளில்\" இருந்து ஒரு செயல்முறையை மட்டும் தேர்ந்தெடுக்கவும்"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"\"ஹீப் டம்ப் செயல்முறைகளில்\" இருந்து ஒரு செயல்முறையைத் தேர்ந்தெடுக்கவும்"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"வின்ஸ்கோப் டிரேஸ்களைச் சேகரித்தல்"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"விரிவான UI டெலிமெட்ரி தரவும் அடங்கும் (மந்தமான செயல்பாட்டை உண்டாக்கலாம்)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"பிழை திருத்தக்கூடிய ஆப்ஸை டிரேஸ் செய்தல்"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"இயல்புநிலை"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# தேர்ந்தெடுக்கப்பட்டது}other{# தேர்ந்தெடுக்கப்பட்டன}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"ஹீப் டம்ப் செயல்முறைகள்"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"குறைந்தது ஒரு செயல்முறையாவது தேர்ந்தெடுக்கப்பட வேண்டும்"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"இந்தத் தேர்வுகள் Perfetto, ActivityManager ஆகிய இரண்டிற்கும் பொருந்தும்"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"ஹீப் டம்ப் செயல்முறைகளை அழி"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"செயல்முறைப் பட்டியல் அழிக்கப்பட்டது"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"தொடர்ச்சியான ஹீப் ப்ரொஃபைல்"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"ஒரு குறிப்பிட்ட இடைவெளிக்கு ஒருமுறை ஹீப் டம்ப்பைப் பதிவுசெய்யும்"</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"குறிப்பிட்ட இடைவெளிக்கு ஒருமுறை ஹீப் டம்ப்பைப் பதிவுசெய்யும். Perfetto ஹீப் டம்ப்களுக்கு மட்டுமே பொருந்தும்."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"ஹீப் டம்ப் இடைவெளி"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 வினாடிகள்"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 வினாடிகள்"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"ஸ்டாக் சாம்பிளிங்கை நிறுத்த தட்டுங்கள்"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"ஹீப் டம்ப் ரெக்கார்டு செய்யப்படுகிறது"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"ஹீப் டம்ப்பை நிறுத்த தட்டுங்கள்"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"AM ஹீப் டம்ப் ரெக்கார்டு செய்யப்படுகிறது"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"சேமிக்கப்பட்ட ஃபைல்களை அழி"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"ஒரு மாதத்திற்குப் பிறகு ரெக்கார்டிங்குகள் அழிக்கப்படும்"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"சேமிக்கப்பட்ட ஃபைல்களை அழிக்கவா?"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"சிஸ்டம் டிரேஸ்கள்"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, டிரேஸ், டிரேஸிங், செயல்திறன், சுயவிவரம், ப்ரொஃபைலிங், cpu, கால்ஸ்டேக், ஸ்டேக் மற்றும் ஹீப்"</string>
     <string name="share_file" msgid="1982029143280382271">"ஃபைலைப் பகிரவா?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"சிஸ்டம் டிரேஸிங் ஃபைல்களில் பாதுகாக்கவேண்டிய சிஸ்டம் மற்றும் ஆப்ஸ் தரவு (ஆப்ஸ் உபயோக விவரம் போன்றவை) இருக்கலாம். உங்களுக்கு நம்பகமானவர்களுடனும் ஆப்ஸுடனும் மட்டுமே பகிரவும்."</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"சிஸ்டம் டிரேஸிங் ஃபைல்களில் பாதுகாக்க வேண்டிய சிஸ்டம் மற்றும் ஆப்ஸ் தரவு (ஆப்ஸ் உபயோகம், ஆப்ஸின் நினைவகத்தில் உள்ள படங்கள் போன்றவை) இருக்கக்கூடும். நீங்கள் நம்பும் நபர்கள் மற்றும் ஆப்ஸுடன் மட்டுமே சிஸ்டம் டிரேஸ்களையும் ஹீப் டம்ப்களையும் பகிரவும்."</string>
     <string name="share" msgid="8443979083706282338">"பகிர்"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"மீண்டும் காட்டாதே"</string>
     <string name="long_traces" msgid="5110949471775966329">"நீண்ட டிரேஸ்கள்"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"பிழை அறிக்கைகளில் ரெக்கார்டிங்குகளை இணைத்தல்"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"பிழை அறிக்கை சேகரிக்கப்பட்டதும் செயலிலுள்ள ரெக்கார்டிங்குகள் தானாகவே BetterBug கருவிக்கு அனுப்பப்படும். அதன்பிறகு ரெக்கார்டிங்குகள் தொடரும்."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"சேமிக்கப்பட்ட ஃபைல்களைப் பாருங்கள்"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"பகுப்பாய்வுக்காக டிரேஸ்களை ui.perfetto.dev பக்கத்தில் பதிவேற்றலாம்"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"AHAT மூலம் ஹீப் டம்ப்களை ஆய்வு செய்யலாம்"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"அமைப்புகளை டிரேஸ் செய்யுங்கள்"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"சேமித்த ஃபைல்கள்"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"மற்றவை"</string>

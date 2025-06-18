@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"ضبط رونوشت پشته"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"رونوشت پشته را برای پردازش‌های انتخاب‌شده در «پردازش‌های رونوشت پشته» را ضبط می‌کند"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"برای جمع‌آوری رونوشت‌های پشته، حداقل یک پردازش را در «پردازش‌های رونوشت پشته» انتخاب کنید"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"‏ضبط رونوشت پشته AM با بیت‌مپ"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"رونوشت پشته را برای پردازش‌های انتخاب‌شده در «پردازش‌های رونوشت پشته» جمع‌آوری می‌کند و تصاویر بیت‌مپ را استخراج می‌کند"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"فقط یک پردازش در «پردازش‌های رونوشت پشته» انتخاب می‌شود"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"پردازشی در «پردازش‌های رونوشت پشته» انتخاب می‌شود"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"‏جمع‌آوری ردپاهای Winscope"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"شامل داده‌های دورسنجی دقیق واسط کاربر می‌شود (ممکن است باعث قطع اتصال شود)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"برنامه‌هایی با قابلیت اشکال‌زدایی ردیابی"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"پیش‌فرض"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# دسته انتخاب شده است}one{# دسته انتخاب شده است}other{# دسته انتخاب شده است}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"پردازش‌های رونوشت پشته"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"حداقل یک پردازش باید انتخاب شود"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"‏این انتخاب‌ها هم برای Perfetto و هم برای ActivityManager اعمال می‌شود"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"پاک کردن پردازش‌های رونوشت پشته"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"فهرست پردازش پاک شد"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"تحلیل پشته پیوسته"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"رونوشت پشته در هر فاصله زمانی مشخص یک‌بار ضبط می‌شود"</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"‏رونوشت پشته یک‌بار در هر فاصله زمانی مشخص ضبط می‌شود. این مورد فقط برای رونوشت‌های پشته Perfetto اعمال می‌شود."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"فاصله زمانی رونوشت پشته"</string>
     <string name="five_seconds" msgid="7018465440929299712">"۵ ثانیه"</string>
     <string name="ten_seconds" msgid="863416601384309033">"۱۰ ثانیه"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"برای توقف نمونه‌گیری از پشته، تک‌ضرب بزنید"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"رونوشت پشته درحال ضبط شدن است"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"برای متوقف کردن رونوشت پشته، تک‌ضرب بزنید"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"‏رونوشت پشته AM درحال ضبط شدن است"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"پاک کردن فایل‌های ذخیره‌شده"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"قطعه‌های ضبط‌شده بعداز یک ماه پاک می‌شود"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"فایل‌های ذخیره‌شده پاک شود؟"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"ردهای سیستم"</string>
     <string name="keywords" msgid="255681926397897100">"‏‫systrace،‏ traceur،‏ perfetto،‏ winscope، ردیابی کردن، ردیابی، عملکرد، نمایه، نمایه‌سازی، واحد پردازش مرکزی، CPU، فراخوانی پشته، پشته‌ها، پشته"</string>
     <string name="share_file" msgid="1982029143280382271">"فایل هم‌رسانی شود؟"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"ممکن است فایل‌های «ردیابی سیستم» حاوی داده‌های حساس سیستم و برنامه (مثل میزان مصرف برنامه) باشد. ردیابی‌های سیستم را فقط با افراد و برنامه‌هایی هم‌رسانی کنید که به آن‌ها اعتماد دارید."</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"ممکن است فایل‌های «ردیابی سیستم» حاوی داده‌های حساس سیستم و برنامه (مثل میزان مصرف برنامه یا تصاویری در حافظه برنامه) باشد. ردیابی‌های سیستم یا رونوشت‌های پشته را فقط با افراد و برنامه‌هایی هم‌رسانی کنید که به آن‌ها اعتماد دارید."</string>
     <string name="share" msgid="8443979083706282338">"هم‌رسانی"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"دیگر نشان داده نشود"</string>
     <string name="long_traces" msgid="5110949471775966329">"ردهای طولانی"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"پیوست کردن قطعه‌های ضبط‌شده به گزارش اشکال"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"‏هنگام جمع‌آوری گزارش اشکال، ضبط‌های درجریان به‌طور خودکار به BetterBug ارسال می‌شود. پس‌از آن، ضبط ادامه پیدا خواهد کرد."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"مشاهده فایل‌های ذخیره‌شده"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"‏ردیابی‌ها را می‌توان برای تحلیل در ui.perfetto.dev بارگذاری کرد"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"‏رونوشت‌های پشته را می‌توان با AHAT بررسی کرد"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"تنظیمات ردیابی"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"فایل‌های ذخیره‌شده"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"متفرقه"</string>

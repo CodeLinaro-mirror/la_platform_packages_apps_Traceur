@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Neem hoopstorting op"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Dit vang ’n hoopstorting vas van die prosesse wat in \"Hoopstortingprosesse\" gekies is"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Kies minstens een proses in die \"Hoopstortingprosesse\" om hoopstortings te versamel"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"Neem AM-hoopstorting met bitmaps op"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Versamel ’n hoopstorting van die proses wat in “Hoopstortingprosesse” gekies is en onttrek bitmap-prente"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Kies slegs een proses in “Hoopstortingprosesse”"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Kies ’n proses in “Hoopstortingprosesse”"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Samel Winscope-spore in"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Sluit gedetailleerde UI-telemetriedata in (kan oponthoud veroorsaak)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Spoor ontfoutbare programme na"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"Verstek"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# gekies}other{# gekies}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Hoopstortingprosesse"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"Minstens een proses moet gekies word"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"Hierdie keuses is op beide Perfetto en ActivityManager van toepassing"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Vee hoopstortingprosesse uit"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Proseslys is uitgevee"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Deurlopende hoopprofiel"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"Vang ’n hoopstorting vas een keer per gespesifiseerde interval"</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"Vang ’n hoopstorting vas een keer per gespesifiseerde interval. Slegs van toepassing op Perfetto-hoopstortings."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Hoopstortinginterval"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 sekondes"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 sekondes"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Tik om stapelvoorbeeldneming te stop"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"Hoopstorting word opgeneem"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Tik om hoopstorting te stop"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"AM-hoopstorting word opgeneem"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"Vee gestoorde lêers uit"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"Opnames word ná een maand uitgevee"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Vee gestoorde lêers uit?"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Stelselspore"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, spoor na, nasporing, prestasie, profiel, profielbepaling, cpu, callstack, stapel, hoop"</string>
     <string name="share_file" msgid="1982029143280382271">"Deel lêer?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Stelselnasporinglêers kan sensitiewe stelsel- en programdata (soos programgebruik) insluit. Deel stelselspore net met mense en programme wat jy vertrou."</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"Stelselnasporinglêers kan sensitiewe stelsel- en appdata (soos appgebruik of prente in ’n app se geheue) insluit. Deel stelselnasporings of hoopstortings slegs met mense en apps wat jy vertrou."</string>
     <string name="share" msgid="8443979083706282338">"Deel"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Moenie weer wys nie"</string>
     <string name="long_traces" msgid="5110949471775966329">"Lang spore"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Heg opnames by foutverslae aan"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Stuur opnames wat besig is outomaties na BetterBug toe wanneer ’n foutverslag opgehaal word. Opnames sal daarna voortgesit word."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Bekyk gestoorde lêers"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"Spore kan na ui.perfetto.dev toe opgelaai word vir analise"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"Hoopstortings kan met AHAT ondersoek word"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Nasporinginstellings"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Gestoorde lêers"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Diverse"</string>

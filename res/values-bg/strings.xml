@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Създаване на моментна снимка на паметта"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Създава моментна снимка на паметта за процесите, посочени в „Процеси с моментна снимка на паметта“"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Изберете поне един процес в „Процеси с моментна снимка на паметта“, за да извличате моментни снимки на паметта"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"Създаване на моментна снимка на паметта с растерни изображения чрез AM"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Създава моментна снимка на паметта за процеса, избран в „Процеси с моментна снимка на паметта“, и извлича растерни изображения"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Изберете само един процес в „Процеси с моментна снимка на паметта“"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Изберете процес в „Процеси с моментна снимка на паметта“"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Събиране на трасирания в Winscope"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Включва подробни телеметрични данни за ПИ (може да доведе до прекъсвания на изобразяването)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Трасиране на приложенията с възможност за отстраняване на грешки"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"Стандартни"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{Избрахте #}other{Избрахте #}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Процеси с моментна снимка на паметта"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"Трябва да изберете поне един процес"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"Избраните опции важат както за Perfetto, така и за ActivityManager"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Изчистване на процесите с моментна снимка на паметта"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Списъкът с процеси е изчистен"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Непрекъснато създаване на моментни снимки на разпределената памет"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"Създаване на моментна снимка на паметта веднъж на определен интервал"</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"Създаване на моментна снимка на паметта веднъж на определен интервал. Отнася се само за моментни снимки от Perfetto."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Интервал на създаване на моментни снимки на паметта"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 секунди"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 секунди"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Докоснете за спиране на семплирането на стека"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"Създава се моментна снимка на паметта"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Докоснете, за да спрете моментната снимка на паметта"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"Създава се моментна снимка на паметта чрез AM"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"Изчистване на запазените файлове"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"Записите се изчистват след един месец"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Да се изчистят ли запазените файлове?"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Системни трасирания"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, трасиране, ефективност, потребителски профил, профилиране, процесор, извиквания на стека, стек, разпределена памет"</string>
     <string name="share_file" msgid="1982029143280382271">"Да се сподели ли файлът?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Файловете за системно трасиране може да включват поверителни данни за системата и приложенията (като например за използването на приложенията). Споделяйте системните трасирания само с хора и приложения, на които имате доверие."</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"Файловете от System Tracing може да включват поверителни данни за системата и приложенията (като например за използването на приложенията или изображения в паметта им). Споделяйте системните трасирания или моментните снимки на паметта само с хора и приложения, на които имате доверие."</string>
     <string name="share" msgid="8443979083706282338">"Споделяне"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Да не се показва отново"</string>
     <string name="long_traces" msgid="5110949471775966329">"Продължителни трасирания"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Прикачване на записите към сигналите за програмни грешки"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Автоматично изпращане до BetterBug на текущите записи при създаването на сигнал за програмна грешка. Записите ще продължат след това."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Преглед на запазените файлове"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"Трасиранията могат да бъдат качени в ui.perfetto.dev за анализ"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"Моментните снимки на паметта могат да се преглеждат с AHAT"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Настройки за трасирането"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Запазени файлове"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Други"</string>

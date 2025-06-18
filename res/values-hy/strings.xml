@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Գրանցել գործընթացի դինամիկ հիշողության տվյալները"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Գրանցում է գործընթացների դինամիկ հիշողության տվյալները, որոնք ընտրվել են «Դինամիկ հիշողության տվյալների գործընթացներ» բաժնում"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Գործընթացի դինամիկ հիշողության տվյալները հավաքելու համար ընտրեք առնվազն մեկ գործընթաց «Դինամիկ հիշողության տվյալների գործընթացներ» բաժնում"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"Գրանցել AM հավելվածի գործընթացի դինամիկ հիշողության տվյալները Bitmap ձևաչափով"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Հավաքում է ընտրված գործընթացի դինամիկ հիշողության տվյալները «Դինամիկ հիշողության տվյալների գործընթացներ» բաժնում և արտածում է Bitmap պատկերներ"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Ընտրեք միայն մեկ գործընթաց «Դինամիկ հիշողության տվյալների գործընթացներ» բաժնում"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Ընտրեք գործընթաց «Դինամիկ հիշողության տվյալների գործընթացներ» բաժնում"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Հավաքել Winscope-ի հետագծումները"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Ներառում է հեռուստամետրիայի միջերեսային մանրամասն տվյալներ (կարող է աղբ ավելացնել)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Հետագծել վրիպազերծման ենթակա հավելվածները"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"Կանխադրված"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{Ընտրվել է # կատեգորիա}one{Ընտրվել է # կատեգորիա}other{Ընտրվել է # կատեգորիա}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Դինամիկ հիշողության տվյալների գործընթացներ"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"Առնվազն մեկ գործընթաց պետք է ընտրված լինի"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"Այս ընտրությունը կիրառվում է Perfetto և ActivityManager հավելվածների համար"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Մաքրել դինամիկ հիշողության տվյալների գործընթացները"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Գործընթացների ցանկը մաքրվեց"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Շարունակական դինամիկ հիշողության պրոֆիլ"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"Գրանցել գործընթացի դինամիկ հիշողության տվյալները ժամանակային որոշակի միջակայքերով պարբերականությամբ"</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"Գրանցել գործընթացի դինամիկ հիշողության տվյալները ժամանակային որոշակի միջակայքերով պարբերականությամբ։ Կիրառվում է միայն Perfetto հավելվածի գործընթացի դինամիկ հիշողության տվյալների համար։"</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"գործընթացի դինամիկ հիշողության տվյալների միջակայքը"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 վայրկյան"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 վայրկյան"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Հպեք՝ սթեքի նմուշների ստեղծումը կանգնեցնելու համար"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"Գործընթացի դինամիկ հիշողության տվյալները գրանցվում են"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Հպեք՝ գործընթացի դինամիկ հիշողության տվյալների գրանցումը կանգնեցնելու համար"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"AM հավելվածի գործընթացի դինամիկ հիշողության տվյալները գրանցվում են"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"Մաքրել պահված ֆայլերը"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"Գրանցումները մեկ ամիս անց մաքրվում են"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Մաքրե՞լ պահված ֆայլերը"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Համակարգի հետագծման ֆայլեր"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, հետագծել, հետագծում, արտադրողականություն, պրոֆիլ, պրոֆիլավորում, cpu, կանչերի սթեք, խմբավորում, դինամիկ հիշողություն"</string>
     <string name="share_file" msgid="1982029143280382271">"Կիսվե՞լ ֆայլով"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Հետագծման ֆայլերը տրամադրեք միայն վստահելի մարդկանց և հավելվածներին, քանի որ դրանք կարող են պարունակել համակարգի և հավելվածի մասին գաղտնի տեղեկություններ (օրինակ՝ տվյալներ հավելվածի օգտագործման մասին):"</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"Համակարգի հետագծման ֆայլերը կարող են պարունակել համակարգի և հավելվածի մասին գաղտնի տեղեկություններ (օրինակ՝ տվյալներ հավելվածի օգտագործման մասին կամ պատկերներ հավելվածի հիշողության մեջ)։ Համակարգի հետագծման կամ գործընթացի դինամիկ հիշողության տվյալներով կիսվեք միայն վստահելի մարդկանց և հավելվածների հետ։"</string>
     <string name="share" msgid="8443979083706282338">"Ուղարկել"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Այլևս ցույց չտալ"</string>
     <string name="long_traces" msgid="5110949471775966329">"Երկար հետագծումներ"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Գրանցումները կցել վրիպակների մասին հաղորդումներին"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Ավտոմատ ուղարկել ընթացիկ ձայնագրությունները BetterBug-ին, երբ վրիպակի մասին հաղորդում է ստեղծվում։ Որից հետո ձայնագրությունները կշարունակվեն։"</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Դիտել պահված ֆայլերը"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"Հետագծերը վերլուծելու համար կարող եք դրանք վերբեռնել ui.perfetto.dev կայք"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"Գործընթացի դինամիկ հիշողության տվյալները կարելի է ստանալ AHAT-ի միջոցով"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Հետագծման կարգավորումներ"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Պահված ֆայլեր"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Այլ"</string>

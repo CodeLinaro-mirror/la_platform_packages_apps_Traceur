@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Halommemória-pillanatkép rögzítése"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Rögzíti a „Halommemória-pillanatkép folyamatai” lehetőségnél kijelölt folyamatokhoz tartozó halommemória-pillanatképet"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Halommemória-pillanatképek kijelöléséhez válasszon ki legalább egy folyamatot a „Halommemória-pillanatkép folyamatai” lehetőségnél"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"AM-halommemória-pillanatkép rögzítése bittérképekkel"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Halommemória-pillanatképet készít a „Halommemória-pillanatkép folyamatai” lehetőségnél kiválasztott folyamatról, és kinyer bittérképképeket"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Csak egy folyamatot válasszon ki a „Halommemória-pillanatkép folyamatai” lehetőségnél"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Válasszon ki egy folyamatot a „Halommemória-pillanatkép folyamatai” lehetőségnél"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Gyűjtsön Winscope-nyomokat"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Részletes UI telemetriai adatokat tartalmaz (akadozást okozhat)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Hibaelhárítást igénylő alkalmazások nyomon követése"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"Alapértelmezett"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# kiválasztva}other{# kiválasztva}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Halommemória-pillanatkép folyamatai"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"Legalább egy folyamatot ki kell jelölnie"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"Ezek a választások a Perfetto és az ActivityManager esetében is érvényesek"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Halommemória-pillanatkép folyamatainak törlése"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Folyamatlista törölve"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Folyamatos memóriaprofil"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"Halommemória-pillanatkép rögzítése a megadott időközönként egyszer"</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"Halommemória-pillanatkép rögzítése a megadott időközönként egyszer. Csak a Perfetto-halommemória-pillanatképekre vonatkozik."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Halommemória-pillanatkép időköze"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 másodperc"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 másodperc"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Koppintson a verem mintavételezésének leállításához"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"A halommemória-pillanatkép rögzítése folyamatban van"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Koppintson a halommemória-pillanatkép leállításához"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"Az AM-halommemória-pillanatkép rögzítése folyamatban van"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"Mentett fájlok törlése"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"A felvételek egy hónap után törlődnek"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Törli a mentett fájlokat?"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Rendszerkövetési információk"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, nyom, nyomkövetés, teljesítmény, profil, profilalkotás, cpu, hívásverem, verem, memória"</string>
     <string name="share_file" msgid="1982029143280382271">"Szeretné megosztani a fájlt?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"A rendszerkövetési fájlok bizalmas rendszer- és alkalmazásadatokat tartalmazhatnak (például az alkalmazáshasználatról). Csak megbízható személyekkel és alkalmazásokkal osszon meg rendszerkövetési információkat."</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"A rendszerkövetési fájlok bizalmas rendszer- és alkalmazásadatokat tartalmazhatnak (például az alkalmazáshasználatról vagy az alkalmazás memóriájában lévő képekről). Csak megbízható személyekkel és alkalmazásokkal osszon meg rendszerkövetési információkat és halommemória-pillanatképeket."</string>
     <string name="share" msgid="8443979083706282338">"Megosztás"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Ne jelenjen meg többé"</string>
     <string name="long_traces" msgid="5110949471775966329">"Hosszú nyomkövetések"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Felvételek csatolása a hibajelentésekhez"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Folyamatban lévő felvételek automatikus küldése a BetterBugnak hibajelentés begyűjtésekor. Az elküldést követően folytatódnak a felvételek."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Mentett fájlok megtekintése"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"A nyomok elemzés céljából feltölthetők a ui.perfetto.dev webhelyre"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"A halommemória-pillanatképek az AHAT segítségével ellenőrizhetők"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Követési beállítások"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Mentett fájlok"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Egyéb"</string>

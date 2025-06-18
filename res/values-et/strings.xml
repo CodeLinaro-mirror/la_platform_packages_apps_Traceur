@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Salvesta mälutõmmis"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Jäädvustab jaotises „Mälutõmmise protsessid” valitud protsessidest mälutõmmise"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Mälutõmmiste kogumiseks valige jaotises „Mälutõmmise protsessid” vähemalt üks protsess"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"Salvesta AM-i mälutõmmis bitikaartidega"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Võtab jaotise „Mälutõmmise protsessid” alt valitud protsessist mälutõmmise ja ekstraktib sellest rasterpildid"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Jaotises „Mälutõmmise protsessid” ainult ühe protsessi valimine"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Jaotises „Mälutõmmise protsessid” ühe protsessi valimine"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Kogu Winscope\'i jälgi"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Sisaldab üksikasjalikke kasutajaliidese telemeetriaandmeid (võib põhjustada tõrkeid)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Silutavate rakenduste jälgimine"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"Vaikeseade"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# on valitud}other{# on valitud}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Mälutõmmise protsessid"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"Valitud peab olema vähemalt üks protsess"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"Need valikud kehtivad nii Perfetto kui ka ActivityManageri suhtes"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Kustuta mälutõmmise protsessid"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Protsessiloend on kustutatud"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Pidev kuhja profiil"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"Jäädvustage mälutõmmis määratud ajavahemiku jooksul üks kord"</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"Jäädvustage mälutõmmis määratud ajavahemiku jooksul üks kord. Kehtib ainult Perfetto mälutõmmiste suhtes."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Mälutõmmise ajavahemik"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 sekundit"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 sekundit"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Pinu näidisevõtu lõpetamiseks puudutage"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"Mälutõmmis salvestatakse"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Puudutage mälutõmmise peatamiseks"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"AM-i mälutõmmist salvestatakse"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"Kustuta salvestatud failid"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"Salvestised kustutatakse pärast ühe kuu möödumist"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Kas kustutada salvestatud failid?"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Süsteemi jäljed"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, jälg, jälgimine, toimivus, profiil, profiilimine, protsessor, kutsepinu, virn, mälu"</string>
     <string name="share_file" msgid="1982029143280382271">"Kas jagada faili?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Süsteemi jälgimise failid võivad hõlmata tundlikke süsteemi- ja rakenduseandmeid (nt rakenduse kasutust). Jagage süsteemijälgi ainult usaldusväärsete inimeste ja rakendustega."</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"Süsteemi jälgimise failid võivad hõlmata delikaatseid süsteemi- ja rakenduste andmeid (nt rakenduse kasutust või rakenduse mälus olevaid pilte). Jagage süsteemi jälgi või mälutõmmiseid ainult inimeste ja rakendustega, keda või mida usaldate."</string>
     <string name="share" msgid="8443979083706282338">"Jaga"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Ära enam kuva"</string>
     <string name="long_traces" msgid="5110949471775966329">"Pikad jäljed"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Manusta salvestised veaaruannetele"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Pooleliolevad salvestised saadetakse veaaruande koostamisel automaatselt BetterBugile. Salvestamine jätkub pärast seda."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Kuva salvestatud failid"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"Jäljed saab analüüsimiseks üles laadida saidile ui.perfetto.dev"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"Mälutõmmiseid saab AHAT-iga kontrollida"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Jälgimise seaded"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Salvestatud failid"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Mitmesugust"</string>
