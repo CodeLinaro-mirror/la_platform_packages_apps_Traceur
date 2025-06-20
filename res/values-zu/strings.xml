@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Rekhoda i-heap dump"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Ithatha i-heap dump yezinqubo ezikhethiwe \"kuzinqubo ze-heap dump\""</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Khetha okungenani inqubo eyodwa kokuthi \"Izinqubo ze-heap dump\" ukuze uqoqe ama-heap dump"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"Rekhoda i-AM heap dump ngama-bitmap"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Iqoqa i-heap dump yenqubo ekhethwe kwelithi \"Izinqubo ze-heap dump\" bese ikhipha izithombe zama-bitmap"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Khetha inqubo eyodwa kuphela kwelithi \"Izinqubo ze-heap dump\""</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Khetha inqubo kwelithi \"Izinqubo ze-heap dump\""</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Qoqa Ukulandelela kweWinscope"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Kuhlanganisa okuningilizwe Idatha ye-UI ye-telemetry (kungaba yimbangela ye-jank)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Landela izinhlelo zokusebenza zedebuggable"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"Okuzenzekelayo"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{okukhethiwe #}one{okukhethiwe #}other{okukhethiwe #}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Izinqubo ze-heap dump"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"Okungenani inqubo eyodwa kufanele ikhethwe"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"Lokhu kusebenza kuPerfetto naku-ActivityManager"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Sula izinqubo ze-heap dump"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Uhlu lwezinqubo lusuliwe"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Iphrofayela yezinhlelo ezihlukahlukene eqhubekayo"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"Thatha i-heap dump kanye ngokwesikhawu ngasinye esishiwo"</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"Thatha i-heap dump kube kanye ngezikhathi ezithile Kusebenza kuphela kuPerfetto heap dumps."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Isikhawu se-heap dump"</string>
     <string name="five_seconds" msgid="7018465440929299712">"Imizuzwana emi-5"</string>
     <string name="ten_seconds" msgid="863416601384309033">"Imizuzwana engu-10"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Thepha ukuze umise ukusampula kwesitaki"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"I-heap dump iyarekhodwa"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Thepha ukuze umise i-heap dump"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"I-AM heap dump iyarekhodwa"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"Sula amafayela alondoloziwe"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"Ukurekhoda kusulwa ngemva kwenyanga eyodwa"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Sula amafayela alondoloziwe?"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Ukulandela kwesistimu"</string>
     <string name="keywords" msgid="255681926397897100">"i-systrace, i-traceur, i-perfetto, i-winscope, landelela, ukulandelela, ukusebenza, iphrofayela, ukwenza iphrofayela, i-cpu, i-callstack, izitaki, i-heap"</string>
     <string name="share_file" msgid="1982029143280382271">"Yabelana ngefayela?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Amafayela okulandelela isistimu angafaka idatha ezwelayo yesistimu neyohlelo lokusebenza (efana nokusetshenziswa kohlelo lokusebenza). Yabelana kuphela ngokulandelela kwesistimu nabantu nezinhlelo zokusebenza ozithembayo."</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"Amafayela Alandelelwa isistimu angase ahlanganise isistimu ezwelayo nedatha ye-app (njengokusetshenziswa kwe-app noma izithombe iziku-app). Hlanganyela okulandelelwa isistimu noma ama-heap dump nabantu nama-app owathembayo kuphela"</string>
     <string name="share" msgid="8443979083706282338">"Yabelana"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Ungabonisi futhi"</string>
     <string name="long_traces" msgid="5110949471775966329">"Ukulandela okude"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Namathisela okurekhodiwe emibikweni yesiphazamisi"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Thumela ngokuzenzakalelayo ukurekhoda okuqhubekayo kuBetterBug lapho kuqoqwe umbiko wesiphazamisi. Okurekhodiwe kuzoqhubeka kamuva."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Buka amafayela alondoloziwe"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"IPerfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"Ukulandelela kungalayishwa kokuthi ui.perfetto.dev ukuze kuhlaziywe"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"I-ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"Ama-heap dump angase ahlolwe nge-AHAT"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Amasethingi okulandelela"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Amafayela alondoloziwe"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"I-Miscellaneous"</string>

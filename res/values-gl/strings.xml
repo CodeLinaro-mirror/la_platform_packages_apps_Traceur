@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Gravar baleirado da zona de memoria dinámica"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Captura un baleirado da zona de memoria dinámica dos procesos seleccionados en Procesos de baleirado da zona de memoria dinámica"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Para recompilar baleirados, selecciona polo menos un proceso en Procesos de baleirado da zona de memoria dinámica"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"Gravar baleirado da zona de memoria dinámica de AM con mapas de bits"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Recompila un baleirado da zona de memoria dinámica do proceso seleccionado en Procesos de baleirado da zona de memoria dinámica e extrae as imaxes dos mapas de bits"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Selecciona só un proceso en Procesos de baleirado da zona de memoria dinámica"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Selecciona un proceso en Procesos de baleirado da zona de memoria dinámica"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Recompilar rastros de Winscope"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Inclúe datos telemétricos detallados da IU (pode diminuír a velocidade de resposta)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Gardar rastros de aplicacións que se poidan depurar"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"Categorías predeterminadas"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# seleccionada}other{# seleccionadas}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Procesos de baleirado da zona de memoria dinámica"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"Cómpre seleccionar polo menos un proceso"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"Esta selección aplicarase tanto a Perfetto como a ActivityManager"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Borrar procesos de baleirado da zona de memoria dinámica"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Borrouse a lista de procesos"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Perfil do baleirado continuo da zona de memoria dinámica"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"Captura un baleirado da zona de memoria dinámica cada intervalo especificado"</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"Captura un baleirado da zona de memoria dinámica cada intervalo especificado. Só se aplicará aos baleirados da zona de memoria dinámica de Perfetto."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Intervalo do baleirado da zona de memoria dinámica"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 segundos"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 segundos"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"Toca para deter a toma de mostras de pillas"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"Estase gravando o baleirado da zona de memoria dinámica"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"Toca para deter o baleirado da zona de memoria dinámica"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"Estase gravando o baleirado da zona de memoria dinámica de AM"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"Borrar ficheiros gardados"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"As gravacións bórranse ao cabo dun mes"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"Queres borrar os ficheiros gardados?"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Rastros do sistema"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, rastrexo, rastrexar, rendemento, perfil, elaboración de perfís, cpu, pilla de chamadas, pilla, estrutura de datos"</string>
     <string name="share_file" msgid="1982029143280382271">"Queres compartir o ficheiro?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"Os ficheiros de rastro do sistema poden incluír datos sensibles sobre o sistema e as aplicacións (como o uso das aplicacións). Comparte os rastros do sistema con persoas e aplicacións de confianza."</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"É posible que os ficheiros de rastro do sistema inclúan datos confidenciais sobre o sistema e as aplicacións (como o uso das aplicacións ou imaxes da memoria dunha aplicación). Comparte os rastros do sistema con persoas e aplicacións de confianza."</string>
     <string name="share" msgid="8443979083706282338">"Compartir"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"Non mostrar outra vez"</string>
     <string name="long_traces" msgid="5110949471775966329">"Rastros longos"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"Anexar gravacións aos informes de erros"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Envía automaticamente rexistros de gravacións en curso a BetterBug cando se recompile un informe de erros. As gravacións continuarán tendo lugar despois."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Ver ficheiros gardados"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"Pódense cargar os rastros en ui.perfetto.dev para a súa análise"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"Os baleirados da zona de memoria dinámica pódense inspeccionar con AHAT"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Configuración de rastro"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Ficheiros gardados"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Outras opcións"</string>

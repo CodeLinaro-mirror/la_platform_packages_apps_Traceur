@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"လျှပ်တစ်ပြက် မှတ်ဉာဏ်ကို ရိုက်ကူးရန်"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"“လျှပ်တစ်ပြက် မှတ်ဉာဏ် လုပ်ငန်းစဉ်များ” တွင် ရွေးထားသည့် လုပ်ငန်းစဉ်များ၏ လျှပ်တစ်ပြက် မှတ်ဉာဏ်ကို ရိုက်ကူးပါ"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"လျှပ်တစ်ပြက် မှတ်ဉာဏ်များ စုဆောင်းရန် “လျှပ်တစ်ပြက် မှတ်ဉာဏ် လုပ်ငန်းစဉ်များ” တွင် အနည်းဆုံး လုပ်ငန်းစဉ်တစ်ခုကို ရွေးပါ"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"Bitmap များပါသော AM လျှပ်တစ်ပြက် မှတ်ဉာဏ်ကို ဖမ်းယူရန်"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"“လျှပ်တစ်ပြက် မှတ်ဉာဏ် လုပ်ငန်းစဉ်များ” ရှိ ရွေးထားသော လုပ်ငန်းစဉ်၏ လျှပ်တစ်ပြက် မှတ်ဉာဏ်ကို စုစည်းပြီး Bitmap ပုံများ ထုတ်ယူသည်"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"“လျှပ်တစ်ပြက် မှတ်ဉာဏ် လုပ်ငန်းစဉ်များ” ရှိ လုပ်ငန်းစဉ်တစ်ခုကိုသာ ရွေးပါ"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"“လျှပ်တစ်ပြက် မှတ်ဉာဏ် လုပ်ငန်းစဉ်များ” ရှိ လုပ်ငန်းစဉ်ကို ရွေးပါ"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Winscope လုပ်ဆောင်ချက်မှတ်တမ်းများကို စုစည်းရန်"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"အသေးစိတ်ကျသော UI တယ်လီတိုင်းတာမှု ဒေတာပါဝင်သည် (ရပ်တန့်စေနိုင်သည်)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"အမှားရှာပြင်နိုင်သည့် အပလီကေးရှင်းများကို မှတ်တမ်းတင်ရန်"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"မူလ"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# ခု ရွေးထားသည်}other{# ခု ရွေးထားသည်}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"လျှပ်တစ်ပြက် မှတ်ဉာဏ် လုပ်ငန်းစဉ်များ"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"အနည်းဆုံး လုပ်ငန်းစဉ်တစ်ခု ရွေးရမည်"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"ဤရွေးချယ်မှုများသည် Perfetto နှင့် ActivityManager နှစ်ခုစလုံးအတွက် အကျုံးဝင်သည်"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"လျှပ်တစ်ပြက် မှတ်ဉာဏ် လုပ်ငန်းစဉ်များ ရှင်းထုတ်ရန်"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"လုပ်ငန်းစဉ်စာရင်းကို ရှင်းထုတ်လိုက်ပါပြီ"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"ကျပန်းမှတ်ဉာဏ် ပရိုဖိုင် ဆက်တိုက်ရိုက်ခြင်း"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"သတ်မှတ်အချိန်အပိုင်းအခြား တစ်ခုလျှင် လျှပ်တစ်ပြက် မှတ်ဉာဏ်တစ်ခု ရိုက်ကူးသည်"</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"သတ်မှတ်အချိန်အပိုင်းအခြား တစ်ခုလျှင် လျှပ်တစ်ပြက် မှတ်ဉာဏ်တစ်ခု ဖမ်းယူသည်။ Perfetto လျှပ်တစ်ပြက် မှတ်ဉာဏ်မျာအတွက်သာ အကျုံးဝင်သည်။"</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"လျှပ်တစ်ပြက် မှတ်ဉာဏ် အချိန်အပိုင်းအခြား"</string>
     <string name="five_seconds" msgid="7018465440929299712">"၅ စက္ကန့်"</string>
     <string name="ten_seconds" msgid="863416601384309033">"၁၀ စက္ကန့်"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"အထပ်နမူနာယူခြင်းကို ရပ်ရန် တို့ပါ"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"လျှပ်တစ်ပြက် မှတ်ဉာဏ်ကို ရိုက်ကူးနေသည်"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"လျှပ်တစ်ပြက် မှတ်ဉာဏ်ကို ရပ်ရန် တို့ပါ"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"AM လျှပ်တစ်ပြက် မှတ်ဉာဏ်ကို ဖမ်းယူနေသည်"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"သိမ်းထားသောဖိုင်များ ရှင်းထုတ်ရန်"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"မှတ်တမ်းများကို တစ်လကြာပြီးနောက် ရှင်းထုတ်သည်"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"သိမ်းထားသော ဖိုင်များကို ရှင်းထုတ်မလား။"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"စနစ် လုပ်ဆောင်ချက်မှတ်တမ်းများ"</string>
     <string name="keywords" msgid="255681926397897100">"systrace၊ traceur၊ perfetto၊ winscope၊ လုပ်ဆောင်ချက်မှတ်တမ်း၊ လုပ်ဆောင်ချက်မှတ်တမ်း၊ စွမ်းဆောင်ရည်၊ ပရိုဖိုင်၊ ပရိုဖိုင်လုပ်ခြင်း၊ CPU၊ callstack၊ stack၊ heap"</string>
     <string name="share_file" msgid="1982029143280382271">"ဖိုင်မျှဝေမလား။"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"စနစ် \'လုပ်ဆောင်ချက်မှတ်တမ်း\' ဖိုင်များတွင် အရေးကြီးသောစနစ်နှင့် အက်ပ်ဒေတာများ (အက်ပ်အသုံးပြုမှုကဲ့သို့) ပါဝင်နိုင်သည်။ စနစ်လုပ်ဆောင်ချက်မှတ်တမ်းများကို သင်ယုံကြည့်သည့် လူများ၊ အက်ပ်များနှင့်သာ မျှဝေပါ။"</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"‘စနစ် လုပ်ဆောင်ချက်မှတ်တမ်းယူခြင်း’ ဖိုင်များတွင် သတိထားရမည့် စနစ်နှင့် အက်ပ်ဒေတာများ (အက်ပ်အသုံးပြုမှု (သို့) အက်ပ်၏မှတ်ဉာဏ်ရှိ ပုံများ ကဲ့သို့) ပါဝင်နိုင်သည်။ စနစ်လုပ်ဆောင်ချက်မှတ်တမ်း (သို့) လျှပ်တစ်ပြက် မှတ်ဉာဏ်များကို သင်ယုံကြည်သော လူများ၊ အက်ပ်များနှင့်သာ မျှဝေပါ။"</string>
     <string name="share" msgid="8443979083706282338">"မျှဝေရန်"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"ထပ်မပြပါနှင့်"</string>
     <string name="long_traces" msgid="5110949471775966329">"ရှည်ကြာသော လုပ်ဆောင်ချက်မှတ်တမ်းများ"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"မှတ်တမ်းများကို ချွတ်ယွင်းချက်အစီရင်ခံစာတွင် ပူးတွဲရန်"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"ချွတ်ယွင်းမှုအစီရင်ခံစာကို စုစည်းသောအခါ ဆောင်ရွက်နေဆဲ အသံဖမ်းချက်များကို BetterBug သို့ အလိုအလျောက် ပို့နိုင်သည်။ ထို့နောက် အသံဖမ်းချက်များကို ဆက်လုပ်မည်။"</string>
     <string name="link_to_traces" msgid="1404687523304348490">"သိမ်းထားသောဖိုင်များ ကြည့်ရန်"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"လုပ်ဆောင်ချက်မှတ်တမ်းများကို ui.perfetto.dev သို့ အပ်လုဒ်လုပ်ပြီး စိတ်ဖြာလေ့လာနိုင်သည်"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"လျှပ်တစ်ပြက် မှတ်ဉာဏ်များကို AHAT ဖြင့် စစ်ဆေးနိုင်သည်"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"လုပ်ဆောင်ချက်မှတ်တမ်း ဆက်တင်များ"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"သိမ်းထားသော ဖိုင်များ"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"အထွေထွေ"</string>

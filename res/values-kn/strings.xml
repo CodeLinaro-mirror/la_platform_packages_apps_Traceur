@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"ಹೀಪ್ ಡಂಪ್ ಅನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಿ"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\"ಹೀಪ್ ಡಂಪ್ ಪ್ರಕ್ರಿಯೆಗಳಲ್ಲಿ\" ಆಯ್ಕೆಮಾಡಿದ ಪ್ರಕ್ರಿಯೆಗಳ ಹೀಪ್ ಡಂಪ್ ಅನ್ನು ಸೆರೆಹಿಡಿಯುತ್ತದೆ"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"ಹೀಪ್ ಡಂಪ್‌ಗಳನ್ನು ಸಂಗ್ರಹಿಸಲು \"ಹೀಪ್ ಡಂಪ್ ಪ್ರಕ್ರಿಯೆಗಳಲ್ಲಿ\" ಕನಿಷ್ಠ ಒಂದು ಪ್ರಕ್ರಿಯೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"ಬಿಟ್‌ಮ್ಯಾಪ್‌ಗಳ ಮೂಲಕ AM ಹೀಪ್ ಡಂಪ್ ಅನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಿ"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"\"ಹೀಪ್ ಡಂಪ್ ಪ್ರಕ್ರಿಯೆಗಳು\" ನಲ್ಲಿ ಆಯ್ಕೆ ಮಾಡಲಾದ ಪ್ರಕ್ರಿಯೆಯ ಹೀಪ್ ಡಂಪ್ ಅನ್ನು ಸಂಗ್ರಹಿಸುತ್ತದೆ ಮತ್ತು ಬಿಟ್‌ಮ್ಯಾಪ್ ಚಿತ್ರಗಳನ್ನು ಹೊರತೆಗೆಯುತ್ತದೆ."</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"\"ಹೀಪ್ ಡಂಪ್ ಪ್ರಕ್ರಿಯೆಗಳು\" ನಲ್ಲಿ ಒಂದೇ ಒಂದು ಪ್ರಕ್ರಿಯೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ."</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"\"ಹೀಪ್ ಡಂಪ್ ಪ್ರಕ್ರಿಯೆಗಳು\" ನಲ್ಲಿ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ."</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"ವಿನ್ಸ್‌ಕೋಪ್‌ ಟ್ರೇಸ್‌ಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"ವಿವರವಾದ UI ಟೆಲಿಮೆಟ್ರಿ ಡೇಟಾವನ್ನು ಒಳಗೊಂಡಿದೆ (ಜಂಕ್ ಮಾಡಬಹುದು)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"ಡೀಬಗ್‌ ಮಾಡುವಂತಹ ಅಪ್ಲಿಕೇಶನ್‌ಗಳ ಜಾಡು ಹಿಡಿಯಿರಿ"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"ಡೀಫಾಲ್ಟ್"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# ವರ್ಗಗಳನ್ನು ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ}one{# ವರ್ಗಗಳನ್ನು ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ}other{# ವರ್ಗಗಳನ್ನು ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"ಹೀಪ್ ಡಂಪ್ ಪ್ರಕ್ರಿಯೆಗಳು"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"ಕನಿಷ್ಠ ಒಂದು ಪ್ರಕ್ರಿಯೆಯನ್ನಾದರೂ ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಬೇಕು"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"ಈ ಆಯ್ಕೆಗಳು Perfetto ಮತ್ತು ActivityManager ಎರಡಕ್ಕೂ ಅನ್ವಯಿಸುತ್ತವೆ."</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"ಹೀಪ್ ಡಂಪ್ ಪ್ರಕ್ರಿಯೆಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"ಪ್ರಕ್ರಿಯೆ ಪಟ್ಟಿಯನ್ನು ತೆರವುಗೊಳಿಸಲಾಗಿದೆ"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"ನಿರಂತರ ಹೀಪ್ ಪ್ರೊಫೈಲ್"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"ಪ್ರತಿ ನಿಗದಿತ ಮಧ್ಯಂತರಕ್ಕೆ ಒಮ್ಮೆ ಹೀಪ್ ಡಂಪ್ ಅನ್ನು ಸೆರೆಹಿಡಿಯಿರಿ"</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"ಪ್ರತಿ ನಿಗದಿತ ಮಧ್ಯಂತರಕ್ಕೆ ಒಮ್ಮೆ ಹೀಪ್ ಡಂಪ್ ಅನ್ನು ಸೆರೆಹಿಡಿಯಿರಿ. Perfetto ಹೀಪ್ ಡಂಪ್‌ಗಳಿಗೆ ಮಾತ್ರ ಅನ್ವಯಿಸುತ್ತದೆ."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"ಹೀಪ್ ಡಂಪ್ ಮಧ್ಯಂತರ"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 ಸೆಕೆಂಡ್‌ಗಳು"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 ಸೆಕೆಂಡ್‌ಗಳು"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"ಸ್ಟ್ಯಾಕ್‌ ಮಾದರಿಗಳನ್ನು ನಿಲ್ಲಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"ಹೀಪ್ ಡಂಪ್ ಅನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"ಹೀಪ್ ಡಂಪ್ ಅನ್ನು ನಿಲ್ಲಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"AM ಹೀಪ್ ಡಂಪ್ ಅನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ."</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"ಉಳಿಸಿದ ಫೈಲ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"ಒಂದು ತಿಂಗಳ ನಂತರ ರೆಕಾರ್ಡ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಲಾಗಿದೆ"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"ಉಳಿಸಿದ ಫೈಲ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಬೇಕೆ?"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"ಸಿಸ್ಟಂ ಜಾಡುಗಳು"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, ಟ್ರೇಸ್, ಟ್ರೇಸಿಂಗ್, ಪರ್ಫಾರ್ಮೆನ್ಸ್, ಪ್ರೊಫೈಲ್, ಪ್ರೊಫೈಲಿಂಗ್, CPU, ಕಾಲ್‌ಸ್ಟ್ಯಾಕ್, ಸ್ಟ್ಯಾಕ್, ಹೀಪ್"</string>
     <string name="share_file" msgid="1982029143280382271">"ಫೈಲ್ ಅನ್ನು ಹಂಚಬೇಕೆ?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"ಸಿಸ್ಟಂ ಟ್ರೇಸಿಂಗ್ ಫೈಲ್‌ಗಳು (ಆ್ಯಪ್ ಬಳಕೆಯಂತಹ) ಸೂಕ್ಷ್ಮವಾದ ಸಿಸ್ಟಂ ಅನ್ನು ಮತ್ತು ಆ್ಯಪ್ ಡೇಟಾವನ್ನು ಒಳಗೊಂಡಿರಬಹುದು. ನೀವು ನಂಬುವ ಜನರು ಮತ್ತು ಆ್ಯಪ್‌ಗಳೊಂದಿಗೆ ಮಾತ್ರ ಸಿಸ್ಟಂ ಟ್ರೇಸ್‌ಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಿ."</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"ಸಿಸ್ಟಂ ಟ್ರೇಸಿಂಗ್ ಫೈಲ್‌ಗಳು ಸೂಕ್ಷ್ಮ ಸಿಸ್ಟಂ ಮತ್ತು ಆ್ಯಪ್‌ ಡೇಟಾವನ್ನು ಒಳಗೊಂಡಿರಬಹುದು (ಉದಾಹರಣೆಗೆ ಆ್ಯಪ್ ಬಳಕೆ ಅಥವಾ ಆ್ಯಪ್‌ನ ಮೊರಿಯಲ್ಲಿರುವ ಚಿತ್ರಗಳು). ನೀವು ನಂಬುವ ಜನರು ಮತ್ತು ಆ್ಯಪ್‌ಗಳ ಜೊತೆಗೆ ಮಾತ್ರ ಸಿಸ್ಟಮ್ ಟ್ರೇಸ್‌ಗಳು ಅಥವಾ ಹೀಪ್ ಡಂಪ್‌ಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಿ."</string>
     <string name="share" msgid="8443979083706282338">"ಹಂಚಿಕೊಳ್ಳಿ"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"ಮತ್ತೊಮ್ಮೆ ತೋರಿಸಬೇಡಿ"</string>
     <string name="long_traces" msgid="5110949471775966329">"ದೀರ್ಘ ಟ್ರೇಸ್‌ಗಳು"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"ಬಗ್ ವರದಿಗಳಿಗೆ ರೆಕಾರ್ಡಿಂಗ್‌ಗಳನ್ನು ಲಗತ್ತಿಸಿ"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"ಬಗ್ ವರದಿ ಮಾಡುವಿಕೆಯನ್ನು ಸಂಗ್ರಹಿಸಿದಾಗ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪ್ರಗತಿಯಲ್ಲಿರುವ ರೆಕಾರ್ಡಿಂಗ್‌ಗಳನ್ನು BetterBug ಗೆ ಕಳುಹಿಸಿ. ರೆಕಾರ್ಡಿಂಗ್‌ಗಳು ನಂತರ ಮುಂದುವರಿಯುತ್ತವೆ."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"ಉಳಿಸಿದ ಫೈಲ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಿ"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"ವಿಶ್ಲೇಷಣೆಗಾಗಿ ಟ್ರೇಸಸ್‌ಗಳನ್ನು ui.perfetto.dev ಗೆ ಅಪ್‌ಲೋಡ್ ಮಾಡಬಹುದು."</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"AHAT ಮೂಲಕ ಹೀಪ್ ಡಂಪ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು."</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"ಜಾಡು ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"ಉಳಿಸಲಾದ ಫೈಲ್‌ಗಳು"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"ಇತರೆ"</string>

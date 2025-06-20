@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"የቆሻሻ ቁልል ይቅዱ"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"በ«የቆሻሻ ቁልል ሂደቶች» ውስጥ የተመረጡትን ሂደቶች የቆሻሻ ቁልልን ይቀርጻል"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"የቆሻሻ ቁልሎችን ለመሰብሰብ በ«የቆሻሻ ቁልል ሂደቶች» ውስጥ ቢያንስ አንድ ሂደት ይምረጡ"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"AM የቆሻሻ ቁልል በbitmaps ይቅዱ"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"«የቆሻሻ ቁልል ሂደቶች» ውስጥ አንድ የተመረጠው ሂደት የቆሻሻ ቁልል ይሰበስባል እና bitmap ምስሎችን ያወጣል"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"«የቆሻሻ ቁልል ሂደቶች» ውስጥ አንድ ሂደት ብቻ ይምረጡ"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"«የቆሻሻ ቁልል ሂደቶች» ውስጥ አንድ ሂደት ይምረጡ"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Winscope መከታተያን ስብስብ"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"የዩአይ ቴሌሜትሪ ውሂብ ዝርዝር ያካትታል (Jank ያስከትላል)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"ሊታረሙ የሚችሉ መተግበሪያዎችን ዱካ ይከታተሉ"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"ነባሪ"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# ተመርጧል}one{# ተመርጧል}other{# ተመርጠዋል}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"የቆሻሻ ቁልል ሂደቶች"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"ቢያንስ አንድ ሂደት መመረጥ አለበት"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"እነዚህ ምርጫዎች በሁለቱም Perfetto እና ActivityManager ላይ ይተገበራሉ"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"የቆሻሻ ቁልል ሂደቶችን አጽዳ"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"የሂደት ዝርዝር ጸድቷል"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"ቀጣይነት ያለው የቁልል መገለጫ"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"በተጠቀሰው ጊዜ ውስጥ አንድ ጊዜ የቆሻሻ ቁልል ይቅረጹ"</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"በተጠቀሰው ጊዜ ውስጥ አንድ ጊዜ የቆሻሻ ቁልል ይቅረጹ። Perfetto የቆሻሻ ቁልል ላይ ብቻ ይተገበራል።"</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"የቆሻሻ ቁልል ክፍተት"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 ሰከንዶች"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 ሰከንዶች"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"የቁልሎች ናሙና መውሰድን ለማስቆም መታ ያድርጉ"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"የቆሻሻ ቁልል እየተቀዳ ነው"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"የቆሻሻ ቁልል ለማቆም መታ ያድርጉ"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"AM የቆሻሻ ቁልል እየተቀዳ ነው"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"የተቀመጡ ፋይሎችን አጽዳ"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"ቀረጻዎች ከአንድ ወር በኋላ ይጸዳሉ"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"የተቀመጡ ፋይሎች ይጸዱ?"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"የስርዓት ዱካዎች"</string>
     <string name="keywords" msgid="255681926397897100">"systrace፣ traceur፣ perfetto፣ winscope፣ መከታተያ፣ በመከታተል ላይ፣ አፈጻጸም፣ መገለጫ፣ መገለጫ መስጠት፣ ሲፒዩ፣ የጥሪ ቁልል፣ ቁልል፣ ክምር"</string>
     <string name="share_file" msgid="1982029143280382271">"ፋይል ይጋራ?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"የሥርዓት ዱካ መከታተያ ፋይሎች አደጋን ሊያስከትሉ የሚችሉ የሥርዓት እና የመተግበሪያ ውሂብ (እንደ የመተግበሪያ አጠቃቀም) ያለ ሊያካትት ይችላል። ከሚያምኗቸው ሰዎች ጋር ብቻ የሥርዓት ዱካ መከታተያዎችን ያጋሩ።"</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"ሥርዓት መከታተያ ፋይሎች ልዩ ጥንቃቄ የሚያስፈልገው የሥርዓት እና የመተግበሪያ ውሂብ ሊያካትቱ ይችላሉ (የመተግበሪያ አጠቃቀም ወይም በመተግበሪያ ማህደረ ትውስታ ውስጥ እንዳሉ ምስሎች ዓይነት)። የሥርዓት መከታተያዎችን ወይም የቆሻሻ ቁልሎችን ከሚያምኗቸው ሰዎች እና መተግበሪያዎች ጋር ብቻ ያጋሩ።"</string>
     <string name="share" msgid="8443979083706282338">"አጋራ"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"ዳግም አታሳይ"</string>
     <string name="long_traces" msgid="5110949471775966329">"ረጅን ዱካዎች"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"ቀረጻዎችን ወደ ሳንካ ሪፖርቶች አባሪ ያድርጉ"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"የሳንካ ሪፖርት በሚሰበሰብበት ጊዜ በሂደት ላይ ያሉ ቀረጻዎችን በራስ-ሰር ወደ BetterBug ይላኩ። ከዚያ በኋላ ቀረጻዎች ይቀጥላሉ።"</string>
     <string name="link_to_traces" msgid="1404687523304348490">"የተቀመጡ ፋይሎችን አሳይ"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"መከታተያዎች ለትንታኔ ወደ ui.perfetto.dev ሊሰቀሉ ይችላሉ"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"የቆሻሻ ቁልሎች በAHAT ሊመረመሩ ይችላሉ"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"ቅንብሮችን ይከታተሉ"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"የተቀመጡ ፋይሎች"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"የተለያዩ"</string>

@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"記錄堆轉儲"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"擷取「堆轉儲程序」中所選程序的堆轉儲"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"請至少選取「堆轉儲程序」中的其中一個程序以收集堆轉儲"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"透過點陣圖記錄 AM　堆轉儲"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"收集所選取「堆轉儲程序」的堆轉儲並擷取點陣圖圖片"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"請只選取「堆轉儲程序」中的其中一個程序"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"請選取「堆轉儲程序」中的其中一個程序"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"收集 Winscope 追蹤記錄"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"加入詳細的使用者介面遙測資料 (可能會造成資源浪費)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"追蹤可偵錯的應用程式"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"預設"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{已選取 # 個}other{已選取 # 個}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"堆轉儲程序"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"必須選取至少一個程序"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"所選項目適用於 Perfetto 和 ActivityManager"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"清除堆轉儲程序"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"已清除程序清單"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"連續堆資料分析"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"每隔特定間隔時間擷取堆轉儲一次"</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"每隔特定間隔時間擷取堆轉儲一次。只適用於 Perfetto 堆轉儲。"</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"堆轉儲間隔"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 秒"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 秒"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"輕按即可停止堆疊取樣"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"正在記錄堆轉儲"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"輕按即可停止堆轉儲"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"正在記錄 AM 堆轉儲"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"清除已儲存的檔案"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"系統會在一個月後清除記錄"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"要清除已儲存的檔案嗎？"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"系統追蹤記錄"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, 追蹤, 效能, 設定檔, 資料剖析, cpu, 調用堆疊, 堆疊, 堆轉儲"</string>
     <string name="share_file" msgid="1982029143280382271">"要分享檔案嗎？"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"「系統追蹤」檔案可能包含敏感的系統和應用程式資料 (例如應用程式使用情況)。因此，請只與你信任的人和應用程式分享系統追蹤記錄。"</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"「系統追蹤」檔案可能包含敏感的系統和應用程式資料 (例如應用程式使用情況或應用程式記憶體中的圖片)。因此，請只與你信任的人和應用程式分享系統追蹤記錄。"</string>
     <string name="share" msgid="8443979083706282338">"分享"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"不要再顯示"</string>
     <string name="long_traces" msgid="5110949471775966329">"長追蹤記錄"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"在錯誤報告中附加記錄"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"收集到錯誤報告後，自動將處理中的記錄傳送到 BetterBug。系統之後會繼續記錄內容。"</string>
     <string name="link_to_traces" msgid="1404687523304348490">"查看已儲存的檔案"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"可上載追蹤記錄到 ui.perfetto.dev 進行分析"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"你可使用 AHAT 檢查堆轉儲"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"追蹤記錄設定"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"已儲存的檔案"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"其他"</string>

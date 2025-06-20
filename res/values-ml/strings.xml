@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"ഹീപ്പ് ഡംപ് റെക്കോർഡ് ചെയ്യുക"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\"ഹീപ്പ് ഡംപ് പ്രോസസുകളിൽ\" തിരഞ്ഞെടുത്ത പ്രോസസുകളുടെ ഒരു ഹീപ്പ് ഡംപ് ക്യാപ്ചർ ചെയ്യുന്നു"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"ഹീപ്പ് ഡംപുകൾ ശേഖരിക്കാൻ \"ഹീപ്പ് ഡംപ് പ്രോസസുകളിൽ\" ഒരു പ്രോസസ് എങ്കിലും തിരഞ്ഞെടുക്കുക"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"ബിറ്റ്മാപ്പുകൾ ഉപയോഗിച്ച് AM ഹീപ്പ് ഡംപുകൾ റെക്കോർഡ് ചെയ്യുക"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"\"ഹീപ്പ് ഡംപ് പ്രോസസുകളിൽ\" തിരഞ്ഞെടുത്ത ഒരു പ്രോസസിന്റെ ഹീപ്പ് ഡംപ് ശേഖരിച്ച് ബിറ്റ്മാപ്പ് ചിത്രങ്ങൾ വേർതിരിച്ചെടുക്കുന്നു"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"\"ഹീപ്പ് ഡംപ് പ്രോസസുകളിൽ\" ഒരു പ്രോസസ് മാത്രം തിരഞ്ഞെടുക്കുക"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"\"ഹീപ്പ് ഡംപ് പ്രോസസുകളിൽ\" ഒരു പ്രോസസ് തിരഞ്ഞെടുക്കുക"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"വിൻസ്‌കോപ്പ് അടയാളങ്ങൾ ശേഖരിക്കുക"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"വിശദമായ UI ടെലിമെട്രി ഡാറ്റ ഉൾപ്പെടുന്നു (ജങ്ക് ഉണ്ടാക്കാം)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"ഡീബഗ്ഗ് ചെയ്യാവുന്ന അപ്ലിക്കേഷനുകള്‍ ഫോളോ ചെയ്യുക"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"ഡിഫോൾട്ട്"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{# എണ്ണം തിരഞ്ഞെടുത്തു}other{# എണ്ണം തിരഞ്ഞെടുത്തു}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"ഹീപ്പ് ഡംപ് പ്രോസസുകൾ"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"ഒരു പ്രോസസ് എങ്കിലും തിരഞ്ഞെടുത്തിരിക്കണം"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"ഈ തിരഞ്ഞെടുപ്പുകൾ Perfetto, ActivityManager എന്നീ രണ്ട് ആപ്പുകൾക്കും ബാധകമാണ്"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"\'ഹീപ്പ് ഡംപ് പ്രോസസുകൾ\' മായ്ക്കുക"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"പ്രോസസ് ലിസ്റ്റ് മായ്ച്ചു"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"തുടർച്ചയായ ഹീപ്പ് പ്രൊഫൈൽ"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"ഒരു നിശ്ചിത ഇടവേളയിൽ ഒരു തവണ ഹീപ്പ് ഡംപ് ക്യാപ്‌ചർ ചെയ്യുക"</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"ഒരു നിശ്ചിത ഇടവേളയിൽ ഒരു തവണ ഹീപ്പ് ഡംപ് ക്യാപ്‌ചർ ചെയ്യുക. Perfetto ഹീപ്പ് ഡംപുകൾക്ക് മാത്രം ബാധകം."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"ഹീപ്പ് ഡംപ് ഇടവേള"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 സെക്കൻഡ്"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 സെക്കൻഡ്"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"സ്റ്റാക്ക് സാംപ്ലിംഗ് അവസാനിപ്പിക്കാൻ ടാപ്പ് ചെയ്യുക"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"ഹീപ്പ് ഡംപ് റെക്കോർഡ് ചെയ്യുകയാണ്"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"ഹീപ്പ് ഡംപ് നിർത്താൻ ടാപ്പ് ചെയ്യുക"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"AM ഹീപ്പ് ഡംപുകൾ റെക്കോർഡ് ചെയ്യുന്നു"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"സംരക്ഷിച്ച ഫയലുകൾ മായ്ക്കുക"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"ഒരു മാസത്തിന് ശേഷം റെക്കോർഡിംഗുകൾ മായ്ക്കുന്നു"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"സംരക്ഷിച്ച ഫയലുകൾ മായ്ക്കണോ?"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"സിസ്‌റ്റം അടയാളങ്ങൾ"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, തിരയുക, തിരയുന്നു, പ്രകടനം, പ്രൊഫൈൽ, പ്രൊഫൈലിംഗ്, cpu, കോൾസ്‌റ്റാക്ക്, സ്‌റ്റാക്ക്, ഹീപ്പ്"</string>
     <string name="share_file" msgid="1982029143280382271">"ഫയൽ പങ്കിടണോ?"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"സിസ്‌റ്റം ട്രെയ്‌സിംഗ് ഫയലുകളിൽ സൂക്ഷ്‌മമായി കൈകാര്യം ചെയ്യേണ്ട സിസ്‌റ്റം, ആപ്പ് ഡാറ്റ (ആപ്പ് ഉപയോഗം പോലുള്ളവ) എന്നിവ ഉൾപ്പെട്ടേക്കാം. നിങ്ങൾ വിശ്വസിക്കുന്ന ആളുകൾ, ആപ്പുകൾ എന്നിവയുമായി മാത്രം സിസ്‌റ്റം ട്രെയ്‌സുകൾ പങ്കിടുക."</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"സിസ്റ്റം ട്രെയ്‌സിംഗ് ഫയലുകളിൽ സൂക്ഷ്‌മമായി കൈകാര്യം ചെയ്യേണ്ട സിസ്റ്റം, ആപ്പ് ഡാറ്റ (ആപ്പ് ഉപയോഗം അല്ലെങ്കിൽ ആപ്പിന്റെ മെമ്മറിയിലെ ചിത്രങ്ങൾ എന്നിവ പോലുള്ളവ) എന്നിവ ഉൾപ്പെട്ടേക്കാം. നിങ്ങൾക്ക് വിശ്വാസമുള്ള ആളുകളുമായി മാത്രം ട്രെയ്‌സുകളും ഹീപ്പ് ഡംപുകളും പങ്കിടുക."</string>
     <string name="share" msgid="8443979083706282338">"പങ്കിടുക"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"വീണ്ടും കാണിക്കരുത്"</string>
     <string name="long_traces" msgid="5110949471775966329">"ദൈർഘ്യമുള്ള ട്രെയ്‌സുകൾ"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"ബഗ് റിപ്പോർട്ടുകളിലേക്ക് റെക്കോർഡിംഗുകൾ അറ്റാച്ച് ചെയ്യുക"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"ബഗ് റിപ്പോർട്ട് ശേഖരിച്ചാൽ, പുരോഗതിയിലുള്ള റെക്കോർഡിംഗുകൾ BetterBug-ലേക്ക് സ്വയമേവ അയയ്ക്കുക. റെക്കോർഡ് ചെയ്യലുകൾ പിന്നീട് തുടരും."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"സംരക്ഷിച്ച ഫയലുകൾ കാണുക"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"വിശകലനത്തിനായി ui.perfetto.dev എന്നതിലേക്ക് ട്രെയ്‌സുകൾ അപ്‌ലോഡ് ചെയ്യാം"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"AHAT ഉപയോഗിച്ച് ഹീപ്പ് ഡംപുകൾ പരിശോധിക്കാം"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"ട്രേസ് ചെയ്യൽ ക്രമീകരണം"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"സംരക്ഷിച്ച ഫയലുകൾ"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"മറ്റുള്ളവ"</string>

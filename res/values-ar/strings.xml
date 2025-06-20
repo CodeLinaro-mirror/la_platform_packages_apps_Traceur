@@ -10,6 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"تسجيل لقطة لأجزاء من الذاكرة"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"عند اختيار إحدى \"العمليات الخاصة بلقطات لأجزاء من الذاكرة\"، يتم تسجيل اللقطة الخاصة بها"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"يجب اختيار عملية واحدة على الأقل من \"العمليات الخاصة بلقطات لأجزاء من الذاكرة\" لجمع هذه اللقطات"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"‏تسجيل لقطة لأجزاء من الذاكرة في AM باستخدام صور نقطية"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"يتم جمع لقطة لأجزاء من الذاكرة للعمليات المحددة في \"العمليات الخاصة بلقطات لأجزاء من الذاكرة\" واستخراج صور نقطية"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"يمكن اختيار عملية واحدة فقط من \"العمليات الخاصة بلقطات لأجزاء من الذاكرة\""</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"يمكنك اختيار عملية من \"العمليات الخاصة بلقطات لأجزاء من الذاكرة\""</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"‏جمْع آثار أنشطة أداة Winscope"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"يتم تضمين بيانات تفصيلية للقياس عن بعد لواجهة المستخدم (يمكن أن يتسبّب ذلك في إيقاف مؤقت لعرض واجهة المستخدم)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"تتبّع التطبيقات التي يمكن تصحيح الأخطاء بها"</string>
@@ -19,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"تلقائي"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{تمّ اختيار #.}zero{تمّ اختيار #.}two{تمّ اختيار #.}few{تمّ اختيار #.}many{تمّ اختيار #.}other{تمّ اختيار #.}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"العمليات الخاصة بلقطات لأجزاء من الذاكرة"</string>
-    <string name="heap_dump_processes_summary" msgid="4570434268024622765">"يجب اختيار عملية واحدة على الأقل"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"‏تنطبق هذه الاختيارات على كل من Perfetto وActivityManager"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"محو العمليات الخاصة بلقطات لأجزاء من الذاكرة"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"تم محو قائمة العمليات"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"لقطة مستمرة لعناصر متعدّدة"</string>
-    <string name="continuous_heap_dump_summary" msgid="4581643248161659581">"تسجيل لقطة لأجزاء من الذاكرة مرّة واحدة في كل فاصل محدَّد"</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"‏يعمل هذا الإعداد على تسجيل لقطة لأجزاء من الذاكرة مرّة واحدة في كل فاصل محدَّد، وينطبق فقط على لقطات Perfetto."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"فاصل تسجيل لقطات لأجزاء من الذاكرة"</string>
     <string name="five_seconds" msgid="7018465440929299712">"‫٥ ثوانٍ"</string>
     <string name="ten_seconds" msgid="863416601384309033">"‫١٠ ثوانٍ"</string>
@@ -50,6 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"انقر لإيقاف جمع عيّنات التكدس."</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"جارٍ تسجيل لقطة لأجزاء من الذاكرة"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"انقر لإيقاف تسجيل لقطة لأجزاء من الذاكرة"</string>
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"‏جارٍ تسجيل لقطة لأجزاء من الذاكرة في AM"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"محو الملفات المحفوظة"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"يتم محو التسجيلات بعد شهر واحد."</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"هل تريد محو الملفات المحفوظة؟"</string>
@@ -58,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"عمليات تتبُّع النظام"</string>
     <string name="keywords" msgid="255681926397897100">"‏‫systrace، ‏traceur، ‏perfetto، ‏winscope، تتبُّع، أداء، الملف الشخصي، تحديد المواصفات الشخصية لصاحب البيانات، وحدة المعالجة المركزية (CPU)، callstack، حزمة، عناصر متعددة"</string>
     <string name="share_file" msgid="1982029143280382271">"هل تريد مشاركة الملف؟"</string>
-    <string name="system_trace_sensitive_data" msgid="3069389866696009549">"قد تشتمل ملفات \"تتبُّع النظام\" على بيانات حساسة عن النظام والتطبيقات (مثل إحصاءات استخدام التطبيقات). يُرجى عدم مشاركة ملفات تتبُّع النظام إلا مع الأشخاص والتطبيقات التي تثق فيها."</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"قد تتضمّن ملفات \"تتبّع النظام\" بيانات حساسة للنظام والتطبيقات (مثل بيانات استخدام التطبيق أو الصور في ذاكرة التطبيق). لذا يُرجى عدم مشاركة عمليات تتبّع النظام أو اللقطات لأجزاء من الذاكرة إلا مع الأشخاص والتطبيقات الموثوقة."</string>
     <string name="share" msgid="8443979083706282338">"مشاركة"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"عدم الإظهار مرة أخرى"</string>
     <string name="long_traces" msgid="5110949471775966329">"آثار الأنشطة طويلة المدة"</string>
@@ -87,6 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"إرفاق التسجيلات بتقارير الأخطاء"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"‏يمكنك تلقائيًا إرسال التسجيلات الجاري تسجيلها إلى BetterBug عند جمع تقرير خطأ. بعد ذلك، سيستمر التسجيل."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"عرض الملفات المحفوظة"</string>
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"‏يمكن تحميل عمليات التتبّع إلى ui.perfetto.dev لتحليلها"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"‏يمكن فحص اللقطات لأجزاء من الذاكرة باستخدام AHAT"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"إعدادات التتبُّع"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"الملفات المحفوظة"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"خيارات متنوعة"</string>
