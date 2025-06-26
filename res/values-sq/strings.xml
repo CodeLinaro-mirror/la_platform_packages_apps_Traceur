@@ -11,7 +11,7 @@
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Regjistron një stivë të skedarëve fiktivë të proceseve të zgjedhura te \"Proceset e stivës së skedarëve fiktivë\""</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Zgjidh të paktën një proces te \"Proceset e stivës së skedarëve fiktivë\" për të mbledhur stivat e skedarëve fiktivë"</string>
     <string name="record_am_heap_dump" msgid="5012983869757648802">"Regjistro stivën e skedarëve fiktivë të AM me bitmaps"</string>
-    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Mbledh një stivë të skedarëve fiktivë të zgjedhur në \"Proceset e stivës së skedarëve fiktivë\" dhe nxjerr imazhe të bitmap."</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Mbledh një stivë të skedarëve fiktivë të zgjedhur në \"Proceset e stivës së skedarëve fiktivë\" dhe nxjerr imazhe të bitmap"</string>
     <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Zgjidh vetëm një proces në \"Proceset e stivës së skedarëve fiktivë\""</string>
     <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Zgjidh një proces në \"Proceset e stivës së skedarëve fiktivë\""</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Mblidh gjurmët e Winscope"</string>
@@ -23,11 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"E parazgjedhur"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{Zgjedhur: #}other{Zgjedhur: #}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"Proceset e stivës së skedarëve fiktivë"</string>
-    <string name="heap_dump_processes_summary" msgid="496329155430447095">"Këto zgjedhje zbatohen si për Perfetto ashtu edhe për ActivityManager"</string>
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"Këto zgjedhje zbatohen si për Perfetto, ashtu edhe për ActivityManager"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"Pastro proceset e stivës së skedarëve fiktivë"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"Lista e proceseve u pastrua"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"Profili i vazhdueshëm i grumbullit"</string>
-    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"Regjistro një stivë të skedarëve fiktivë një herë për çdo interval të specifikuar. Zvbatohet vetëm për stivat e skedarëve fiktivë të Perfetto."</string>
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"Regjistro një stivë të skedarëve fiktivë një herë për çdo interval të specifikuar. Zbatohet vetëm për stivat e skedarëve fiktivë të Perfetto."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"Intervali i stivës së skedarëve fiktivë"</string>
     <string name="five_seconds" msgid="7018465440929299712">"5 sekonda"</string>
     <string name="ten_seconds" msgid="863416601384309033">"10 sekonda"</string>
