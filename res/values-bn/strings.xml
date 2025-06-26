@@ -10,14 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"হিপ ডাম্প রেকর্ড করুন"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\"হিপ ডাম্পের প্রসেসে\" বেছে নেওয়া প্রসেসের হিপ ডাম্প ক্য়াপচার করুন"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"হিপ ডাম্প সংগ্রহ করতে \"হিপ ডাম্পের প্রসেসে\" কমপক্ষে একটি প্রসেস বেছে নিন"</string>
-    <!-- no translation found for record_am_heap_dump (5012983869757648802) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_enabled (5198382489516464944) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_disabled_multiple_procs_selected (2977555944190489590) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_disabled_no_procs_selected (805044012304241085) -->
-    <skip />
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"বিটম্যাপের সাহায্যে AM হিপ ডাম্প রেকর্ড করুন।"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"এটি \"হিপ ডাম্প প্রসেসে\" বেছে নেওয়া প্রসেসের হিপ ডাম্প সংগ্রহ করে এবং বিট ম্যাপ ছবি সরায়"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"\"হিপ ডাম্পের প্রসেসে\" শুধুমাত্র একটি প্রসেস বেছে নিন"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"\"হিপ ডাম্পের প্রসেসে\" কোনও একটি প্রসেস বেছে নিন"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Winscope-এর ট্রেস সংগ্রহ করুন"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"এর মধ্যে UI সম্পর্কিত টেলিমেট্রি ডেটা অন্তর্ভুক্ত (এর জন্য জ্যাঙ্কের সম্ভাবনা আছে)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"ডিবাগযোগ্য অ্যাপ্লিকেশন ট্রেস করুন"</string>
@@ -27,13 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"ডিফল্ট"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{#টি বেছে নেওয়া হয়েছে}one{#টি বেছে নেওয়া হয়েছে}other{#টি বেছে নেওয়া হয়েছে}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"হিপ ডাম্পের প্রসেস"</string>
-    <!-- no translation found for heap_dump_processes_summary (496329155430447095) -->
-    <skip />
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"এইসব বিভাগ Perfetto ও ActivityManager দুটিতেই প্রযোজ্য হয়"</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"হিপ ডাম্প প্রসেস মুছে ফেলুন"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"প্রসেস লিস্টের তালিকা মুছে ফেলা হয়েছে"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"হিপ প্রোফাইল চালু রাখুন"</string>
-    <!-- no translation found for continuous_heap_dump_summary (4324725780071430593) -->
-    <skip />
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"কোনও বিশেষ ইন্টার্ভেলের জন্য হিপ ডাম্প ক্যাপচার করুন। শুধুমাত্র Perfetto হিপ ডাম্পে প্রযোজ্য হয়।"</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"হিপ ডাম্প ইন্টার্ভেল"</string>
     <string name="five_seconds" msgid="7018465440929299712">"৫ সেকেন্ড"</string>
     <string name="ten_seconds" msgid="863416601384309033">"১০ সেকেন্ড"</string>
@@ -60,8 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"স্ট্যাক স্যাম্পেলিং বন্ধ করতে ট্যাপ করুন"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"হিপ ডাম্প রেকর্ড করা হচ্ছে"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"হিপ ডাম্প বন্ধ করতে ট্যাপ করুন"</string>
-    <!-- no translation found for am_heap_dump_is_being_recorded (7679311408393495981) -->
-    <skip />
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"AM হিপ ডাম্প রেকর্ড করা হচ্ছে"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"সেভ করা ফাইল মুছুন"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"এক মাস পরে রেকর্ডিং মুছে ফেলা হয়েছে"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"সেভ করা ফাইল মুছবেন?"</string>
@@ -70,8 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"সিস্টেম ট্রেস"</string>
     <string name="keywords" msgid="255681926397897100">"Systrace, Traceur, Perfetto, Winscope, ট্রেস, ট্রেসিং, পারফর্ম্যান্স, প্রোফাইল, প্রোফাইলিং, সিপিইউ, কলস্ট্যাক, স্ট্যাক, হিপ"</string>
     <string name="share_file" msgid="1982029143280382271">"ফাইল শেয়ার করবেন?"</string>
-    <!-- no translation found for system_trace_sensitive_data (1479213054797221656) -->
-    <skip />
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"সিস্টেম ট্রেসিং ফাইলে সিস্টেম ও অ্যাপ সম্পর্কিত ডেটা (যেমন অ্যাপের ব্যবহার সম্পর্কিত ডেটা বা অ্যাপের মেমরিতে থাকা ছবি) থাকতে পারে। সিস্টেম ট্রেস করা বা হিপ ডাম্প শুধুমাত্র সেইসব লোকজন ও অ্যাপের সাথে শেয়ার করুন যাদের বিশ্বাস করেন।"</string>
     <string name="share" msgid="8443979083706282338">"শেয়ার করুন"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"আর দেখাবেন না"</string>
     <string name="long_traces" msgid="5110949471775966329">"লম্বা ট্রেস"</string>
@@ -100,14 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"সমস্যা সম্পর্কিত রিপোর্টে রেকর্ডিং অ্যাটাচ করুন"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"সমস্যা সম্পর্কিত রিপোর্ট সংগ্রহ করা হলে, কাজ চলছে এমন রেকর্ডিং সম্পর্কিত তথ্য অটোমেটিক BetterBug-কে পাঠান। রেকর্ডিং পরেও চলতে থাকবে।"</string>
     <string name="link_to_traces" msgid="1404687523304348490">"সেভ করা ফাইল দেখুন"</string>
-    <!-- no translation found for pref_category_perfetto_title (6666944431707303646) -->
-    <skip />
-    <!-- no translation found for pref_category_perfetto_summary (3553304890055871620) -->
-    <skip />
-    <!-- no translation found for pref_category_other_tools_title (4005958504576983766) -->
-    <skip />
-    <!-- no translation found for pref_category_other_tools_summary (8548744690364563186) -->
-    <skip />
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"বিশ্লেষণের জন্য ui.perfetto.dev-এ ট্রেস আপলোড করা যাবে"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"AHAT-এর সাহায্যে হিপ ডাম্প পরীক্ষা করা যেতে পারে"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"\'ট্রেস\' সেটিংস"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"সেভ করা ফাইল"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"বিবিধ"</string>

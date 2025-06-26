@@ -10,14 +10,10 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"සංච නික්‍ෂේපය වාර්තා කරන්න"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\"සංච නික්‍ෂේප ක්‍රියාවලි\" තුළ තෝරා ගත් ක්‍රියාවලිවල සංච නික්‍ෂේපයක් ග්‍රහණය කරයි"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"සංච නික්‍ෂේපය එකතු කිරීමට \"සංච නික්‍ෂේප ක්‍රියාවලි\" තුළ අවම වශයෙන් එක් ක්‍රියාවලියක් තෝරන්න"</string>
-    <!-- no translation found for record_am_heap_dump (5012983869757648802) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_enabled (5198382489516464944) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_disabled_multiple_procs_selected (2977555944190489590) -->
-    <skip />
-    <!-- no translation found for record_am_heap_dump_summary_disabled_no_procs_selected (805044012304241085) -->
-    <skip />
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"බිට්මැප් සමඟ AM සංච නික්‍ෂේපය පටිගත කරන්න"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"\"සංච නික්‍ෂේප ක්‍රියාවලි\" තුළ තෝරාගත් ක්‍රියාවලියේ සංච නික්‍ෂේපයක් එක් කර bitmap රූප උපුටා ගනී"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"\"සංච නික්‍ෂේප ක්‍රියාවලි\" තුළ එක් ක්‍රියාවලියක් පමණක් තෝරන්න"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"\"සංච නික්‍ෂේප ක්‍රියාවලි\" තුළ ක්‍රියාවලියක් තෝරන්න"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Winscope හෝඩුවා එකතු කරන්න"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"සවිස්තරාත්මක UI දුරස්ථමාන දත්ත ඇතුළත් වේ (ජැන්ක් ඇති කළ හැක)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"දෝෂහරණය කළ හැකි යෙදුම් හඹා යන්න"</string>
@@ -27,13 +23,11 @@
     <string name="default_categories" msgid="2117679794687799407">"පෙරනිමි"</string>
     <string name="num_categories_selected" msgid="5772630335027553995">"{count,plural, =1{#ක් තෝරා ගන්නා ලදී}one{#ක් තෝරා ගන්නා ලදී}other{#ක් තෝරා ගන්නා ලදී}}"</string>
     <string name="heap_dump_processes" msgid="2500105180344901939">"සංච නික්‍ෂේප ක්‍රියාවලි"</string>
-    <!-- no translation found for heap_dump_processes_summary (496329155430447095) -->
-    <skip />
+    <string name="heap_dump_processes_summary" msgid="496329155430447095">"මෙම තේරීම් Perfetto සහ ActivityManager යන දෙකටම අදාළ වේ."</string>
     <string name="clear_heap_dump_processes" msgid="295101454741555286">"සංච නික්‍ෂේප ක්‍රියාවලි පැහැදිලි කරන්න"</string>
     <string name="clear_heap_dump_processes_toast" msgid="3658510557596150797">"ක්‍රියාවලි ලැයිස්තුව හිස් කරන ලදි"</string>
     <string name="continuous_heap_dump" msgid="390369382946204224">"අඛණ්ඩ Heap පැතිකඩ"</string>
-    <!-- no translation found for continuous_heap_dump_summary (4324725780071430593) -->
-    <skip />
+    <string name="continuous_heap_dump_summary" msgid="4324725780071430593">"නිශ්චිත කාල පරතරයකට වරක් සංච නික්‍ෂේපය අල්ලා ගන්න. පර්ෆෙටෝ සංච නික්‍ෂේප සඳහා පමණක් අදාළ වේ."</string>
     <string name="continuous_heap_dump_interval" msgid="842533896492001433">"සංච නික්‍ෂේප කාල පරතරය"</string>
     <string name="five_seconds" msgid="7018465440929299712">"තත්පර 5"</string>
     <string name="ten_seconds" msgid="863416601384309033">"තත්පර 10"</string>
@@ -60,8 +54,7 @@
     <string name="tap_to_stop_stack_sampling" msgid="5911317684139059415">"තොග නියැදිකරණය නැවැත්වීමට තට්ටු කරන්න"</string>
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"සංච නික්‍ෂේපය පටිගත වෙමින් පවතී"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"සංච නික්‍ෂේපය නැවැත්වීමට තට්ටු කරන්න"</string>
-    <!-- no translation found for am_heap_dump_is_being_recorded (7679311408393495981) -->
-    <skip />
+    <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"AM සංච නික්‍ෂේපය පටිගත වෙමින් පවතී"</string>
     <string name="clear_saved_files" msgid="9156079311231446825">"සුරකින ලද ගොනු හිස් කරන්න"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"මාසයකට පසු පටිගත කිරීම් ඉවත් කෙරේ"</string>
     <string name="clear_saved_files_question" msgid="8586686617760838834">"සුරැකි ගොනු හිස් කරන්න ද?"</string>
@@ -70,8 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"පද්ධති ලුහුබැඳීම්"</string>
     <string name="keywords" msgid="255681926397897100">"සිස්ට්‍රේස්, ට්‍රේසර්, පර්ෆෙටෝ, වින්ස්කෝප්, ලුහුබැඳීම, හඹා යාම, කාර්ය සාධනය, පැතිකඩ, පැතිකඩ ගැන්වීම, cpu, ඇමතුම් ගොඩ, ගොඩ, රාශිය"</string>
     <string name="share_file" msgid="1982029143280382271">"ගොනුව බෙදා ගන්න ද?"</string>
-    <!-- no translation found for system_trace_sensitive_data (1479213054797221656) -->
-    <skip />
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"පද්ධති ලුහුබැඳීමේ ගොනුවලට සංවේදී පද්ධති සහ යෙදුම් දත්ත (යෙදුම් භාවිතය හෝ යෙදුමක මතකයේ ඇති රූප වැනි) ඇතුළත් විය හැකිය. ඔබ විශ්වාස කරන පුද්ගලයින් සහ යෙදුම් සමඟ පමණක් පද්ධති හෝඩුවාවන් හෝ සංච නික්‍ෂේපයන් බෙදා ගන්න."</string>
     <string name="share" msgid="8443979083706282338">"බෙදා ගන්න"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"නැවත නොපෙන්වන්න"</string>
     <string name="long_traces" msgid="5110949471775966329">"දීර්ඝ හඹා යෑම්"</string>
@@ -100,14 +92,10 @@
     <string name="attach_to_bug_report" msgid="5388986830016247490">"දෝෂ වාර්තාවලට පටිගත කිරීම් අමුණන්න"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"දෝෂ වාර්තාවක් එක් කළ විට ප්‍රගතිය පටිගත කිරීම් ස්වයංක්‍රීයව BetterBug වෙත යවන්න. පසුව පටිගත කිරීම් දිගටම කරගෙන යනු ඇත."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"සුරකින ලද ගොනු බලන්න"</string>
-    <!-- no translation found for pref_category_perfetto_title (6666944431707303646) -->
-    <skip />
-    <!-- no translation found for pref_category_perfetto_summary (3553304890055871620) -->
-    <skip />
-    <!-- no translation found for pref_category_other_tools_title (4005958504576983766) -->
-    <skip />
-    <!-- no translation found for pref_category_other_tools_summary (8548744690364563186) -->
-    <skip />
+    <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"විශ්ලේෂණය සඳහා හෝඩුවාවන් ui.perfetto.dev වෙත උඩුගත කළ හැක"</string>
+    <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"AHAT සමඟින් සංච නික්‍ෂේප පරීක්ෂා කළ හැක."</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"හඹා යාමේ සැකසීම්"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"සුරැකි ගොනු"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"විවිධ"</string>
