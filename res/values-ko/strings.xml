@@ -93,9 +93,9 @@
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"버그 신고 수집 시 진행 중인 녹화 파일을 자동으로 BetterBug에 전송합니다. 이후 녹화는 계속됩니다."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"저장된 파일 보기"</string>
     <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
-    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"분석을 위해 ui.perfetto.dev에 트레이스를 업로드할 수 있습니다."</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"분석을 위해 ui.perfetto.dev에 트레이스를 업로드할 수 있습니다"</string>
     <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
-    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"AHAT를 사용하여 힙 덤프를 검사할 수 있습니다."</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"AHAT를 사용하여 힙 덤프를 검사할 수 있습니다"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"트레이스 설정"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"저장된 파일"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"기타"</string>

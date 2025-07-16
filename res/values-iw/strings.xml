@@ -4,12 +4,12 @@
     <string name="system_tracing" msgid="4719188511746319848">"עקבות המערכת"</string>
     <string name="record_system_activity" msgid="4339462312915377825">"אפשר לתעד את פעילות המערכת ולנתח אותה מאוחר יותר כדי לשפר את הביצועים"</string>
     <string name="record_trace" msgid="6416875085186661845">"הקלטת מעקב"</string>
-    <string name="record_trace_summary" msgid="6705357754827849292">"הפונקציה מבצעת את תיעוד עקבות המערכת באמצעות התצורה שהוגדרה ב\'הגדרות נתוני המעקב\'"</string>
+    <string name="record_trace_summary" msgid="6705357754827849292">"הפונקציה מבצעת את תיעוד עקבות המערכת באמצעות התצורה שהוגדרה ב\"הגדרות נתוני המעקב\""</string>
     <string name="record_stack_samples" msgid="3498368637185702335">"‏הקלטה של כלי לניתוח ביצועי ה-CPU"</string>
-    <string name="record_stack_samples_summary" msgid="7827953921526410478">"‏ניתן גם להפעיל את דגימת ה-Callstack בנתוני המעקב באמצעות סימון הקטגוריה \'cpu\'"</string>
+    <string name="record_stack_samples_summary" msgid="7827953921526410478">"‏ניתן גם להפעיל את דגימת ה-Callstack בנתוני המעקב באמצעות סימון הקטגוריה \"cpu\""</string>
     <string name="record_heap_dump" msgid="1688550222066812696">"הקלטה של תמונת מצב של הזיכרון"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"תיעוד תמונת מצב של הזיכרון של התהליכים שנבחרו ב\'תהליכים של תמונת מצב של הזיכרון\'"</string>
-    <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"כדי לאסוף תמונת מצב של הזיכרון, צריך לבחור לפחות תהליך אחד ב\'תהליכים של תמונת מצב של הזיכרון\'"</string>
+    <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"כדי לאסוף תמונת מצב של הזיכרון, צריך לבחור לפחות תהליך אחד ב\"תהליכים של תמונת מצב של הזיכרון\""</string>
     <string name="record_am_heap_dump" msgid="5012983869757648802">"‏הקלטת תמונת מצב של הזיכרון ב-AM עם מפת סיביות (bitmap)"</string>
     <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"‏המערכת אוספת תמונת מצב של הזיכרון של התהליך שנבחר ב\"תהליכי תמונת מצב של הזיכרון\", ומחלצת תמונות במפת סיביות (bitmap)"</string>
     <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"צריך לבחור תהליך אחד בלבד ב\"תהליכי תמונת מצב של הזיכרון\""</string>
