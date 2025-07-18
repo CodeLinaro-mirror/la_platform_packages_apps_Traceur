@@ -10,7 +10,7 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Utfør minnedump"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Utfører en minnedump av prosessene som er valgt i «Minnedumpprosesser»"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Velg minst én prosess i «Minnedumpprosesser» for å utføre minnedumper"</string>
-    <string name="record_am_heap_dump" msgid="5012983869757648802">"Registrer AM-minnedumper med punktgrafikk"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"Registrer AM-minnedump med punktgrafikk"</string>
     <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Samler inn en minnedump av prosessen som er valgt i «Minnedumpprosesser», og trekker ut punktgrafikkbilder"</string>
     <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Velg bare én prosess i «Minnedumpprosesser»"</string>
     <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Velg en prosess i «Minnedumpprosesser»"</string>
