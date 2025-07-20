@@ -10,7 +10,7 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"ஹீப் டம்ப்பை ரெக்கார்டு செய்தல்"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\'ஹீப் டம்ப் செயல்முறைகளில்\' தேர்ந்தெடுக்கப்பட்ட செயல்முறைகளின் ஹீப் டம்ப்பைப் பதிவுசெய்கிறது"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"ஹீப் டம்ப்களைச் சேகரிக்க \'ஹீப் டம்ப் செயல்முறைகளில்\' குறைந்தது ஒரு செயல்முறையாவது தேர்ந்தெடுங்கள்"</string>
-    <string name="record_am_heap_dump" msgid="5012983869757648802">"பிட்மேப்ஸ் மூலம் AM ஹீப் டம்ப்பைப் பதிவுசெய்க"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"பிட்மேப்ஸ் மூலம் AM ஹீப் டம்ப்பைப் பதிவுசெய்தல்"</string>
     <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"\"ஹீப் டம்ப் செயல்முறைகளில்\" தேர்ந்தெடுக்கப்பட்ட செயல்முறையின் ஹீப் டம்ப்பைச் சேகரித்து, பிட்மேப் படங்களைப் பிரித்தெடுக்கிறது"</string>
     <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"\"ஹீப் டம்ப் செயல்முறைகளில்\" இருந்து ஒரு செயல்முறையை மட்டும் தேர்ந்தெடுக்கவும்"</string>
     <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"\"ஹீப் டம்ப் செயல்முறைகளில்\" இருந்து ஒரு செயல்முறையைத் தேர்ந்தெடுக்கவும்"</string>
