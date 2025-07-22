@@ -4,7 +4,7 @@
     <string name="system_tracing" msgid="4719188511746319848">"System Tracing"</string>
     <string name="record_system_activity" msgid="4339462312915377825">"บันทึกกิจกรรมของระบบและนำไปวิเคราะห์ในภายหลังเพื่อปรับปรุงประสิทธิภาพให้ดีขึ้น"</string>
     <string name="record_trace" msgid="6416875085186661845">"บันทึกการติดตาม"</string>
-    <string name="record_trace_summary" msgid="6705357754827849292">"จับภาพการติดตามของระบบโดยใช้การกำหนดค่าที่ตั้งไว้ใน \"การตั้งค่าการติดตาม\""</string>
+    <string name="record_trace_summary" msgid="6705357754827849292">"บันทึกการติดตามของระบบโดยใช้การกำหนดค่าที่ตั้งไว้ใน \"การตั้งค่าการติดตาม\""</string>
     <string name="record_stack_samples" msgid="3498368637185702335">"บันทึกโปรไฟล์ CPU"</string>
     <string name="record_stack_samples_summary" msgid="7827953921526410478">"นอกจากนี้ยังเปิดใช้การสุ่มตัวอย่างสแต็กการเรียกใช้ในการติดตามได้โดยเลือกหมวดหมู่ \"cpu\""</string>
     <string name="record_heap_dump" msgid="1688550222066812696">"บันทึกฮีปดัมป์"</string>
@@ -15,7 +15,7 @@
     <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"เลือกเพียง 1 กระบวนการใน \"กระบวนการฮีปดัมป์\""</string>
     <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"เลือกกระบวนการใน \"กระบวนการฮีปดัมป์\""</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"รวบรวมการติดตาม Winscope"</string>
-    <string name="winscope_tracing_summary" msgid="7040550156722395894">"รวมข้อมูลจากระยะไกลของ UI โดยละเอียด (อาจทำให้เกิดการกระตุกได้)"</string>
+    <string name="winscope_tracing_summary" msgid="7040550156722395894">"รวมถึงข้อมูลจากการวัดและส่งข้อมูลทางไกลของ UI โดยละเอียด (อาจทำให้เกิดการกระตุกได้)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"ติดตามแอปพลิเคชันที่แก้ไขข้อบกพร่องได้"</string>
     <string name="categories" msgid="2280163673538611008">"หมวดหมู่"</string>
     <string name="restore_default_categories" msgid="5090536794637169521">"คืนค่าหมวดหมู่เริ่มต้น"</string>
@@ -93,7 +93,7 @@
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"ส่งการบันทึกที่กำลังดำเนินการไปยัง BetterBug โดยอัตโนมัติเมื่อรวบรวมรายงานข้อบกพร่อง การบันทึกจะดำเนินการต่อหลังจากนั้น"</string>
     <string name="link_to_traces" msgid="1404687523304348490">"ดูไฟล์ที่บันทึกไว้"</string>
     <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
-    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"อัปโหลดการติดตามไปยัง ui.perfetto.dev เพื่อการวิเคราะห์ได้"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"อัปโหลดการติดตามไปยัง ui.perfetto.dev เพื่อรับการวิเคราะห์ได้"</string>
     <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
     <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"ฮีปดัมป์สามารถตรวจสอบได้ด้วย AHAT"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"การตั้งค่าการติดตาม"</string>

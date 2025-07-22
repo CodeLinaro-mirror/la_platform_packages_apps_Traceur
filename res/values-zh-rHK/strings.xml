@@ -10,7 +10,7 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"記錄堆轉儲"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"擷取「堆轉儲程序」中所選程序的堆轉儲"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"請至少選取「堆轉儲程序」中的其中一個程序以收集堆轉儲"</string>
-    <string name="record_am_heap_dump" msgid="5012983869757648802">"透過點陣圖記錄 AM　堆轉儲"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"記錄包含點陣圖的 AM 堆轉儲"</string>
     <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"收集所選取「堆轉儲程序」的堆轉儲並擷取點陣圖圖片"</string>
     <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"請只選取「堆轉儲程序」中的其中一個程序"</string>
     <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"請選取「堆轉儲程序」中的其中一個程序"</string>
