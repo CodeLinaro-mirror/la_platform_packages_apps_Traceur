@@ -12,8 +12,8 @@
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Wähle mindestens einen Prozess in „Heap-Dump-Prozesse“ aus, um Heap-Dumps aufzuzeichnen"</string>
     <string name="record_am_heap_dump" msgid="5012983869757648802">"AM‑Heap-Dump mit Bitmaps speichern"</string>
     <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Erfasst einen Heap-Dump des in „Heap-Dump-Prozesse“ ausgewählten Prozesses und extrahiert Bitmap-Bilder"</string>
-    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Wähle nur einen Prozess in „Heap-Dump-Prozesse“ aus"</string>
-    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Wähle einen Prozess in „Heap-Dump-Prozesse“ aus"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Nur einen Prozess in „Heap-Dump-Prozesse“ auswählen"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Einen Prozess in „Heap-Dump-Prozesse“ auswählen"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"WinScope-Traces erfassen"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Enthält detaillierte UI-Telemetriedaten (kann zu Verzögerung führen)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Debug-fähige Anwendungen in Trace aufnehmen"</string>

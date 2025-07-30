@@ -8,7 +8,7 @@
     <string name="record_stack_samples" msgid="3498368637185702335">"Zapisuj profil CPE"</string>
     <string name="record_stack_samples_summary" msgid="7827953921526410478">"V sledeh lahko potrdite tudi kategorijo »cpu«, da omogočite vzorčenje sklada priklicev."</string>
     <string name="record_heap_dump" msgid="1688550222066812696">"Zapisuj izvoz kopice"</string>
-    <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Zajame izvoz kopice za procese, izbrane v razdelku »Procesi za izvoz kopice«"</string>
+    <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Zajame izvoz kopice za procese, izbrane v razdelku »Procesi za izvoz kopice«."</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Če želite zbirati izvoze kopice, izberite vsaj en proces v razdelku »Procesi za izvoz kopice«"</string>
     <string name="record_am_heap_dump" msgid="5012983869757648802">"Beleženje izvoza kopice aplikacije AM z bitnimi slikami"</string>
     <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Zbere izvoz kopice za proces, izbran v razdelku »Procesi za izvoz kopice«, in ekstrahira bitne slike"</string>

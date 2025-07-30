@@ -5,7 +5,7 @@
     <string name="record_system_activity" msgid="4339462312915377825">"Отслеживание и анализ рабочих процессов в целях повышения производительности системы"</string>
     <string name="record_trace" msgid="6416875085186661845">"Записать действия на телефоне"</string>
     <string name="record_trace_summary" msgid="6705357754827849292">"Записывает трассировку системы, используя конфигурацию, установленную в разделе \"Настройки трассировки\""</string>
-    <string name="record_stack_samples" msgid="3498368637185702335">"Запись профиля ЦП"</string>
+    <string name="record_stack_samples" msgid="3498368637185702335">"Записать профиль ЦП"</string>
     <string name="record_stack_samples_summary" msgid="7827953921526410478">"Создание образцов стека вызовов также можно включить в настройках трассировки, выбрав категорию \"Процессор\""</string>
     <string name="record_heap_dump" msgid="1688550222066812696">"Создать дамп кучи"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Записывает дамп кучи для процессов, выбранных в списке \"Процессы с дампом кучи\"."</string>

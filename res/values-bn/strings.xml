@@ -10,12 +10,12 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"হিপ ডাম্প রেকর্ড করুন"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\"হিপ ডাম্পের প্রসেসে\" বেছে নেওয়া প্রসেসের হিপ ডাম্প ক্য়াপচার করুন"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"হিপ ডাম্প সংগ্রহ করতে \"হিপ ডাম্পের প্রসেসে\" কমপক্ষে একটি প্রসেস বেছে নিন"</string>
-    <string name="record_am_heap_dump" msgid="5012983869757648802">"বিটম্যাপের সাহায্যে AM হিপ ডাম্প রেকর্ড করুন।"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"বিটম্যাপের সাহায্যে AM হিপ ডাম্প রেকর্ড করুন"</string>
     <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"এটি \"হিপ ডাম্প প্রসেসে\" বেছে নেওয়া প্রসেসের হিপ ডাম্প সংগ্রহ করে এবং বিট ম্যাপ ছবি সরায়"</string>
     <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"\"হিপ ডাম্পের প্রসেসে\" শুধুমাত্র একটি প্রসেস বেছে নিন"</string>
     <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"\"হিপ ডাম্পের প্রসেসে\" কোনও একটি প্রসেস বেছে নিন"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Winscope-এর ট্রেস সংগ্রহ করুন"</string>
-    <string name="winscope_tracing_summary" msgid="7040550156722395894">"এর মধ্যে UI সম্পর্কিত টেলিমেট্রি ডেটা অন্তর্ভুক্ত (এর জন্য জ্যাঙ্কের সম্ভাবনা আছে)"</string>
+    <string name="winscope_tracing_summary" msgid="7040550156722395894">"এর মধ্যে UI সম্পর্কিত বিস্তারিত টেলিমেট্রি ডেটা অন্তর্ভুক্ত (জ্যাঙ্কের সম্ভাবনা আছে)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"ডিবাগযোগ্য অ্যাপ্লিকেশন ট্রেস করুন"</string>
     <string name="categories" msgid="2280163673538611008">"বিভাগ"</string>
     <string name="restore_default_categories" msgid="5090536794637169521">"ডিফল্ট বিভাগগুলিকে ফিরিয়ে আনুন"</string>

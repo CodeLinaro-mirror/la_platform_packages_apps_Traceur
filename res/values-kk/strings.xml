@@ -93,9 +93,9 @@
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"Қате туралы есеп жиналған кезде, ағымдағы жазбаларды BetterBug қызметіне автоматты түрде жіберіңіз. Содан кейін жазба жалғасады."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"Сақталған файлдарды көру"</string>
     <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
-    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"Трассаларды талдау үшін ui.perfetto.dev құралына жүктеп салуға болады"</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"Трассаларды талдау үшін ui.perfetto.dev құралына жүктеп салуға болады."</string>
     <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
-    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"Дамп файлдарын AHAT арқылы тексеруге болады"</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"Дамп файлдарын AHAT арқылы тексеруге болады."</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"Трассалау параметрлері"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"Сақталған файлдар"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"Әртүрлі"</string>
