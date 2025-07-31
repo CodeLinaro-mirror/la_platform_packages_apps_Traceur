@@ -15,7 +15,7 @@
     <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Изберете само един процес в „Процеси с моментна снимка на паметта“"</string>
     <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Изберете процес в „Процеси с моментна снимка на паметта“"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Събиране на трасирания в Winscope"</string>
-    <string name="winscope_tracing_summary" msgid="7040550156722395894">"Включва подробни телеметрични данни за ПИ (може да доведе до прекъсвания на изобразяването)"</string>
+    <string name="winscope_tracing_summary" msgid="7040550156722395894">"Включва подробни телеметрични данни за UI (може да доведе до прекъсвания на изобразяването)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Трасиране на приложенията с възможност за отстраняване на грешки"</string>
     <string name="categories" msgid="2280163673538611008">"Категории"</string>
     <string name="restore_default_categories" msgid="5090536794637169521">"Възстановяване на стандартните категории"</string>

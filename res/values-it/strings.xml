@@ -6,7 +6,7 @@
     <string name="record_trace" msgid="6416875085186661845">"Registra traccia"</string>
     <string name="record_trace_summary" msgid="6705357754827849292">"Cattura una traccia del sistema utilizzando l\'insieme di configurazione in \"Impostazioni monitoraggio\""</string>
     <string name="record_stack_samples" msgid="3498368637185702335">"Registra il profilo della CPU"</string>
-    <string name="record_stack_samples_summary" msgid="7827953921526410478">"Il campionamento di chiamate stack può essere abilitato nelle tracce controllando la categoria \"cpu\""</string>
+    <string name="record_stack_samples_summary" msgid="7827953921526410478">"Il campionamento dello stack di chiamate può anche essere abilitato nelle tracce selezionando la categoria \"cpu\""</string>
     <string name="record_heap_dump" msgid="1688550222066812696">"Registra dump dell\'heap"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Acquisisce un dump dell\'heap dei processi selezionati in \"Processi dump dell\'heap\""</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Seleziona almeno un processo in \"Processi dump dell\'heap\" per raccogliere i dump dell\'heap"</string>

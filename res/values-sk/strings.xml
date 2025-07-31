@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="system_tracing" msgid="4719188511746319848">"Trasovanie systému"</string>
+    <string name="system_tracing" msgid="4719188511746319848">"Sledovanie systému"</string>
     <string name="record_system_activity" msgid="4339462312915377825">"Vytváranie záznamov systémovej aktivity a ich neskoršia analýza s cieľom zvýšenia výkonu"</string>
     <string name="record_trace" msgid="6416875085186661845">"Zaznamenať stopu"</string>
     <string name="record_trace_summary" msgid="6705357754827849292">"Zachytí stopu systému pomocou konfigurácie nastavenej v sekcii Nastavenia stopy"</string>

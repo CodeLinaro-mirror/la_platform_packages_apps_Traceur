@@ -3,17 +3,17 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="system_tracing" msgid="4719188511746319848">"Sistemaren arrastoa"</string>
     <string name="record_system_activity" msgid="4339462312915377825">"Erregistratu sistemaren jarduerak eta analiza itzazu geroago errendimendua hobetzeko"</string>
-    <string name="record_trace" msgid="6416875085186661845">"Erregistroaren jarraipena"</string>
+    <string name="record_trace" msgid="6416875085186661845">"Erregistratu arrastoa"</string>
     <string name="record_trace_summary" msgid="6705357754827849292">"Sistemaren arrasto bat kapturatzen du Arrastoen ezarpenak atalean ezarritako konfigurazioa erabilita"</string>
     <string name="record_stack_samples" msgid="3498368637185702335">"Erregistratu PUZaren profil bat"</string>
     <string name="record_stack_samples_summary" msgid="7827953921526410478">"Dei pilen laginketa arrastoetan ere gai daiteke CPU kategoria markatuta"</string>
     <string name="record_heap_dump" msgid="1688550222066812696">"Erregistratu memoria-iraulketaren txostena"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\"Memoria-iraulketaren txostenarekin lotutako prozesuak\" atalean hautatutako prozesuen memoria-iraulketaren txosten bat egiten du"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Memoria-iraulketaren txostenak biltzeko, hautatu gutxienez prozesu bat \"Memoria-iraulketaren txostenarekin lotutako prozesuak\" atalean"</string>
-    <string name="record_am_heap_dump" msgid="5012983869757648802">"Grabatu AM-en memoria-iraulketaren txostenak bit-mapen bidez"</string>
-    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Memoria-iraulketaren txostenen prozesuetan hautatutako prozesuaren memoria-iraulketaren txosten bat biltzen du, eta bit-mapa bidezko irudiak erauzten ditu"</string>
-    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Hautatu prozesu bat soilik memoria-iraulketaren txostenen prozesuetan"</string>
-    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Hautatu prozesu bat memoria-iraulketaren txostenen prozesuetan"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"Erregistratu AM-en memoria-iraulketaren txostenak bit-mapen bidez"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Memoria-iraulketaren txostenarekin lotutako prozesuetan hautatutako prozesuaren memoria-iraulketaren txosten bat biltzen du, eta bit-mapa bidezko irudiak erauzten ditu"</string>
+    <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Hautatu prozesu bat soilik memoria-iraulketaren txostenarekin lotutako prozesuetan"</string>
+    <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Hautatu prozesu bat memoria-iraulketaren txostenarekin lotutako prozesuetan"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Bildu Winscope-ko arrastoak"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Erabiltzaile-interfazeari buruzko datu telemetriko xeheak ditu (baliteke etenak eragitea)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"Egin aratz daitezkeen aplikazioen segimendua"</string>

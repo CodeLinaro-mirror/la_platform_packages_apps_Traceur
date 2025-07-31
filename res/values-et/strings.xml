@@ -10,7 +10,7 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Salvesta mälutõmmis"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Jäädvustab jaotises „Mälutõmmise protsessid” valitud protsessidest mälutõmmise"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Mälutõmmiste kogumiseks valige jaotises „Mälutõmmise protsessid” vähemalt üks protsess"</string>
-    <string name="record_am_heap_dump" msgid="5012983869757648802">"Salvesta AM-i mälutõmmis bitikaartidega"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"Salvesta AM-i mälutõmmis bittrastriga"</string>
     <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Võtab jaotise „Mälutõmmise protsessid” alt valitud protsessist mälutõmmise ja ekstraktib sellest rasterpildid"</string>
     <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Jaotises „Mälutõmmise protsessid” ainult ühe protsessi valimine"</string>
     <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Jaotises „Mälutõmmise protsessid” ühe protsessi valimine"</string>

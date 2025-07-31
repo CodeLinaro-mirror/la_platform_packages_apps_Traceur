@@ -4,18 +4,18 @@
     <string name="system_tracing" msgid="4719188511746319848">"सिस्टम ट्रेस करने वाला टूल"</string>
     <string name="record_system_activity" msgid="4339462312915377825">"यह सिस्टम की गतिविधि रिकॉर्ड करता है और परफ़ॉर्मेंस बेहतर बनाने के लिए, बाद में इसका विश्लेषण करता है"</string>
     <string name="record_trace" msgid="6416875085186661845">"ट्रेस रिकॉर्ड करें"</string>
-    <string name="record_trace_summary" msgid="6705357754827849292">"\"ट्रेस सेटिंग\" में सेट किए गए कॉन्फ़िगरेशन की मदद से, सिस्टम ट्रेस करने की प्रक्रिया कैप्चर करें"</string>
+    <string name="record_trace_summary" msgid="6705357754827849292">"\"ट्रेस करने से जुड़ी सेटिंग\" में सेट किए गए कॉन्फ़िगरेशन की मदद से, सिस्टम के ट्रेस को रिकॉर्ड करता है"</string>
     <string name="record_stack_samples" msgid="3498368637185702335">"सीपीयू प्रोफ़ाइल रिकॉर्ड करें"</string>
     <string name="record_stack_samples_summary" msgid="7827953921526410478">"ट्रेस में जाकर \"सीपीयू\" कैटगरी को चुनकर, कॉलस्टैक सैंपलिंग चालू की जा सकती है"</string>
     <string name="record_heap_dump" msgid="1688550222066812696">"हीप डंप को रिकॉर्ड करें"</string>
-    <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\"हीप डंप की प्रोसेस\" में चुनी गई प्रोसेस के हीप डंप को कैप्चर करें"</string>
+    <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"इससे \"हीप डंप की प्रोसेस\" में चुनी गई प्रोसेस के हीप डंप को रिकॉर्ड करने में मदद मिलती है"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"हीप डंप को इकट्ठा करने के लिए \"हीप डंप की प्रोसेस\" में कम से कम एक प्रोसेस चुनें"</string>
-    <string name="record_am_heap_dump" msgid="5012983869757648802">"बिट मैप की मदद से, AM का हीप डंप रिकॉर्ड करें"</string>
-    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"इससे \"हीप डंप की प्रोसेस\" में चुनी गई प्रोसेस का हीप डंप इकट्ठा करने और बिट मैप की इमेज हटाने में मदद मिलती है"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"बिटमैप की मदद से AM का हीप डंप रिकॉर्ड करें"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"इससे \"हीप डंप की प्रोसेस\" में चुनी गई प्रोसेस का हीप डंप इकट्ठा करने और बिटमैप इमेज निकालने में मदद मिलती है"</string>
     <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"\"हीप डंप की प्रोसेस\" में जाकर सिर्फ़ एक प्रोसेस को चुनें"</string>
     <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"\"हीप डंप की प्रोसेस\" में जाकर कोई प्रोसेस चुनें"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"WinScope के ट्रेस इकट्ठा करें"</string>
-    <string name="winscope_tracing_summary" msgid="7040550156722395894">"इसमें यूज़र इंटरफ़ेस से जुड़ा टेलीमेट्री डेटा शामिल है (इससे जैंक होने की संभावना है)"</string>
+    <string name="winscope_tracing_summary" msgid="7040550156722395894">"इसमें यूज़र इंटरफ़ेस से जुड़ा टेलीमेट्री डेटा शामिल है (इससे जैंक होने की संभावना रहती है)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"डीबग करने के लिए ऐप्लिकेशन ट्रेस करें"</string>
     <string name="categories" msgid="2280163673538611008">"कैटगरी"</string>
     <string name="restore_default_categories" msgid="5090536794637169521">"डिफ़ॉल्ट श्रेणियां बहाल करें"</string>
