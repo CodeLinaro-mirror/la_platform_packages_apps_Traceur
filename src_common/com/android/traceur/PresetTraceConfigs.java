@@ -27,7 +27,7 @@ import java.util.Set;
 public class PresetTraceConfigs {
 
     private static final List<String> DEFAULT_TRACE_TAGS = Arrays.asList(
-            "aidl", "am", "binder_driver", "camera", "cpm", "dalvik", "disk", "freq",
+            "aidl", "am", "binder_driver", "camera", "dalvik", "disk", "freq",
             "gfx", "hal", "idle", "input", "memory", "memreclaim", "network", "power",
             "res", "sched", "ss", "sync", "thermal", "view", "webview", "wm", "workq");
 
