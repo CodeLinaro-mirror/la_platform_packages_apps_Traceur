@@ -133,6 +133,7 @@ public class TraceUtils {
         categories.put("sys_stats", "meminfo, psi, and vmstats");
         categories.put("logs", "android logcat");
         categories.put("cpu", "callstack samples");
+        categories.put("wattson", "Wattson power estimation");
         return categories;
     }
 
