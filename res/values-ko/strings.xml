@@ -15,7 +15,7 @@
     <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"\'힙 덤프 프로세스\'에서 하나의 프로세스만 선택하세요"</string>
     <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"\'힙 덤프 프로세스\'에서 프로세스를 선택하세요"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Winscope 트레이스 수집"</string>
-    <string name="winscope_tracing_summary" msgid="7040550156722395894">"상세한 UI 원격 분석 데이터 포함(버벅거림이 발생할 수 있음)"</string>
+    <string name="winscope_tracing_summary" msgid="7040550156722395894">"상세한 UI 원격 분석 데이터를 포함합니다(버벅거림이 발생할 수 있음)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"디버그 가능한 애플리케이션 추적"</string>
     <string name="categories" msgid="2280163673538611008">"카테고리"</string>
     <string name="restore_default_categories" msgid="5090536794637169521">"기본 카테고리 복원"</string>
@@ -93,9 +93,9 @@
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"버그 신고 수집 시 진행 중인 녹화 파일을 자동으로 BetterBug에 전송합니다. 이후 녹화는 계속됩니다."</string>
     <string name="link_to_traces" msgid="1404687523304348490">"저장된 파일 보기"</string>
     <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
-    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"분석을 위해 ui.perfetto.dev에 트레이스를 업로드할 수 있습니다."</string>
+    <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"분석을 위해 ui.perfetto.dev에 트레이스를 업로드할 수 있습니다"</string>
     <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
-    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"AHAT를 사용하여 힙 덤프를 검사할 수 있습니다."</string>
+    <string name="pref_category_other_tools_summary" msgid="8548744690364563186">"AHAT를 사용하여 힙 덤프를 검사할 수 있습니다"</string>
     <string name="pref_category_trace_settings" msgid="6507535407023329628">"트레이스 설정"</string>
     <string name="pref_category_saved_files" msgid="1477491400970413291">"저장된 파일"</string>
     <string name="pref_category_misc" msgid="6217624054980014683">"기타"</string>

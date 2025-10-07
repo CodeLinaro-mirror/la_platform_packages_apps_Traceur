@@ -10,7 +10,7 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Yığın dökümünü kaydet"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\"Yığın dökümü işlemleri\" bölümünde seçilen işlemlerin yığın dökümünü yakalar"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Yığın dökümlerini toplamak için \"Yığın dökümü işlemleri\" bölümünde en az bir işlem seçin"</string>
-    <string name="record_am_heap_dump" msgid="5012983869757648802">"Bit eşlemlerle AM yığın dökümü kaydet"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"Bit eşlemlerle ActivityManager yığın dökümü kaydet"</string>
     <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"\"Yığın dökümü işlemleri\" bölümünde seçilen işlemin yığın dökümünü toplar ve bit eşlem resimleri çıkarır"</string>
     <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"\"Yığın dökümü işlemleri\" bölümünde yalnızca bir işlem seçin"</string>
     <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"\"Yığın dökümü işlemleri\" bölümünde bir işlem seçin"</string>

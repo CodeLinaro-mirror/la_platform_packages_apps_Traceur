@@ -6,7 +6,7 @@
     <string name="record_trace" msgid="6416875085186661845">"Spela in spårning"</string>
     <string name="record_trace_summary" msgid="6705357754827849292">"Spelar in systemspårning med konfigurationen som angetts i Spåra inställningar"</string>
     <string name="record_stack_samples" msgid="3498368637185702335">"Spela in CPU-profil"</string>
-    <string name="record_stack_samples_summary" msgid="7827953921526410478">"Du kan även aktivera utdrag från anropsstacken i spår genom att markera kategorin CPU."</string>
+    <string name="record_stack_samples_summary" msgid="7827953921526410478">"Du kan även aktivera utdrag från anropsstacken i spår genom att markera kategorin CPU"</string>
     <string name="record_heap_dump" msgid="1688550222066812696">"Spela in minnesdump"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Spelar in en minnesdump av processerna som har valts i Minnedumpprocesser"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Välj minst en process i Minnesdumpprocesser för att samla in minnesdumpar"</string>

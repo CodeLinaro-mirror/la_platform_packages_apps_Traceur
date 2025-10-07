@@ -10,8 +10,8 @@
     <string name="record_heap_dump" msgid="1688550222066812696">"Enregistrer l\'empreinte de mémoire"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Capture une empreinte de mémoire des processus sélectionnés dans « Processus d\'empreinte de mémoire »"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"Sélectionnez au moins un processus dans « Processus d\'empreinte de mémoire » pour collecter des empreintes de mémoire."</string>
-    <string name="record_am_heap_dump" msgid="5012983869757648802">"Enregistrer l\'empreinte de mémoire AM avec des tables de bits"</string>
-    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Collecte une empreinte de mémoire du processus sélectionné dans « Processus d\'empreinte de mémoire » et extrait des images de tables de bits"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"Enregistrer l\'empreinte de mémoire AM avec des structures matricielles"</string>
+    <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"Collecte une empreinte de mémoire du processus sélectionné dans « Processus d\'empreinte de mémoire » et extrait des images de structures matricielles"</string>
     <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"Sélectionnez un seul processus dans « Processus d\'empreinte de mémoire »"</string>
     <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Sélectionnez un processus dans « Processus d\'empreinte de mémoire »"</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Collecter les traces Winscope"</string>

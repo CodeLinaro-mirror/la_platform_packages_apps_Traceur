@@ -3,8 +3,8 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="system_tracing" msgid="4719188511746319848">"تتبّع النظام"</string>
     <string name="record_system_activity" msgid="4339462312915377825">"تسجيل نشاط النظام وتحليله لاحقًا لتحسين الأداء"</string>
-    <string name="record_trace" msgid="6416875085186661845">"تسجيل آثار الأنشطة"</string>
-    <string name="record_trace_summary" msgid="6705357754827849292">"تسجيل تتبُّع النظام باستخدام مجموعة الإعدادات في \"إعدادات التتبُّع\""</string>
+    <string name="record_trace" msgid="6416875085186661845">"تسجيل عمليات تتبّع الأنشطة"</string>
+    <string name="record_trace_summary" msgid="6705357754827849292">"يتم تسجيل عمليات تتبُّع النظام باستخدام مجموعة الإعدادات في \"إعدادات التتبُّع\""</string>
     <string name="record_stack_samples" msgid="3498368637185702335">"‏تسجيل محلّل وحدة المعالجة المركزية (CPU)"</string>
     <string name="record_stack_samples_summary" msgid="7827953921526410478">"‏يمكن أيضًا تفعيل جمع عيّنات تكدس الاستدعاءات في أنشطة التتبُّع عن طريق وضع علامة في مربّع فئة \"cpu\"."</string>
     <string name="record_heap_dump" msgid="1688550222066812696">"تسجيل لقطة لأجزاء من الذاكرة"</string>
@@ -14,8 +14,8 @@
     <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"يتم جمع لقطة لأجزاء من الذاكرة للعمليات المحددة في \"العمليات الخاصة بلقطات لأجزاء من الذاكرة\" واستخراج صور نقطية"</string>
     <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"يمكن اختيار عملية واحدة فقط من \"العمليات الخاصة بلقطات لأجزاء من الذاكرة\""</string>
     <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"يمكنك اختيار عملية من \"العمليات الخاصة بلقطات لأجزاء من الذاكرة\""</string>
-    <string name="winscope_tracing" msgid="5818984791154837458">"‏جمْع آثار أنشطة أداة Winscope"</string>
-    <string name="winscope_tracing_summary" msgid="7040550156722395894">"يتم تضمين بيانات تفصيلية للقياس عن بعد لواجهة المستخدم (يمكن أن يتسبّب ذلك في إيقاف مؤقت لعرض واجهة المستخدم)"</string>
+    <string name="winscope_tracing" msgid="5818984791154837458">"‏جمع عمليات تتبّع أنشطة Winscope"</string>
+    <string name="winscope_tracing_summary" msgid="7040550156722395894">"بما في ذلك بيانات تفصيلية عن قياس واجهة المستخدم عن بعد (قد يؤدي ذلك إلى إيقاف عرض واجهة المستخدم مؤقتًا)"</string>
     <string name="trace_debuggable_applications" msgid="7957069895298887899">"تتبّع التطبيقات التي يمكن تصحيح الأخطاء بها"</string>
     <string name="categories" msgid="2280163673538611008">"الفئات"</string>
     <string name="restore_default_categories" msgid="5090536794637169521">"استعادة الفئات التلقائية"</string>

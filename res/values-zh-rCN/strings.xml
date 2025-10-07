@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="system_tracing" msgid="4719188511746319848">"System Tracing"</string>
+    <string name="system_tracing" msgid="4719188511746319848">"系统跟踪"</string>
     <string name="record_system_activity" msgid="4339462312915377825">"记录系统活动并在稍后分析以提升性能"</string>
-    <string name="record_trace" msgid="6416875085186661845">"录制轨迹"</string>
-    <string name="record_trace_summary" msgid="6705357754827849292">"使用“跟踪设置”中的配置可捕捉系统轨迹"</string>
+    <string name="record_trace" msgid="6416875085186661845">"录制跟踪记录"</string>
+    <string name="record_trace_summary" msgid="6705357754827849292">"根据“跟踪设置”中的配置，捕捉系统跟踪记录"</string>
     <string name="record_stack_samples" msgid="3498368637185702335">"记录 CPU 性能分析结果"</string>
     <string name="record_stack_samples_summary" msgid="7827953921526410478">"也可以通过选中“cpu”类别，在轨迹中启用调用堆栈采样功能"</string>
     <string name="record_heap_dump" msgid="1688550222066812696">"记录堆转储"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"根据“堆转储进程”部分中的所选进程捕获堆转储"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"在“堆转储进程”部分中选择至少 1 个进程后才能收集堆转储"</string>
-    <string name="record_am_heap_dump" msgid="5012983869757648802">"使用位图记录 AM 堆转储"</string>
+    <string name="record_am_heap_dump" msgid="5012983869757648802">"记录包含位图的 AM 堆转储"</string>
     <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"收集“堆转储进程”部分中所选进程的堆转储，并提取位图图片"</string>
     <string name="record_am_heap_dump_summary_disabled_multiple_procs_selected" msgid="2977555944190489590">"在“堆转储进程”部分中仅选择一个进程"</string>
     <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"在“堆转储进程”部分中选择一个进程"</string>

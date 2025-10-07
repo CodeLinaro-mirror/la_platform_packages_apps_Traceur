@@ -3,7 +3,7 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="system_tracing" msgid="4719188511746319848">"System Tracing"</string>
     <string name="record_system_activity" msgid="4339462312915377825">"Registreer systeemactiviteit en analyseer deze later om de prestaties te verbeteren"</string>
-    <string name="record_trace" msgid="6416875085186661845">"Spoor opnemen"</string>
+    <string name="record_trace" msgid="6416875085186661845">"Tracering opnemen"</string>
     <string name="record_trace_summary" msgid="6705357754827849292">"Legt een systeemtracering vast met de configuratie die is ingesteld in Traceringsinstelingen"</string>
     <string name="record_stack_samples" msgid="3498368637185702335">"CPU-profiel opnemen"</string>
     <string name="record_stack_samples_summary" msgid="7827953921526410478">"Callstack-sampling kan ook worden aangezet in traceringen door de categorie \'cpu\' aan te vinken"</string>

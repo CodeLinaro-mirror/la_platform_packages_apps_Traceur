@@ -3,9 +3,9 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="system_tracing" msgid="4719188511746319848">"Трассировка системы"</string>
     <string name="record_system_activity" msgid="4339462312915377825">"Отслеживание и анализ рабочих процессов в целях повышения производительности системы"</string>
-    <string name="record_trace" msgid="6416875085186661845">"Записать действия на телефоне"</string>
+    <string name="record_trace" msgid="6416875085186661845">"Запись трассировки"</string>
     <string name="record_trace_summary" msgid="6705357754827849292">"Записывает трассировку системы, используя конфигурацию, установленную в разделе \"Настройки трассировки\""</string>
-    <string name="record_stack_samples" msgid="3498368637185702335">"Запись профиля ЦП"</string>
+    <string name="record_stack_samples" msgid="3498368637185702335">"Записать профиль ЦП"</string>
     <string name="record_stack_samples_summary" msgid="7827953921526410478">"Создание образцов стека вызовов также можно включить в настройках трассировки, выбрав категорию \"Процессор\""</string>
     <string name="record_heap_dump" msgid="1688550222066812696">"Создать дамп кучи"</string>
     <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"Записывает дамп кучи для процессов, выбранных в списке \"Процессы с дампом кучи\"."</string>
@@ -16,7 +16,7 @@
     <string name="record_am_heap_dump_summary_disabled_no_procs_selected" msgid="805044012304241085">"Выберите процесс из списка \"Процессы с дампом кучи\""</string>
     <string name="winscope_tracing" msgid="5818984791154837458">"Собирать трассировки Winscope"</string>
     <string name="winscope_tracing_summary" msgid="7040550156722395894">"Включает подробные данные телеметрии интерфейса (может вызвать временное зависание)"</string>
-    <string name="trace_debuggable_applications" msgid="7957069895298887899">"Записывать действия приложений, доступных для отладки"</string>
+    <string name="trace_debuggable_applications" msgid="7957069895298887899">"Трассировка приложений, доступных для отладки"</string>
     <string name="categories" msgid="2280163673538611008">"Категории"</string>
     <string name="restore_default_categories" msgid="5090536794637169521">"Восстановить категории по умолчанию"</string>
     <string name="default_categories_restored" msgid="6861683793680564181">"Категории по умолчанию восстановлены"</string>
