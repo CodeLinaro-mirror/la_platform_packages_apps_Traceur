@@ -8,7 +8,7 @@
     <string name="record_stack_samples" msgid="3498368637185702335">"সিপিইউ প্রোফাইল রেকর্ড করুন"</string>
     <string name="record_stack_samples_summary" msgid="7827953921526410478">"\"সিপিইউ\" বিভাগ বেছে নিয়ে ট্রেসে কলস্ট্যাক স্যাম্পেলিং চালু করাও যেতে পারে"</string>
     <string name="record_heap_dump" msgid="1688550222066812696">"হিপ ডাম্প রেকর্ড করুন"</string>
-    <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\"হিপ ডাম্পের প্রসেসে\" বেছে নেওয়া প্রসেসের হিপ ডাম্প ক্য়াপচার করুন"</string>
+    <string name="record_heap_dump_summary_enabled" msgid="5038675257021221777">"\"হিপ ডাম্পের প্রসেসে\" বেছে নেওয়া প্রসেসের হিপ ডাম্প ক্যাপচার করুন"</string>
     <string name="record_heap_dump_summary_disabled" msgid="4640319333930345311">"হিপ ডাম্প সংগ্রহ করতে \"হিপ ডাম্পের প্রসেসে\" কমপক্ষে একটি প্রসেস বেছে নিন"</string>
     <string name="record_am_heap_dump" msgid="5012983869757648802">"বিটম্যাপের সাহায্যে AM হিপ ডাম্প রেকর্ড করুন"</string>
     <string name="record_am_heap_dump_summary_enabled" msgid="5198382489516464944">"এটি \"হিপ ডাম্প প্রসেসে\" বেছে নেওয়া প্রসেসের হিপ ডাম্প সংগ্রহ করে এবং বিট ম্যাপ ছবি সরায়"</string>
