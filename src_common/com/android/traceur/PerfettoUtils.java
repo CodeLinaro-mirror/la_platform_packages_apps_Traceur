@@ -82,6 +82,7 @@ public class PerfettoUtils {
     private static final String LOG_TAG = "logs";
     private static final String CPU_TAG = "cpu";
     private static final String WATTSON_TAG = "wattson";
+    private static final String MESSAGEQUEUE_TAG = "mq";
 
     // Statsd atoms. Values should be aligned with frameworks/proto_logging/stats/atoms.proto.
     private static final int DESKTOP_MODE_UI_CHANGED = 818;
@@ -842,6 +843,18 @@ public class PerfettoUtils {
                 .append("      ftrace_events: \"power/cpu_idle\"\n")
                 .append("      ftrace_events: \"power/suspend_resume\"\n")
                 .append("      ftrace_events: \"sched/sched_switch\"\n")
+                .append("    }\n")
+                .append("  }\n")
+                .append("}\n");
+        }
+
+        if (tags.contains(MESSAGEQUEUE_TAG)) {
+            config.append("data_sources: {\n")
+                .append("  config {\n")
+                .append("    name: \"track_event\"\n")
+                .append("    target_buffer: " + targetBuffer + "\n")
+                .append("    track_event_config {\n")
+                .append("      enabled_categories: \"mq\"\n")
                 .append("    }\n")
                 .append("  }\n")
                 .append("}\n");
