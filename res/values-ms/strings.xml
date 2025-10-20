@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="system_tracing" msgid="4719188511746319848">"Penyurihan Sistem"</string>
-    <string name="record_system_activity" msgid="4339462312915377825">"Rakam aktiviti sistem dan analisis data itu kemudian untuk meningkatkan prestasi"</string>
+    <string name="record_system_activity" msgid="4339462312915377825">"Rakam aktiviti sistem dan analisis data itu kemudian untuk meningkatkan prestasi."</string>
     <string name="record_trace" msgid="6416875085186661845">"Rekodkan surih"</string>
     <string name="record_trace_summary" msgid="6705357754827849292">"Menangkap surih sistem menggunakan konfigurasi yang disediakan dalam \"tetapan Surih\""</string>
     <string name="record_stack_samples" msgid="3498368637185702335">"Rakam profil CPU"</string>

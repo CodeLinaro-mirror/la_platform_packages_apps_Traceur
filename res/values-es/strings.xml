@@ -63,7 +63,7 @@
     <string name="system_traces_storage_title" msgid="8294090839883366871">"Trazas del sistema"</string>
     <string name="keywords" msgid="255681926397897100">"systrace, traceur, perfetto, winscope, rastrear, seguimiento, rendimiento, perfil, elaboración de perfiles, CPU, pila de llamadas, pila, montículo"</string>
     <string name="share_file" msgid="1982029143280382271">"¿Compartir archivo?"</string>
-    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"Es posible que los archivos de Trazado del sistema incluyan datos sensibles del sistema y de aplicaciones (como información sobre el uso de las aplicaciones o imágenes de la memoria de una aplicación). Comparte las trazas del sistema o los volcados de montículo únicamente con personas y aplicaciones de confianza."</string>
+    <string name="system_trace_sensitive_data" msgid="1479213054797221656">"Es posible que los archivos de Trazado del sistema incluyan datos sensibles del sistema y de apps (como información sobre el uso de las apps o imágenes de la memoria de una app). Comparte las trazas del sistema o los volcados de montículo únicamente con personas y apps de confianza."</string>
     <string name="share" msgid="8443979083706282338">"Compartir"</string>
     <string name="dont_show_again" msgid="6662492041164390600">"No volver a mostrar"</string>
     <string name="long_traces" msgid="5110949471775966329">"Trazas largas"</string>
