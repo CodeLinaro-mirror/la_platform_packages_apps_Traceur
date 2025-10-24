@@ -134,6 +134,7 @@ public class TraceUtils {
         categories.put("logs", "android logcat");
         categories.put("cpu", "callstack samples");
         categories.put("wattson", "Wattson power estimation");
+        categories.put("mq", "messagequeue tracing");
         return categories;
     }
 
