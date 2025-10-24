@@ -474,6 +474,13 @@ public class PerfettoUtils {
             // So, always use the maximum value here: 7 days.
             config.append("file_write_period_ms: 604800000\n");
         }
+
+        // Set priority boost to be applied to the traced process
+        // (sched policy: default, priority: same as a foreground app)
+        config.append("priority_boost {\n")
+                .append("  policy: POLICY_SCHED_OTHER\n")
+                .append("  priority: 10\n")
+        .append("}\n");
     }
 
     // Specifies an additional buffer of size bufferSizeKb. Data sources can reference specific
