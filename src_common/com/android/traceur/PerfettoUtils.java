@@ -81,6 +81,8 @@ public class PerfettoUtils {
     private static final String SYS_STATS_TAG = "sys_stats";
     private static final String LOG_TAG = "logs";
     private static final String CPU_TAG = "cpu";
+    private static final String WATTSON_TAG = "wattson";
+    private static final String MESSAGEQUEUE_TAG = "mq";
 
     // Statsd atoms. Values should be aligned with frameworks/proto_logging/stats/atoms.proto.
     private static final int DESKTOP_MODE_UI_CHANGED = 818;
@@ -811,6 +813,48 @@ public class PerfettoUtils {
                 .append("      }\n")
                 .append("      trace_dispatcher_input_events: true\n")
                 .append("      trace_dispatcher_window_dispatch: true\n")
+                .append("    }\n")
+                .append("  }\n")
+                .append("}\n");
+        }
+
+        // Enable Wattson minimum configs when Wattson tag is enabled.
+        if (tags.contains(WATTSON_TAG)) {
+            config.append("data_sources: {\n")
+                .append("  config {\n")
+                .append("    name: \"linux.sys_stats\"\n")
+                .append("    sys_stats_config {\n")
+                .append("      cpufreq_period_ms: 100000000\n")
+                .append("      cpuidle_period_ms: 100000000\n")
+                .append("    }\n")
+                .append("  }\n")
+                .append("}\n");
+
+            config.append("data_sources: {\n")
+                .append("  config {\n")
+                .append("    name: \"linux.ftrace\"\n")
+                .append("    ftrace_config {\n")
+                .append("      ftrace_events: \"cpuhp/cpuhp_enter\"\n")
+                .append("      ftrace_events: \"cpuhp/cpuhp_exit\"\n")
+                .append("      ftrace_events: \"cpuhp/cpuhp_multi_enter\"\n")
+                .append("      ftrace_events: \"devfreq/devfreq_frequency\"\n")
+                .append("      ftrace_events: \"ftrace/print\"\n")
+                .append("      ftrace_events: \"power/cpu_frequency\"\n")
+                .append("      ftrace_events: \"power/cpu_idle\"\n")
+                .append("      ftrace_events: \"power/suspend_resume\"\n")
+                .append("      ftrace_events: \"sched/sched_switch\"\n")
+                .append("    }\n")
+                .append("  }\n")
+                .append("}\n");
+        }
+
+        if (tags.contains(MESSAGEQUEUE_TAG)) {
+            config.append("data_sources: {\n")
+                .append("  config {\n")
+                .append("    name: \"track_event\"\n")
+                .append("    target_buffer: " + targetBuffer + "\n")
+                .append("    track_event_config {\n")
+                .append("      enabled_categories: \"mq\"\n")
                 .append("    }\n")
                 .append("  }\n")
                 .append("}\n");
