@@ -38,7 +38,7 @@
     <string name="buffer_size" msgid="3944311026715111454">"प्रति CPU बफरको आकार"</string>
     <string name="show_quick_settings_tile" msgid="3827556161191376500">"ट्रेसिङको द्रुत सेटिङको टाइल देखाउनुहोस्"</string>
     <string name="show_stack_sampling_quick_settings_tile" msgid="2142507886797788822">"CPU प्रोफाइलिङको द्रुत सेटिङको टाइल देखाउनुहोस्"</string>
-    <string name="saving_trace" msgid="1468692734770800541">"ट्रेस सुरक्षित गर्दै"</string>
+    <string name="saving_trace" msgid="1468692734770800541">"ट्रेस सेभ गरिँदै छ"</string>
     <string name="trace_saved" msgid="5869970594780992309">"ट्रेस सेभ गरियो"</string>
     <string name="saving_stack_samples" msgid="8174915522390525221">"स्ट्याक स्याम्पलहरू सेभ गरिँदै छन्"</string>
     <string name="stack_samples_saved" msgid="8863295751647724616">"स्ट्याक स्याम्पलहरू सेभ गरिएका छन्"</string>
