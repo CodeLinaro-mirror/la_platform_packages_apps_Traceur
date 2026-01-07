@@ -55,9 +55,9 @@
     <string name="heap_dump_is_being_recorded" msgid="3789315106110524969">"ಹೀಪ್ ಡಂಪ್ ಅನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ"</string>
     <string name="tap_to_stop_heap_dump" msgid="6475699275834526902">"ಹೀಪ್ ಡಂಪ್ ಅನ್ನು ನಿಲ್ಲಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ"</string>
     <string name="am_heap_dump_is_being_recorded" msgid="7679311408393495981">"AM ಹೀಪ್ ಡಂಪ್ ಅನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ."</string>
-    <string name="clear_saved_files" msgid="9156079311231446825">"ಉಳಿಸಿದ ಫೈಲ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ"</string>
+    <string name="clear_saved_files" msgid="9156079311231446825">"ಸೇವ್ ಮಾಡಿದ ಫೈಲ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ"</string>
     <string name="clear_saved_files_summary" msgid="109751867417553670">"ಒಂದು ತಿಂಗಳ ನಂತರ ರೆಕಾರ್ಡ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಲಾಗಿದೆ"</string>
-    <string name="clear_saved_files_question" msgid="8586686617760838834">"ಉಳಿಸಿದ ಫೈಲ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಬೇಕೆ?"</string>
+    <string name="clear_saved_files_question" msgid="8586686617760838834">"ಸೇವ್ ಮಾಡಿದ ಫೈಲ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಬೇಕೆ?"</string>
     <string name="all_recordings_will_be_deleted" msgid="7731693738485947891">"ಎಲ್ಲಾ ರೆಕಾರ್ಡಿಂಗ್‌ಗಳನ್ನು /data/local/traces ನಿಂದ ಅಳಿಸಲಾಗುತ್ತದೆ"</string>
     <string name="clear" msgid="5484761795406948056">"ತೆರವು ಮಾಡಿ"</string>
     <string name="system_traces_storage_title" msgid="8294090839883366871">"ಸಿಸ್ಟಂ ಜಾಡುಗಳು"</string>
@@ -91,7 +91,7 @@
     <string name="stop_on_bugreport_summary" msgid="1601834864982891381">"ಬಗ್ ವರದಿಮಾಡುವಿಕೆ ಪ್ರಾರಂಭವಾದಾಗ ಸಕ್ರಿಯವಾಗಿರುವ ರೆಕಾರ್ಡಿಂಗ್‌ಗಳನ್ನು ಕೊನೆಗೊಳಿಸುತ್ತದೆ"</string>
     <string name="attach_to_bug_report" msgid="5388986830016247490">"ಬಗ್ ವರದಿಗಳಿಗೆ ರೆಕಾರ್ಡಿಂಗ್‌ಗಳನ್ನು ಲಗತ್ತಿಸಿ"</string>
     <string name="attach_to_bug_report_summary" msgid="5289287574947339086">"ಬಗ್ ವರದಿ ಮಾಡುವಿಕೆಯನ್ನು ಸಂಗ್ರಹಿಸಿದಾಗ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪ್ರಗತಿಯಲ್ಲಿರುವ ರೆಕಾರ್ಡಿಂಗ್‌ಗಳನ್ನು BetterBug ಗೆ ಕಳುಹಿಸಿ. ರೆಕಾರ್ಡಿಂಗ್‌ಗಳು ನಂತರ ಮುಂದುವರಿಯುತ್ತವೆ."</string>
-    <string name="link_to_traces" msgid="1404687523304348490">"ಉಳಿಸಿದ ಫೈಲ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಿ"</string>
+    <string name="link_to_traces" msgid="1404687523304348490">"ಸೇವ್ ಮಾಡಿದ ಫೈಲ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಿ"</string>
     <string name="pref_category_perfetto_title" msgid="6666944431707303646">"Perfetto"</string>
     <string name="pref_category_perfetto_summary" msgid="3553304890055871620">"ವಿಶ್ಲೇಷಣೆಗಾಗಿ ಟ್ರೇಸಸ್‌ಗಳನ್ನು ui.perfetto.dev ಗೆ ಅಪ್‌ಲೋಡ್ ಮಾಡಬಹುದು."</string>
     <string name="pref_category_other_tools_title" msgid="4005958504576983766">"ActivityManager"</string>
