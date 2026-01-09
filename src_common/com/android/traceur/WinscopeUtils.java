@@ -18,7 +18,6 @@ package com.android.traceur;
 
 import android.content.ContentResolver;
 import android.content.Context;
-import android.content.pm.LauncherApps;
 import android.os.FileUtils;
 import android.os.RemoteException;
 import android.provider.Settings;
@@ -178,11 +177,6 @@ public class WinscopeUtils {
             Settings.Global.putInt(contentResolver, SETTINGS_VIEW_CAPTURE_ENABLED, 1);
             Log.v(TAG, "Started view capture tracing");
         } else {
-            LauncherApps launcherApps = context.getSystemService(LauncherApps.class);
-            if (launcherApps != null) {
-                // TODO: b/335894686 Remove after ViewCapture is migrated to new Perfetto API
-                launcherApps.saveViewCaptureData();
-            }
             Settings.Global.putInt(contentResolver, SETTINGS_VIEW_CAPTURE_ENABLED, 0);
             Log.v(TAG, "Stopped view capture tracing");
         }
