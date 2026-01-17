@@ -69,9 +69,8 @@ public class TraceUtils {
         UNKNOWN, TRACE, STACK_SAMPLES, HEAP_DUMP
     }
 
-    public static boolean traceStart(Context context, TraceConfig config) {
+    public static boolean traceStart(TraceConfig config) {
         return traceStart(
-            context,
             config.getTags(),
             config.getBufferSizeKb(),
             config.getWinscope(),
@@ -83,15 +82,11 @@ public class TraceUtils {
         );
     }
 
-    public static boolean traceStart(Context context, Collection<String> tags,
+    public static boolean traceStart(Collection<String> tags,
             int bufferSizeKb, boolean winscope, boolean apps, boolean longTrace,
             boolean attachToBugreport, int maxLongTraceSizeMb, int maxLongTraceDurationMinutes) {
-        if (!mTraceEngine.traceStart(tags, bufferSizeKb, winscope, apps, longTrace,
-                attachToBugreport, maxLongTraceSizeMb, maxLongTraceDurationMinutes)) {
-            return false;
-        }
-        WinscopeUtils.traceStart(context, winscope);
-        return true;
+        return mTraceEngine.traceStart(tags, bufferSizeKb, winscope, apps, longTrace,
+                attachToBugreport, maxLongTraceSizeMb, maxLongTraceDurationMinutes);
     }
 
     public static boolean stackSampleStart(boolean attachToBugreport) {
@@ -104,12 +99,11 @@ public class TraceUtils {
                 attachToBugreport);
     }
 
-    public static void traceStop(Context context) {
+    public static void traceStop() {
         mTraceEngine.traceStop();
-        WinscopeUtils.traceStop(context);
     }
 
-    public static Optional<List<File>> traceDump(Context context, String outFilename) {
+    public static Optional<List<File>> traceDump(String outFilename) {
         File outFile = TraceUtils.getOutputFile(outFilename);
         if (!mTraceEngine.traceDump(outFile)) {
             return Optional.empty();
@@ -117,9 +111,6 @@ public class TraceUtils {
 
         List<File> outFiles = new ArrayList();
         outFiles.add(outFile);
-
-        List<File> outLegacyWinscopeFiles = WinscopeUtils.traceDump(context, outFilename);
-        outFiles.addAll(outLegacyWinscopeFiles);
 
         return Optional.of(outFiles);
     }

@@ -64,10 +64,10 @@ public class TraceController extends Handler {
         Log.d(TAG, "handling message " + msg.what + " in TraceController");
         switch (msg.what) {
             case MessageConstants.START_WHAT:
-                startTracingSafely(mContext, msg.getData());
+                startTracingSafely(msg.getData());
                 break;
             case MessageConstants.STOP_WHAT:
-                TraceUtils.traceStop(mContext);
+                TraceUtils.traceStop();
                 break;
             case MessageConstants.SHARE_WHAT:
                 shareFiles(mContext, msg.replyTo);
@@ -80,7 +80,7 @@ public class TraceController extends Handler {
         }
     }
 
-    private static void startTracingSafely(Context context, @Nullable Bundle data) {
+    private static void startTracingSafely(@Nullable Bundle data) {
         TraceConfig config;
         if (data == null) {
             Log.w(TAG, "bundle containing Input trace config is not present, using default "
@@ -95,7 +95,7 @@ public class TraceController extends Handler {
                 config = PresetTraceConfigs.getDefaultConfig();
             }
         }
-        TraceUtils.traceStart(context, config);
+        TraceUtils.traceStart(config);
     }
 
     private static void replyToClient(Messenger replyTo, int what, Bundle data) {
@@ -116,7 +116,7 @@ public class TraceController extends Handler {
     private static void shareFiles(Context context, Messenger replyTo) {
         Bundle data = new Bundle();
         String perfettoFileName = TraceUtils.getOutputFilename(TraceUtils.RecordingType.TRACE);
-        TraceUtils.traceDump(context, perfettoFileName).ifPresent(files -> {
+        TraceUtils.traceDump(perfettoFileName).ifPresent(files -> {
             // Perfetto traces have their own viewer so it makes sense to move them out of the zip.
             files.stream().filter(it ->
                 it.getName().endsWith(PERFETTO_SUFFIX)
